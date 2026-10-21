@@ -1,0 +1,5 @@
+{"name":"howto06_standing","src":"/mnt/user-data/uploads/TTN Reels/01 Raw clips/How-to/LeaveYourClientaStandingNote.MP4","segs":[[0.3,1.2,1.0],[3.0,5.5,1.2],[5.5,8.0,1.0],[8.0,19.5,4.5],[19.5,24.5,1.8]],
+"bg":"navy","cover":"/home/claude/vt/cfg/cover_howto06.png","hook_secs":1.6,"series":"HOW TO 06","title":"STANDING NOTE","voice":"Aoede",
+"vo":[[1.7,"A note your client sees every time?"],[3.6,"Open their profile and tap Add."],[7.2,"Write it."],[9.8,"Saved. It shows in their app."]],
+"notes":[[4.0,5.2,"tap",630,1290,"right"]],"sfx":[[2.4,"tap"],[4.6,"tap"],[9.7,"tap"],[10.4,"chime"]],
+"music":"/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3","out":"/home/claude/vt/out/TTN_howto06_standing.mp4"}

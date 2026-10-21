@@ -1,0 +1,5 @@
+{"name":"howto25_book","src":"/mnt/user-data/uploads/TTN Reels/01 Raw clips/How-to/BookaSessionfromtheCalendar.MP4","segs":[[6.0,8.5,1.2],[8.5,11.5,1.2],[12.0,21.5,4.5],[22.0,26.5,2.0],[27.0,30.0,1.2],[32.5,34.0,1.0],[40.5,51.5,3.5],[52.0,56.0,1.5]],
+"bg":"navy","cover":"/home/claude/vt/cfg/cover_howto25.png","hook_secs":1.6,"series":"HOW TO 25","title":"BOOK A SESSION","voice":"Laomedeia",
+"vo":[[1.7,"Book a session straight from your calendar."],[3.8,"Tap the day and pick the client."],[6.3,"Name the workout."],[8.4,"Set the time."],[10.7,"It's on the calendar."],[13.2,"Open it and add the exercises."],[17.8,"Booked and built."]],
+"notes":[[3.9,5.4,"pick",0,860,"left"]],"sfx":[[3.7,"tap"],[8.3,"tap"],[10.6,"tap"],[13.1,"tap"],[17.7,"tap"],[19.0,"chime"]],
+"music":"/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/Instrumental.mp3","out":"/home/claude/vt/out/TTN_howto25_book.mp4"}

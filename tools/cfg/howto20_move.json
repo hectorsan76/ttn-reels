@@ -1,0 +1,7 @@
+{"name":"howto20_move","src":"/mnt/user-data/uploads/TTN Reels/01 Raw clips/How-to/MoveaSessiontoAnotherDay.MP4",
+"segs":[[0.3,2.5,1.4],[2.5,6.8,1.6],[6.8,10.8,1.3]],
+"bg":"navy","cover":"/home/claude/vt/cfg/cover_howto20.png","hook_secs":1.6,
+"series":"HOW TO 20","title":"MOVE A SESSION","voice":"Orus",
+"vo":[[1.7,"Client can't make Friday?"],[3.3,"Tap the date and pick the new day."],[6.1,"Same workout. New day. Done."]],
+"notes":[[3.0,4.4,"tap",0,750,"left"]],"sfx":[[3.1,"tap"],[5.6,"swipe"],[8.4,"chime"]],
+"music":"/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/Instrumental.mp3","music_vol":0.2,"out":"/home/claude/vt/out/TTN_howto20_move.mp4"}

@@ -1,0 +1,8 @@
+{"name":"howto13_weight","src":"/mnt/user-data/uploads/TTN Reels/01 Raw clips/How-to/ChangetheWeightonanExercise.MP4",
+"segs":[[0.8,2.3,1.0],[2.3,4.0,1.6],[4.0,8.2,1.4],[8.2,13.6,2.6],[13.6,17.8,1.4],[17.8,21.5,1.4]],
+"bg":"navy","cover":"/home/claude/vt/cfg/cover_howto13.png","hook_secs":1.6,
+"series":"HOW TO 13","title":"CHANGE THE WEIGHT","voice":"Algenib",
+"vo":[[1.7,"Client moving up? Change the weight on the spot."],[4.6,"Tap the weight and type the new number."],[9.3,"Same for any set you want."],[12.6,"Done. Heavier starts today."]],
+"notes":[[1.8,3.3,"tap",24,880,"left"]],"sfx":[[2.0,"tap"],[12.7,"tap"],[13.2,"chime"]],
+"music":"/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/Beat 4 casey.mp3","music_vol":0.2,
+"out":"/home/claude/vt/out/TTN_howto13_weight.mp4"}
