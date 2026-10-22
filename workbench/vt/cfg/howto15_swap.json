@@ -1,0 +1,8 @@
+{"name":"howto15_swap","src":"/mnt/user-data/uploads/TTN Reels/01 Raw clips/How-to/SwapanExerciseWithDragGlitch.MP4",
+"segs":[[0.8,3.6,1.0],[4.0,7.0,2.0],[7.0,12.4,2.2],[12.4,14.0,1.2],[14.5,22.6,1.8],[24.0,30.5,2.4],[30.5,35.6,1.2]],
+"bg":"navy","cover":"/home/claude/vt/cfg/cover_howto15.png","hook_secs":1.6,
+"series":"HOW TO 15","title":"SWAP AN EXERCISE","voice":"Aoede",
+"vo":[[1.7,"Client can't squat today? Swipe it away."],[4.4,"Tap Add exercise and search for the new one."],[8.4,"Pick it, then add the weight and reps."],[11.4,"Clone last fills in the other sets."],[14.3,"Then drag it to where it belongs."],[18.0,"Swapped. No starting over."]],
+"notes":[[2.0,3.8,"swipe",0,840,"left"],[16.9,20.6,"drag",0,900,"left"]],"sfx":[[4.5,"tap"],[8.4,"tap"],[12.2,"tap"],[20.4,"chime"]],
+"music":"/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3","music_vol":0.2,
+"out":"/home/claude/vt/out/TTN_howto15_swap.mp4"}

@@ -1,0 +1,6 @@
+{"cover":{"bg":"paper","kind":"carousel","l1":"Your clients pay","l2":"for proof.","screen":"ph_trapbar.jpg"},
+"slides":[
+{"type":"text","bg":"paper","hd":"More sets won't<br>justify a raise.","hand":"Neither will a fancier warm up."},
+{"type":"text","bg":"navy","hd":"Progress they<br>can see <em>will.</em>","hand":"Numbers going up. Photos side by side."},
+{"type":"phone","bg":"paper","hd":"Show them<br><em>every month.</em>","sub":"Every PR on a graph.","img":"assets/ph_trapbar.jpg"},
+{"type":"cta","bg":"navy","hd":"Charge for the result.<br><em>Then show it.</em>"}]}

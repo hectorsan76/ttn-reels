@@ -1,0 +1,6 @@
+{"cover":{"bg":"navy","kind":"carousel","l1":"Workouts are free.","l2":"Coaching isn't.","screen":"client_nb.png"},
+"slides":[
+{"type":"text","bg":"paper","hd":"Your client can find<br>a leg day on YouTube.","hand":"Tonight. For free."},
+{"type":"text","bg":"navy","hd":"They pay you for<br><em>the plan, the tracking<br>and the follow up.</em>","hand":"That's the job."},
+{"type":"phone","bg":"paper","hd":"Their program.<br><em>Their numbers.</em>","sub":"And your notes, all in one place.","img":"assets/ph_program.jpg"},
+{"type":"cta","bg":"navy","hd":"Sell the coaching.<br><em>Not the workout.</em>"}]}

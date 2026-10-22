@@ -1,0 +1,6 @@
+{"cover":{"bg":"paper","kind":"carousel","l1":"Same leg day.","l2":"Five clients.","screen":"workout_dark.png"},
+"slides":[
+{"type":"text","bg":"navy","hd":"Different goals.<br>Different levels.<br><em>Same workout?</em>","hand":"That's not a program."},
+{"type":"text","bg":"paper","hd":"When the plan<br>lives in your head,","hand":"you write what you wrote yesterday."},
+{"type":"phone","bg":"paper","hd":"One program<br><em>per client.</em>","sub":"Their goal. Their level. Their weeks.","img":"assets/ph_program.jpg"},
+{"type":"cta","bg":"navy","hd":"Write it once.<br><em>Make it theirs.</em>"}]}

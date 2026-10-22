@@ -1,0 +1,7 @@
+{"name":"howto19_duplicate","src":"/mnt/user-data/uploads/TTN Reels/01 Raw clips/How-to/DuplicateaWorkout.MP4",
+"segs":[[0.5,2.6,1.3],[2.6,5.0,1.0],[7.05,10.5,1.25]],
+"bg":"navy","cover":"/home/claude/vt/cfg/cover_howto19.png","hook_secs":1.6,
+"series":"HOW TO 19","title":"DUPLICATE","voice":"Sadachbia",
+"vo":[[1.7,"Client loved last week's session?"],[3.4,"Tap the menu, then Duplicate workout."],[5.9,"Same exercises. Ready for next time."]],
+"notes":[[3.2,4.6,"tap",630,640,"right"]],"sfx":[[3.3,"tap"],[4.5,"tap"],[5.7,"whoosh"],[7.9,"chime"]],
+"music":"/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/Beat 4 casey.mp3","music_vol":0.2,"out":"/home/claude/vt/out/TTN_howto19_duplicate.mp4"}

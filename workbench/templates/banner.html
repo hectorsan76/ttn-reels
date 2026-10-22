@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:M;font-weight:800;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:S;font-weight:700;src:url(node_modules/@fontsource/space-mono/files/space-mono-latin-700-normal.woff2)}
+html,body{margin:0}
+.c{position:relative;overflow:hidden;background:#0B0F19;font-family:M}
+.t{position:absolute;color:#fff;font-weight:800;line-height:1.05;letter-spacing:.01em}
+.t em{font-style:normal;color:#EE7868;display:block}
+.u{position:absolute;font:700 22px S;color:#3BC3B3}
+.ph{position:absolute;background:#0a0a0b;border-radius:34px;padding:9px;box-shadow:0 20px 50px rgba(0,0,0,.6),0 0 0 3px #3a3f4a}
+.ph img{display:block;width:100%;border-radius:26px}
+.lk{position:absolute;display:flex;align-items:center;gap:14px;color:#fff;font:800 22px M;line-height:1.05}
+.lk .ic{width:54px;height:54px;border-radius:50%;background:#fff;display:grid;place-items:center}.lk .ic img{width:40px}
+.lk b{color:#EE7868}
+</style></head><body><div class="c" id="c"></div>
+<script>
+const q=new URLSearchParams(location.search);const W=+q.get('w'),H=+q.get('h'),k=q.get('k');
+const c=document.getElementById('c');c.style.width=W+'px';c.style.height=H+'px';
+const L=JSON.parse(q.get('L'));
+c.innerHTML=`<div class="t" style="left:${L.tx}px;top:${L.ty}px;font-size:${L.fs}px">PERSONAL TRAINING<br>SOFTWARE.<em>BUILT FOR TRAINERS.</em></div>
+<div class="u" style="left:${L.tx}px;top:${L.uy}px">thetrainingnotebook.com</div>
+${L.lock?`<div class="lk" style="left:${L.tx}px;top:${L.ly}px"><div class="ic"><img src="assets/icon.png"></div><span>THE TRAINING<br>NOTEBOOK <b>ONE</b></span></div>`:''}
+${L.ph.map(p=>`<div class="ph" style="left:${p[0]}px;top:${p[1]}px;width:${p[2]}px"><img src="assets/${p[3]}"></div>`).join('')}`;
+document.fonts.ready.then(()=>setTimeout(()=>document.body.dataset.done=1,300));
+</script></body></html>

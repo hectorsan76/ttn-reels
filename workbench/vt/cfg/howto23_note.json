@@ -1,0 +1,7 @@
+{"name":"howto23_note","src":"/mnt/user-data/uploads/TTN Reels/01 Raw clips/How-to/HowToAddaNotetoWorkouts.MP4",
+"segs":[[0.3,2.6,1.4],[2.6,5.2,1.0],[5.2,7.0,1.0],[7.0,18.5,4.0],[18.5,23.5,1.6]],
+"bg":"navy","cover":"/home/claude/vt/cfg/cover_howto23.png","hook_secs":1.6,
+"series":"HOW TO 23","title":"WORKOUT NOTES","voice":"Sadachbia",
+"vo":[[1.7,"Want a note on today's workout?"],[3.4,"Tap the menu, then Workout notes."],[5.9,"The client note, they can see."],[7.8,"The private note is only for you."],[10.8,"Save it. It stays with the workout."]],
+"notes":[[3.3,4.7,"tap",630,640,"right"],[8.0,9.8,"only you",0,1150,"left"]],"sfx":[[3.3,"tap"],[4.6,"tap"],[10.6,"tap"],[13.4,"chime"]],
+"music":"/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/Instrumental.mp3","out":"/home/claude/vt/out/TTN_howto23_note.mp4"}

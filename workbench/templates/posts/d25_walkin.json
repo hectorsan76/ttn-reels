@@ -1,0 +1,6 @@
+{"cover":{"bg":"paper","kind":"carousel","l1":"Walk in.","l2":"Get to work.","screen":"dash_dark.png"},
+"slides":[
+{"type":"text","bg":"navy","hd":"Your client walks in.<br><em>Do you know the plan?</em>","hand":"Be honest."},
+{"type":"text","bg":"paper","hd":"Old texts.<br>Guessed weights.<br><em>\"Give me a sec.\"</em>","hand":"They notice."},
+{"type":"phone","bg":"paper","hd":"Today's workout.<br><em>Already built.</em>","sub":"Start it with your client in 2 taps.","img":"assets/workout_dark.png"},
+{"type":"cta","bg":"navy","hd":"Program before<br><em>the client arrives.</em>"}]}

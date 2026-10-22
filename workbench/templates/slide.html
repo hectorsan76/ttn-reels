@@ -1,0 +1,41 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:M;font-weight:800;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:M;font-weight:900;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-900-normal.woff2)}
+@font-face{font-family:M;font-weight:600;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:K;font-weight:700;src:url(node_modules/@fontsource/kalam/files/kalam-latin-700-normal.woff2)}
+@font-face{font-family:S;font-weight:700;src:url(node_modules/@fontsource/space-mono/files/space-mono-latin-700-normal.woff2)}
+:root{--ink:#1A1A1A;--teal:#0E7A6F;--lteal:#3BC3B3;--orange:#EE7868;--coral:#B94D3F;--navy:#0B0F19;--cream:#F8F3E8;--paper:#F6F1E4;--yellow:#F5C84C}
+html,body{margin:0}
+.s{position:relative;width:1080px;height:1350px;overflow:hidden;font-family:M}
+.paper{background:linear-gradient(90deg,transparent 96px,rgba(214,96,96,.6) 96px,rgba(214,96,96,.6) 101px,transparent 101px),repeating-linear-gradient(180deg,transparent 0 66px,rgba(96,140,184,.34) 66px 69px),var(--paper);color:var(--ink)}
+.navy{background:var(--navy);color:#fff}
+.box{position:absolute;left:150px;right:150px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:34px}
+.box.top{justify-content:flex-start;padding-top:170px}
+.hd{font-weight:900;font-size:76px;line-height:1.05;text-wrap:balance}
+.hd em{font-style:normal;color:var(--orange)}.paper .hd em{color:var(--coral)}
+.sub{font:600 40px/1.35 M;opacity:.85}
+.hand{font:700 64px/1.1 K;color:var(--teal);transform:rotate(-3deg)}.navy .hand{color:var(--yellow)}
+.stars{font-size:70px;letter-spacing:8px;color:var(--orange)}.paper .stars{color:var(--coral)}
+.quote{font:700 80px/1.12 K}
+.by{font:700 36px S;color:var(--teal);letter-spacing:.05em}.navy .by{color:var(--lteal)}
+.cta{font:900 44px M;color:var(--orange);letter-spacing:.02em}.paper .cta{color:var(--coral)}
+.ph{position:absolute;left:50%;transform:translateX(-50%);top:560px;width:430px;background:#0a0a0b;border-radius:64px;padding:16px;box-shadow:0 40px 90px rgba(0,0,0,.35),0 0 0 5px #2b2b2f}
+.ph img{width:100%;display:block;border-radius:50px}
+.arrow{position:absolute;right:150px;bottom:150px;width:74px;height:74px;border-radius:50%;border:5px solid currentColor;display:grid;place-items:center;font:900 38px M;box-sizing:border-box;z-index:3}
+.paper .arrow{background:var(--paper)}.navy .arrow{background:var(--navy)}
+.handle{position:absolute;right:150px;bottom:150px;font:700 30px S;opacity:.6}
+.lock{position:absolute;left:130px;bottom:150px;display:flex;align-items:center;gap:16px;padding:12px 26px 12px 12px;border-radius:60px;z-index:3}
+.paper .lock{background:var(--paper)}.navy .lock{background:var(--navy)}
+.lock .ic{width:84px;height:84px;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:0 0 0 2px rgba(0,0,0,.08)}
+.lock .ic img{width:66px}.lock span{font:800 27px/1.12 M;letter-spacing:.02em}.lock b{color:var(--orange)}
+</style></head><body><div id="root"></div>
+<script>
+const C=JSON.parse(decodeURIComponent(new URLSearchParams(location.search).get('c')));
+let inner='';
+if(C.type==='quote') inner=`<div class="box"><div class="stars">★★★★★</div><div class="quote">${C.quote}</div><div class="by">${C.by}</div></div>`;
+if(C.type==='text') inner=`<div class="box"><div class="hd">${C.hd}</div>${C.hand?`<div class="hand">${C.hand}</div>`:''}${C.sub?`<div class="sub">${C.sub}</div>`:''}</div>`;
+if(C.type==='phone') inner=`<div class="box top"><div class="hd" style="font-size:68px">${C.hd}</div>${C.sub?`<div class="sub">${C.sub}</div>`:''}</div><div class="ph"><img src="${C.img}"></div>`;
+if(C.type==='cta') inner=`<div class="box"><div class="hd">${C.hd}</div>${C.hand?`<div class="hand">${C.hand}</div>`:''}<div class="cta">TRY THE 7 DAY FREE TRIAL</div></div><div class="lock"><div class="ic"><img src="assets/icon.png"></div><span>THE TRAINING<br>NOTEBOOK <b>ONE</b></span></div><div class="handle">@thetrainingnotebookapp</div>`;
+document.getElementById('root').innerHTML=`<div class="s ${C.bg}">${inner}${C.type!=='cta'?'<div class="arrow">→</div>':''}</div>`;
+document.fonts.ready.then(()=>{const img=document.querySelector('img');const done=()=>document.body.dataset.done=1;if(img&&!img.complete){img.onload=done;img.onerror=done}else done()});
+</script></body></html>

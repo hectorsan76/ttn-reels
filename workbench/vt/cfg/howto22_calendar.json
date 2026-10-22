@@ -1,0 +1,7 @@
+{"name":"howto22_calendar","src":"/mnt/user-data/uploads/TTN Reels/01 Raw clips/How-to/DayWeekMonthCalendar.MP4",
+"segs":[[0.5,2.0,1.2],[2.0,3.8,1.0],[3.8,6.8,1.5],[6.8,9.8,1.5],[9.8,12.0,1.0]],
+"bg":"navy","cover":"/home/claude/vt/cfg/cover_howto22.png","hook_secs":1.6,
+"series":"HOW TO 22","title":"YOUR CALENDAR","voice":"Laomedeia",
+"vo":[[1.7,"Your whole week at a glance."],[3.2,"Month for the big picture."],[4.9,"Week for who's coming in."],[6.9,"Day for right now."],[8.8,"Tap a session. The workout's ready."]],
+"notes":[[4.8,6.4,"switch",630,640,"right"]],"sfx":[[2.6,"tap"],[4.7,"tap"],[6.7,"tap"],[8.7,"tap"],[10.6,"chime"]],
+"music":"/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/Beat 4 casey.mp3","out":"/home/claude/vt/out/TTN_howto22_calendar.mp4"}
