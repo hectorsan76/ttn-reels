@@ -1,0 +1,50 @@
+{
+ "name": "pn05_pt",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pn05_pt.png",
+ "voice": "Algenib",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n05a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n05b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/00 App screens/2026-10-22/workout_dark.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainer, lembra o que o aluno te contou semana passada?"
+  ],
+  [
+   1,
+   0.4,
+   "Adicione uma nota a qualquer treino, bem onde você vai ver."
+  ],
+  [
+   1,
+   4.2,
+   "Ele se sente ouvido, e você mostra que está preparado."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out/pn05_pt.mp4",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_secs": 5.6,
+ "lang": "pt-BR",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "callout": "Personal trainer,",
+ "rate": 1.0
+}

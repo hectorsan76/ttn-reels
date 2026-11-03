@@ -1,0 +1,120 @@
+{
+ "name": "howto18_id",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/TimedExerciseRowRun.mp4",
+ "segs": [
+  [
+   0.3,
+   1.5,
+   1.0
+  ],
+  [
+   4.5,
+   8.5,
+   1.6
+  ],
+  [
+   9.0,
+   19.5,
+   3.0
+  ],
+  [
+   22.0,
+   25.5,
+   1.4
+  ],
+  [
+   27.0,
+   29.0,
+   1.0
+  ],
+  [
+   40.5,
+   47.0,
+   2.2
+  ],
+  [
+   49.0,
+   52.0,
+   1.2
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto18_id.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 18",
+ "title": "SET BERWAKTU",
+ "voice": "Orus",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, ada kardio di program?"
+  ],
+  [
+   2.9,
+   "Cari mesin rowing."
+  ],
+  [
+   5.4,
+   "Atur menitnya. Tanpa repetisi."
+  ],
+  [
+   9.0,
+   "Itu dia."
+  ],
+  [
+   11.4,
+   "Sprint? Detik per set."
+  ],
+  [
+   13.5,
+   "Lari? Tambahkan jaraknya."
+  ],
+  [
+   16.4,
+   "Waktu dan jarak, langsung di latihan."
+  ]
+ ],
+ "notes": [
+  [
+   5.6,
+   7.2,
+   "menit",
+   0,
+   900,
+   "left"
+  ]
+ ],
+ "sfx": [
+  [
+   2.6,
+   "tap"
+  ],
+  [
+   5.3,
+   "tap"
+  ],
+  [
+   8.7,
+   "tap"
+  ],
+  [
+   13.4,
+   "tap"
+  ],
+  [
+   16.2,
+   "tap"
+  ],
+  [
+   18.4,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "out": "/home/claude/loc/out/howto18_id.mp4",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/TimedExerciseRowRun.mp4",
+ "rate": 1.05
+}

@@ -61,6 +61,7 @@ def make_cfg(item, k):
     for i, line in enumerate(T["vo"]):
         if it["kind"] == "people": C["vo"][i][2] = line
         else: C["vo"][i][1] = line
+    for i, t in it.get("vo_t", {}).items(): C["vo"][int(i)][0] = t  # earlier start for a line that would run past the footage
     m = C.get("music", ""); base = m.split("/")[-1]
     if base in MUSIC_FIX: C["music"] = m.replace(base, MUSIC_FIX[base])
     if it["kind"] == "people":
