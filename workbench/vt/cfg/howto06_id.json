@@ -1,0 +1,90 @@
+{
+ "name": "howto06_id",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/LeaveYourClientaStandingNote.mp4",
+ "segs": [
+  [
+   0.3,
+   1.2,
+   1.0
+  ],
+  [
+   3.0,
+   5.5,
+   1.2
+  ],
+  [
+   5.5,
+   8.0,
+   1.0
+  ],
+  [
+   8.0,
+   19.5,
+   4.5
+  ],
+  [
+   19.5,
+   24.5,
+   1.8
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto06_id.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 06",
+ "title": "CATATAN TETAP",
+ "voice": "Aoede",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, mau catatan yang selalu dilihat klien?"
+  ],
+  [
+   3.6,
+   "Buka profilnya dan ketuk Add."
+  ],
+  [
+   7.2,
+   "Tulis catatannya."
+  ],
+  [
+   9.8,
+   "Ketuk Save. Muncul di aplikasinya."
+  ]
+ ],
+ "notes": [
+  [
+   4.0,
+   5.2,
+   "ketuk",
+   630,
+   1290,
+   "right"
+  ]
+ ],
+ "sfx": [
+  [
+   2.4,
+   "tap"
+  ],
+  [
+   4.6,
+   "tap"
+  ],
+  [
+   9.7,
+   "tap"
+  ],
+  [
+   10.4,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "out": "/home/claude/loc/out/howto06_id.mp4",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/LeaveYourClientaStandingNote.mp4",
+ "rate": 1.05
+}

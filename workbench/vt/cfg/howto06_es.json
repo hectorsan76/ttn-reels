@@ -1,0 +1,90 @@
+{
+ "name": "howto06_es",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/LeaveYourClientaStandingNote.mp4",
+ "segs": [
+  [
+   0.3,
+   1.2,
+   1.0
+  ],
+  [
+   3.0,
+   5.5,
+   1.2
+  ],
+  [
+   5.5,
+   8.0,
+   1.0
+  ],
+  [
+   8.0,
+   19.5,
+   4.5
+  ],
+  [
+   19.5,
+   24.5,
+   1.8
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto06_es.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 06",
+ "title": "NOTA FIJA",
+ "voice": "Aoede",
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿una nota que su cliente vea siempre?"
+  ],
+  [
+   3.6,
+   "Abran su perfil y toquen Add."
+  ],
+  [
+   7.2,
+   "Escríbanla."
+  ],
+  [
+   9.8,
+   "Toquen Save. Aparece en su app."
+  ]
+ ],
+ "notes": [
+  [
+   4.0,
+   5.2,
+   "toquen",
+   630,
+   1290,
+   "right"
+  ]
+ ],
+ "sfx": [
+  [
+   2.4,
+   "tap"
+  ],
+  [
+   4.6,
+   "tap"
+  ],
+  [
+   9.7,
+   "tap"
+  ],
+  [
+   10.4,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "out": "/home/claude/loc/out/howto06_es.mp4",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/LeaveYourClientaStandingNote.mp4",
+ "rate": 1.0
+}
