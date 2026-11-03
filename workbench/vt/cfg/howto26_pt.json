@@ -1,0 +1,74 @@
+{
+ "name": "howto26_pt",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/ExportaWorkoutasPDF.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   0.5,
+   1.6,
+   1.0
+  ],
+  [
+   2.6,
+   4.8,
+   1.0
+  ],
+  [
+   14.0,
+   20.5,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto26_pt.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 26",
+ "title": "EXPORTAR PDF",
+ "voice": "Aoede",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, o aluno treina sozinho essa semana?"
+  ],
+  [
+   4.6,
+   "Abra o treino, toque no menu e em Export PDF."
+  ],
+  [
+   8.0,
+   "Envie ou imprima, e ele não fica na dúvida."
+  ]
+ ],
+ "notes": [
+  [
+   3.2,
+   4.8,
+   "toque",
+   630,
+   640,
+   "right"
+  ]
+ ],
+ "sfx": [
+  [
+   3.1,
+   "tap"
+  ],
+  [
+   4.7,
+   "tap"
+  ],
+  [
+   6.0,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/out/howto26_pt.mp4",
+ "lang": "pt-BR",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/ExportaWorkoutasPDF.mp4",
+ "rate": 1.0
+}

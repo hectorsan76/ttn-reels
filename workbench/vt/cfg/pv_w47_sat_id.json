@@ -1,0 +1,61 @@
+{
+ "name": "pv_w47_sat_id",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_sat_id.png",
+ "voice": "Sadachbia",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_sat_a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_sat_b1.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_sat_b2.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/sat1_colour_pick.png"
+   ],
+   [
+    9.8,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/sat2_colours_set.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainer, klien sering bingung dengan superset mereka?",
+   160
+  ],
+  [
+   1,
+   0.4,
+   "Beri gerakan yang dipasangkan warna garis yang sama di latihan.",
+   250
+  ],
+  [
+   2,
+   0.1,
+   "Jadi mereka langsung tahu mana yang satu paket, dan kamu tidak perlu banyak menjelaskan.",
+   250
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "out": "/home/claude/loc/out/pv_w47_sat_id.mp4",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_secs": 5.6,
+ "lang": "id-ID",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "callout": "Personal trainer,",
+ "rate": 1.0
+}

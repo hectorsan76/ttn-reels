@@ -1,0 +1,55 @@
+{
+ "name": "pv_w47_wed_es",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_wed_es.png",
+ "voice": "Aoede",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_wed_a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_wed_b.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/wed1_chat_trainer.png"
+   ],
+   [
+    10.6,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/wed2_chat_client.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Entrenadores personales, ¿mensajes de clientes por todo su celular?",
+   1250
+  ],
+  [
+   1,
+   0.4,
+   "El chat y las notas de voz están justo al lado de sus rutinas."
+  ],
+  [
+   1,
+   4.6,
+   "Así responden con su programa justo enfrente."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out/pv_w47_wed_es.mp4",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_secs": 5.6,
+ "lang": "es-US",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "callout": "Entrenadores personales,",
+ "rate": 1.0
+}

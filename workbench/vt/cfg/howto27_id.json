@@ -1,0 +1,109 @@
+{
+ "name": "howto27_id",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/BuildaWorkout.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   4.0,
+   7.0,
+   1.5
+  ],
+  [
+   8.0,
+   20.5,
+   4.0
+  ],
+  [
+   22.0,
+   34.0,
+   4.0
+  ],
+  [
+   34.0,
+   48.5,
+   4.0
+  ],
+  [
+   48.0,
+   50.0,
+   1.0
+  ],
+  [
+   70.0,
+   73.0,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto27_id.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 27",
+ "title": "SUSUN LATIHAN",
+ "voice": "Algenib",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, sedang menyusun latihan hari ini?"
+  ],
+  [
+   3.8,
+   "Ketuk Add workout, lalu Build from scratch."
+  ],
+  [
+   6.6,
+   "Beri nama dan atur jamnya."
+  ],
+  [
+   9.8,
+   "Cari gerakannya dan tambahkan."
+  ],
+  [
+   13.0,
+   "Set, repetisi, dan beban lewat papan angka."
+  ],
+  [
+   16.2,
+   "Siap sebelum klien datang."
+  ]
+ ],
+ "notes": [
+  [
+   2.2,
+   3.6,
+   "ketuk",
+   0,
+   860,
+   "left"
+  ]
+ ],
+ "sfx": [
+  [
+   2.6,
+   "tap"
+  ],
+  [
+   3.4,
+   "tap"
+  ],
+  [
+   9.7,
+   "tap"
+  ],
+  [
+   12.9,
+   "tap"
+  ],
+  [
+   16.0,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/out/howto27_id.mp4",
+ "lang": "id-ID",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/BuildaWorkout.mp4",
+ "rate": 1.0
+}

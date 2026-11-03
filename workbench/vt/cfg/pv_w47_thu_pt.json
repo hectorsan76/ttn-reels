@@ -1,0 +1,56 @@
+{
+ "name": "pv_w47_thu_pt",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_thu_pt.png",
+ "voice": "Algenib",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_thu_a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_thu_b.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/thu1_sofia_workouts.png"
+   ],
+   [
+    10.4,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/thu2_workout_phone.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainer, cansado de montar treino numa tela pequena?"
+  ],
+  [
+   1,
+   0.4,
+   "Monte no notebook. Na hora de treinar, está no seu celular.",
+   30
+  ],
+  [
+   1,
+   5.0,
+   "Assim você planeja com conforto e fica focado no aluno na academia.",
+   30
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "out": "/home/claude/loc/out/pv_w47_thu_pt.mp4",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_secs": 5.6,
+ "lang": "pt-BR",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "callout": "Personal trainer,",
+ "rate": 1.0
+}

@@ -1,0 +1,55 @@
+{
+ "name": "pv_w47_fri_es",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_fri_es.png",
+ "voice": "Laomedeia",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_fri_a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_fri_b.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/root/ttn-reels/workbench/vt/cfg/scr_w47_fri_new_best.png"
+   ],
+   [
+    10.6,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/fri2_trophy_line.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Entrenadores personales, ¿su cliente acaba de romper un récord personal?",
+   180
+  ],
+  [
+   1,
+   0.4,
+   "La app marca su nueva mejor marca en pantalla, ahí mismo en la sesión."
+  ],
+  [
+   1,
+   4.8,
+   "Así lo celebran juntos, y sigue viniendo."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out/pv_w47_fri_es.mp4",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_secs": 5.6,
+ "lang": "es-US",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "callout": "Entrenadores personales,",
+ "rate": 1.0
+}

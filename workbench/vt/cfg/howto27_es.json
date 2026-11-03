@@ -1,0 +1,109 @@
+{
+ "name": "howto27_es",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/BuildaWorkout.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   4.0,
+   7.0,
+   1.5
+  ],
+  [
+   8.0,
+   20.5,
+   4.0
+  ],
+  [
+   22.0,
+   34.0,
+   4.0
+  ],
+  [
+   34.0,
+   48.5,
+   4.0
+  ],
+  [
+   48.0,
+   50.0,
+   1.0
+  ],
+  [
+   70.0,
+   73.0,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto27_es.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 27",
+ "title": "ARMAR UNA RUTINA",
+ "voice": "Algenib",
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿armando la rutina de hoy?"
+  ],
+  [
+   3.8,
+   "Toquen Add workout y luego Build from scratch."
+  ],
+  [
+   6.6,
+   "Pónganle nombre y la hora."
+  ],
+  [
+   9.8,
+   "Busquen el ejercicio y agréguenlo."
+  ],
+  [
+   13.0,
+   "Series, repeticiones y peso en el teclado numérico."
+  ],
+  [
+   16.2,
+   "Lista antes de que llegue su cliente."
+  ]
+ ],
+ "notes": [
+  [
+   2.2,
+   3.6,
+   "toquen",
+   0,
+   860,
+   "left"
+  ]
+ ],
+ "sfx": [
+  [
+   2.6,
+   "tap"
+  ],
+  [
+   3.4,
+   "tap"
+  ],
+  [
+   9.7,
+   "tap"
+  ],
+  [
+   12.9,
+   "tap"
+  ],
+  [
+   16.0,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/out/howto27_es.mp4",
+ "lang": "es-US",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/BuildaWorkout.mp4",
+ "rate": 1.1
+}
