@@ -1,0 +1,95 @@
+{
+ "name": "howto28_es",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/DeactivateaClientandFreeaSpot.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   2.0,
+   4.0,
+   1.0
+  ],
+  [
+   5.5,
+   6.8,
+   1.5
+  ],
+  [
+   8.0,
+   13.5,
+   1.0
+  ],
+  [
+   15.5,
+   19.0,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto28_es.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 28",
+ "title": "DESACTIVAR CLIENTE",
+ "voice": "Orus",
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿su cliente terminó con ustedes?"
+  ],
+  [
+   4.5,
+   "Abran su perfil, toquen el menú y luego Deactivate."
+  ],
+  [
+   7.6,
+   "Deja de contar en su plan de inmediato."
+  ],
+  [
+   10.4,
+   "Y pasa a la pestaña Deactivated."
+  ]
+ ],
+ "notes": [
+  [
+   5.0,
+   6.4,
+   "toquen",
+   630,
+   560,
+   "right"
+  ]
+ ],
+ "sfx": [
+  [
+   2.9,
+   "tap"
+  ],
+  [
+   4.3,
+   "tap"
+  ],
+  [
+   5.0,
+   "tap"
+  ],
+  [
+   7.4,
+   "tap"
+  ],
+  [
+   10.6,
+   "tap"
+  ],
+  [
+   12.8,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/out/howto28_es.mp4",
+ "lang": "es-US",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/DeactivateaClientandFreeaSpot.mp4",
+ "rate": 1.0
+}

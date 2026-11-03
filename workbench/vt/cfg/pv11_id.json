@@ -1,0 +1,54 @@
+{
+ "name": "pv11_id",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv11_id.png",
+ "voice": "Orus",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/s11a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/s11b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/00 App screens/2026-10-22/assessments_dark.png"
+   ],
+   [
+    9.08,
+    "/mnt/user-data/uploads/TTN Reels/00 App screens/2026-10-22/photo_compare_dark.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.3,
+   "Personal trainer, apakah klien bisa melihat progresnya?"
+  ],
+  [
+   1,
+   0.4,
+   "Tunjukkan grafik progresnya di ponsel kamu."
+  ],
+  [
+   1,
+   3.8,
+   "Klien yang melihat progres akan terus datang."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out/pv11_id.mp4",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_secs": 5.6,
+ "lang": "id-ID",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "callout": "Personal trainer,",
+ "rate": 1.0
+}

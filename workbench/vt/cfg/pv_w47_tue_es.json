@@ -1,0 +1,57 @@
+{
+ "name": "pv_w47_tue_es",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_tue_es.png",
+ "voice": "Orus",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_tue_a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_tue_b.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/tue1_habits_tab.png"
+   ],
+   [
+    10.6,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/tue2_client_home.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Entrenadores personales, ¿qué pasa entre sesiones?",
+   1250
+  ],
+  [
+   1,
+   0.4,
+   "Denle a cada cliente unos cuantos hábitos y vean su semana como una fila de puntos.",
+   380
+  ],
+  [
+   1,
+   5.0,
+   "Porque los días entre sesiones importan tanto como la sesión.",
+   380
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "out": "/home/claude/loc/out/pv_w47_tue_es.mp4",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_secs": 5.6,
+ "lang": "es-US",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "callout": "Entrenadores personales,",
+ "rate": 1.0
+}

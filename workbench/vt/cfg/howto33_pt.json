@@ -1,0 +1,64 @@
+{
+ "name": "howto33_pt",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/AccountTour.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   53.3,
+   59.8,
+   0.72
+  ]
+ ],
+ "bg": "paper",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto33_pt.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 33",
+ "title": "SUAS CONFIGURAÇÕES",
+ "voice": "Orus",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, abra o menu e Settings."
+  ],
+  [
+   4.0,
+   "Escolha o idioma e as unidades."
+  ],
+  [
+   5.9,
+   "Visual Light, Dark ou Notebook."
+  ],
+  [
+   7.9,
+   "E quais notificações você recebe."
+  ]
+ ],
+ "notes": [
+  [
+   2.0,
+   3.4,
+   "toque",
+   0,
+   640,
+   "left"
+  ]
+ ],
+ "sfx": [
+  [
+   2.6,
+   "tap"
+  ],
+  [
+   10.0,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/out/howto33_pt.mp4",
+ "lang": "pt-BR",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/AccountTour.mp4",
+ "rate": 1.1
+}

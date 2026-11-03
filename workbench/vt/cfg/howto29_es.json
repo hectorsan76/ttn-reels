@@ -1,0 +1,81 @@
+{
+ "name": "howto29_es",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/UnschduledWorkout.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   1.0,
+   14.5,
+   1.5
+  ],
+  [
+   14.5,
+   17.0,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto29_es.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 29",
+ "title": "AGREGAR FECHA",
+ "voice": "Laomedeia",
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿rutina sin fecha todavía?"
+  ],
+  [
+   4.2,
+   "Toquen Add date y elijan el día."
+  ],
+  [
+   7.3,
+   "Luego Add time y pongan la hora."
+  ],
+  [
+   10.1,
+   "Listo, agendada con fecha y hora."
+  ]
+ ],
+ "notes": [
+  [
+   2.4,
+   3.9,
+   "toquen",
+   0,
+   560,
+   "left"
+  ]
+ ],
+ "sfx": [
+  [
+   3.6,
+   "tap"
+  ],
+  [
+   6.4,
+   "tap"
+  ],
+  [
+   7.6,
+   "tap"
+  ],
+  [
+   10.2,
+   "tap"
+  ],
+  [
+   12.4,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/out/howto29_es.mp4",
+ "lang": "es-US",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/UnschduledWorkout.mp4",
+ "rate": 1.0
+}

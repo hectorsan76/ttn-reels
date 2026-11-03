@@ -1,0 +1,52 @@
+{
+ "name": "pv_w47_mon_id",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_mon_id.png",
+ "voice": "Sadachbia",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_mon_a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_mon_b.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/mon1_follow_up.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainer, siapa yang melewatkan latihan kemarin?"
+  ],
+  [
+   1,
+   0.4,
+   "Follow up di Home menampilkan klien yang bolos, dengan tombol pesan.",
+   80
+  ],
+  [
+   1,
+   5.2,
+   "Jadi kamu bisa mengingatkan mereka sebelum satu hari bolos jadi seminggu.",
+   80
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out/pv_w47_mon_id.mp4",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_secs": 5.6,
+ "lang": "id-ID",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "callout": "Personal trainer,",
+ "rate": 1.0
+}

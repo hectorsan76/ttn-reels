@@ -1,0 +1,81 @@
+{
+ "name": "howto29_pt",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/UnschduledWorkout.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   1.0,
+   14.5,
+   1.5
+  ],
+  [
+   14.5,
+   17.0,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto29_pt.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 29",
+ "title": "ADICIONAR DATA",
+ "voice": "Laomedeia",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, treino ainda sem data?"
+  ],
+  [
+   4.2,
+   "Toque em Add date e escolha o dia."
+  ],
+  [
+   7.3,
+   "Depois em Add time e defina o horário."
+  ],
+  [
+   10.1,
+   "Pronto, agendado com data e hora."
+  ]
+ ],
+ "notes": [
+  [
+   2.4,
+   3.9,
+   "toque",
+   0,
+   560,
+   "left"
+  ]
+ ],
+ "sfx": [
+  [
+   3.6,
+   "tap"
+  ],
+  [
+   6.4,
+   "tap"
+  ],
+  [
+   7.6,
+   "tap"
+  ],
+  [
+   10.2,
+   "tap"
+  ],
+  [
+   12.4,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/out/howto29_pt.mp4",
+ "lang": "pt-BR",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/UnschduledWorkout.mp4",
+ "rate": 1.1
+}

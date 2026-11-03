@@ -1,0 +1,64 @@
+{
+ "name": "howto33_id",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/AccountTour.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   53.3,
+   59.8,
+   0.72
+  ]
+ ],
+ "bg": "paper",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto33_id.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 33",
+ "title": "PENGATURAN KAMU",
+ "voice": "Orus",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, buka menu, lalu Settings."
+  ],
+  [
+   4.0,
+   "Atur bahasa dan satuannya."
+  ],
+  [
+   5.9,
+   "Tampilan Light, Dark, atau Notebook."
+  ],
+  [
+   7.9,
+   "Dan pilih notifikasi yang kamu terima."
+  ]
+ ],
+ "notes": [
+  [
+   2.0,
+   3.4,
+   "ketuk",
+   0,
+   640,
+   "left"
+  ]
+ ],
+ "sfx": [
+  [
+   2.6,
+   "tap"
+  ],
+  [
+   10.0,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/out/howto33_id.mp4",
+ "lang": "id-ID",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/AccountTour.mp4",
+ "rate": 1.1
+}
