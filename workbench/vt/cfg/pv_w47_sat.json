@@ -1,0 +1,57 @@
+{
+ "name": "pv_w47_sat",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_sat.png",
+ "voice": "Sadachbia",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_sat_a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_sat_b1.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_sat_b2.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/sat1_colour_pick.png"
+   ],
+   [
+    9.8,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/sat2_colours_set.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainers, do your clients mix up their supersets?",
+   160
+  ],
+  [
+   1,
+   0.4,
+   "Give paired exercises the same colour stripe in the workout.",
+   250
+  ],
+  [
+   2,
+   0.1,
+   "So they see what goes together at a glance, and you explain less.",
+   250
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "out": "/home/claude/w47/out/TTN_pv_w47_sat_supersets.mp4",
+ "end_vo": "The Training Notebook One. Personal training software, built for trainers. Try it free for 7 days.",
+ "end_secs": 5.6
+}

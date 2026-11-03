@@ -1,0 +1,52 @@
+{
+ "name": "pv_w47_thu",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_thu.png",
+ "voice": "Algenib",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_thu_a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_thu_b.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/thu1_sofia_workouts.png"
+   ],
+   [
+    10.4,
+    "/mnt/user-data/uploads/TTN Reels/_work/people/w47/scr/thu2_workout_phone.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainers, tired of programming on a tiny screen?"
+  ],
+  [
+   1,
+   0.4,
+   "Build it on your laptop. It's on your phone when you coach.",
+   30
+  ],
+  [
+   1,
+   5.0,
+   "So you plan in comfort and stay focused on your client at the gym.",
+   30
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "out": "/home/claude/w47/out/TTN_pv_w47_thu_laptop.mp4",
+ "end_vo": "The Training Notebook One. Personal training software, built for trainers. Try it free for 7 days.",
+ "end_secs": 5.6
+}

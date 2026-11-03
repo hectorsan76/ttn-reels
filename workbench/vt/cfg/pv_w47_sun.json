@@ -1,0 +1,47 @@
+{
+ "name": "pv_w47_sun",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_sun.png",
+ "voice": "Orus",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_sun_a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_sun_b.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/root/ttn-reels/workbench/vt/cfg/scr_w47_sun_session_jessica.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainers, still booking the next session by text?",
+   1250
+  ],
+  [
+   1,
+   0.4,
+   "Agree on a time in chat, and it lands on both your calendars."
+  ],
+  [
+   1,
+   4.8,
+   "So you both know when you're training next, with no back and forth."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/w47/out/TTN_pv_w47_sun_booksession.mp4",
+ "end_vo": "The Training Notebook One. Personal training software, built for trainers. Try it free for 7 days.",
+ "end_secs": 5.6
+}
