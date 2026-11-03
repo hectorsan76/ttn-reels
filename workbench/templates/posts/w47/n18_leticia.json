@@ -1,0 +1,37 @@
+{
+ "cover_html": "cover_v4.html",
+ "cover": {
+  "kind": "quote_teal",
+  "quote": "“I love that all my clients get <em>a free app too</em>”",
+  "by": "LETICIA, PERSONAL TRAINER"
+ },
+ "slides": [
+  {
+   "type": "quote",
+   "bg": "navy",
+   "qfs": 66,
+   "quote": "“It's so much easier to track my clients' progress and customize their workouts... Plus I love that all my clients get a free app too”",
+   "by": "LETICIA, PERSONAL TRAINER<br>APP STORE REVIEW"
+  },
+  {
+   "type": "text",
+   "bg": "paper",
+   "hd": "Your clients get<br><em>their own app.</em>",
+   "sub": "Their own login. Free for them. You pay for your plan."
+  },
+  {
+   "type": "phone",
+   "bg": "navy",
+   "full": true,
+   "hd": "Today's workout<br><em>on their phone.</em>",
+   "sub": "They open it and run it.",
+   "img": "assets/w47/client_home_light.jpg"
+  },
+  {
+   "type": "cta",
+   "bg": "paper",
+   "hd": "They get an app.<br><em>You look like a pro.</em>",
+   "hand": "Free for every client you coach."
+  }
+ ]
+}

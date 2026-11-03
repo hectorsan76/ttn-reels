@@ -1,0 +1,41 @@
+{
+ "cover_html": "cover_v4.html",
+ "cover": {
+  "kind": "photo",
+  "hd": "PROGRAMMING<br>AT NIGHT IS<br><em>UNPAID WORK.</em>",
+  "photo": {
+   "src": "assets/w47/photo_hector_rower_phone.jpg",
+   "w": 1080,
+   "x": 0,
+   "y": 0
+  },
+  "band": 600
+ },
+ "slides": [
+  {
+   "type": "text",
+   "bg": "paper",
+   "hd": "They pay for the session.<br><em>Not the night before.</em>",
+   "hand": "Nobody sees the kitchen table hours."
+  },
+  {
+   "type": "text",
+   "bg": "navy",
+   "hd": "Every workout from scratch<br><em>is time you don't bill.</em>",
+   "hand": "Same lifts. Typed again."
+  },
+  {
+   "type": "text",
+   "bg": "paper",
+   "hd": "Build it faster.<br><em>Or build it once.</em>",
+   "sub": "Build a 6-exercise workout in under 15 seconds. Or make a program once and give it to each client."
+  },
+  {
+   "type": "cta_phone",
+   "bg": "navy",
+   "hd": "Program before<br><em>the client arrives.</em>",
+   "hand": "Not at midnight.",
+   "img": "assets/w47/workout_marcus_light.jpg"
+  }
+ ]
+}

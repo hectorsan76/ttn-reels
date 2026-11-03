@@ -1,0 +1,42 @@
+{
+ "cover_html": "cover_v4.html",
+ "cover": {
+  "kind": "paper_phone",
+  "hd": "NOT IN THE LIBRARY?<br><em>ADD YOUR OWN.</em>",
+  "screen": "assets/w47/custom_exercise_clip_light.jpg",
+  "note": {
+   "text": "your<br>clip",
+   "left": 736,
+   "top": 480,
+   "flip": true
+  }
+ },
+ "slides": [
+  {
+   "type": "text",
+   "bg": "navy",
+   "hd": "The move you teach<br><em>your own way.</em>",
+   "hand": "Every coach has one."
+  },
+  {
+   "type": "text",
+   "bg": "paper",
+   "hd": "Name it.<br><em>Film it.</em>",
+   "sub": "Pick the muscle and the equipment. Add a short clip from your phone."
+  },
+  {
+   "type": "phone",
+   "bg": "navy",
+   "full": true,
+   "hd": "Your exercise.<br><em>Your clip.</em>",
+   "sub": "Add it to any workout from My custom.",
+   "img": "assets/w47/custom_exercise_form_light.jpg"
+  },
+  {
+   "type": "cta",
+   "bg": "paper",
+   "hd": "Your moves.<br><em>Your program.</em>",
+   "hand": "It looks like you built it. You did."
+  }
+ ]
+}

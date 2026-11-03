@@ -1,0 +1,42 @@
+{
+ "cover_html": "cover_v4.html",
+ "cover": {
+  "kind": "photo",
+  "light": true,
+  "hd": "HOW MANY<br>CLIENTS DO YOU<br><em>TRAIN A DAY?</em>",
+  "photo": {
+   "src": "assets/w47/photo_hector_phone_plates_tall.jpg",
+   "w": 1080,
+   "x": 0,
+   "y": 0
+  }
+ },
+ "slides": [
+  {
+   "type": "text",
+   "bg": "paper",
+   "hd": "Back to back.<br><em>Early to late.</em>",
+   "hand": "Every one expects you ready."
+  },
+  {
+   "type": "phone",
+   "bg": "navy",
+   "full": true,
+   "hd": "Open the calendar.<br><em>Today is there.</em>",
+   "sub": "Every client and every workout, with the time.",
+   "img": "assets/w47/calendar_today_light.jpg"
+  },
+  {
+   "type": "text",
+   "bg": "paper",
+   "hd": "Next one walks in?<br><em>2 taps.</em>",
+   "sub": "Start a workout with a client in 2 taps."
+  },
+  {
+   "type": "cta",
+   "bg": "navy",
+   "hd": "However many,<br><em>be ready for each.</em>",
+   "hand": "Tell me your number in the comments."
+  }
+ ]
+}

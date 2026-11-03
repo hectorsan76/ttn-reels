@@ -1,0 +1,36 @@
+{
+ "cover_html": "cover_v4.html",
+ "cover": {
+  "kind": "white",
+  "hd": "STILL WRITING<br>THE SAME<br>WORKOUT<br><em>EVERY WEEK?</em>"
+ },
+ "slides": [
+  {
+   "type": "text",
+   "bg": "paper",
+   "hd": "Same squat day.<br><em>Typed out again.</em>",
+   "hand": "Week after week."
+  },
+  {
+   "type": "phone",
+   "bg": "navy",
+   "full": true,
+   "hd": "Build the program<br><em>once.</em>",
+   "sub": "Give it to a client and it books their weeks.",
+   "img": "assets/w47/program_check_step_light.jpg"
+  },
+  {
+   "type": "text",
+   "bg": "paper",
+   "hd": "Next client?<br><em>Same program.</em>",
+   "hand": "Their own copy. Change what you need."
+  },
+  {
+   "type": "cta",
+   "bg": "navy",
+   "hd": "Write it once.<br><em>Coach it for weeks.</em>",
+   "hand": "Get your evenings back.",
+   "hfs": 70
+  }
+ ]
+}

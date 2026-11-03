@@ -1,0 +1,36 @@
+{
+ "cover_html": "cover_v4.html",
+ "cover": {
+  "kind": "black_phone",
+  "hd": "WALK IN.<br><em>GET TO WORK.</em>",
+  "max": 104,
+  "screen": "assets/w47/marcus_workouts_light.jpg"
+ },
+ "slides": [
+  {
+   "type": "text",
+   "bg": "paper",
+   "hd": "Your phone<br><em>on the gym floor.</em>",
+   "sub": "iPhone or Android, with last session's numbers under every set."
+  },
+  {
+   "type": "laptop",
+   "bg": "navy",
+   "hd": "Your laptop<br><em>at home.</em>",
+   "hand": "Same app on your laptop too.",
+   "img": "assets/w47/web_calendar_light.jpg"
+  },
+  {
+   "type": "text",
+   "bg": "paper",
+   "hd": "Same clients.<br><em>Every device.</em>",
+   "sub": "iPhone, iPad, Mac with Apple M1 or later, Android, and on your laptop."
+  },
+  {
+   "type": "cta",
+   "bg": "navy",
+   "hd": "Program at home.<br><em>Coach on the floor.</em>",
+   "hand": "Walk In. Get To Work."
+  }
+ ]
+}

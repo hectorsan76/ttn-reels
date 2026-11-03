@@ -1,0 +1,83 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+/* TTN One carousel covers by template name (week of 16 Nov 2026). 1080 x 1350, buffered zone x 150..930, y 150..1200.
+   kinds: white | paper_phone | photo | quote_teal | black_phone
+   spec fields: kind, hd (headline html, <br> for breaks, <em> for the accent), max (largest headline px, default 112),
+   screen (path to a phone screenshot, for paper_phone and black_phone), note {text,left,top,flip} (one handwritten note with arrow),
+   photo {src,w,x,y} (photo placement, px), band (px height of the dark band behind text on photo), quote, by */
+@font-face{font-family:M;font-weight:900;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-900-normal.woff2)}
+@font-face{font-family:M;font-weight:800;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:K;font-weight:700;src:url(node_modules/@fontsource/kalam/files/kalam-latin-700-normal.woff2)}
+@font-face{font-family:S;font-weight:700;src:url(node_modules/@fontsource/space-mono/files/space-mono-latin-700-normal.woff2)}
+:root{--ink:#1A1A1A;--teal:#0E7A6F;--lteal:#3BC3B3;--orange:#EE7868;--coral:#B94D3F;--navy:#0B0F19;--cream:#F8F3E8;--paper:#F6F1E4;--yellow:#F5C84C;--bg:#fff}
+html,body{margin:0}
+.tile{position:relative;width:1080px;height:1350px;overflow:hidden;font-family:M;background:var(--bg)}
+.white{--bg:#FFFFFF;color:var(--ink)}
+.paper{--bg:var(--paper);color:var(--ink);background:linear-gradient(90deg,transparent 96px,rgba(214,96,96,.6) 96px,rgba(214,96,96,.6) 101px,transparent 101px),repeating-linear-gradient(180deg,transparent 0 66px,rgba(96,140,184,.34) 66px 69px),var(--paper)}
+.black{--bg:#050506;color:#fff}
+.teal{--bg:var(--teal);color:var(--cream)}
+.photo{--bg:#111;color:#fff}
+.label{position:absolute;left:150px;top:150px;font:800 46px M;letter-spacing:.02em;z-index:3}
+.hd{position:absolute;left:150px;width:780px;font-weight:900;line-height:1.02;text-transform:uppercase;white-space:nowrap;z-index:3}
+.hd em{font-style:normal;color:var(--orange)}
+.white .hd em,.paper .hd em{color:var(--coral)}
+.photo .hd,.photo .label{text-shadow:0 3px 18px rgba(0,0,0,.55)}
+.photo.light{color:var(--ink)}.photo.light .hd,.photo.light .label{text-shadow:none}.photo.light .hd em{color:var(--coral)}.photo.light .arrow{background:rgba(255,255,255,.85);color:var(--ink)}
+.pimg{position:absolute;z-index:0}
+.band{position:absolute;left:0;right:0;top:0;z-index:1;background:linear-gradient(180deg,rgba(5,6,10,.78) 0%,rgba(5,6,10,.62) 70%,rgba(5,6,10,0) 100%)}
+.phone{position:absolute;left:50%;transform:translateX(-50%);background:#0a0a0b;border-radius:58px;padding:15px;box-shadow:0 40px 90px rgba(0,0,0,.35),0 0 0 5px #2b2b2f;z-index:2}
+.black .phone{box-shadow:0 40px 90px rgba(0,0,0,.6),0 0 0 5px #3a3f4a}
+.phone img{display:block;border-radius:44px}
+.note{position:absolute;font:700 76px/.95 K;color:var(--teal);transform:rotate(-7deg);z-index:3}
+.black .note{color:var(--yellow)}
+.note svg{display:block;margin-top:6px}
+.lock{position:absolute;left:130px;bottom:150px;display:flex;align-items:center;gap:16px;z-index:4;padding:12px 26px 12px 12px;border-radius:60px;background:var(--bg);color:var(--ink)}
+.black .lock{color:#fff}.teal .lock{color:var(--cream)}
+.photo .lock{background:var(--cream)}
+.lock .ic{width:84px;height:84px;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:0 0 0 2px rgba(0,0,0,.08)}
+.lock .ic img{width:66px}
+.lock span{font:800 27px/1.12 M;letter-spacing:.02em}
+.lock b{color:var(--orange);font-weight:800}
+.paper .lock b,.white .lock b{color:var(--orange)}
+.arrow{position:absolute;right:150px;bottom:150px;width:74px;height:74px;border-radius:50%;border:5px solid currentColor;display:grid;place-items:center;font:900 38px M;z-index:4;box-sizing:border-box;background:var(--bg)}
+.photo .arrow{background:rgba(5,6,10,.55);color:#fff}
+.qs{position:absolute;left:150px;width:780px;display:flex;flex-direction:column;gap:30px;z-index:3}
+.qs .stars{font-size:76px;letter-spacing:10px;color:var(--orange);line-height:1}
+.qs .q{font:700 100px/1.06 K}
+.qs .q em{font-style:normal;color:var(--orange)}
+.qs .by{font:700 38px S;letter-spacing:.05em;color:var(--cream)}
+</style></head><body><div id="root"></div>
+<script>
+const C=JSON.parse(decodeURIComponent(new URLSearchParams(location.search).get('c')));
+const bgc={white:'white',paper_phone:'paper',photo:'photo',quote_teal:'teal',black_phone:'black'}[C.kind];
+const arrowSvg=`<svg width="170" height="108" viewBox="0 0 70 44"><path d="M4 6 C 22 8, 44 20, 62 36" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/><path d="M50 36 L63 37 L60 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+let h=`<div class="label">PERSONAL TRAINERS,</div>`;
+if(C.kind==='photo'){const p=C.photo;h+=`<img class="pimg" src="${p.src}" style="width:${p.w}px;left:${p.x}px;top:${p.y}px">${C.light?'':`<div class="band" style="height:${C.band||620}px"></div>`}`}
+if(C.kind==='quote_teal') h+=`<div class="qs" style="top:${C.qtop||270}px"><div class="stars">★★★★★</div><div class="q">${C.quote}</div><div class="by">${C.by}</div></div>`;
+else h+=`<div class="hd">${C.hd}</div>`;
+if(C.screen) h+=`<div class="phone"><img src="${C.screen}"></div>`;
+if(C.note) h+=`<div class="note" style="left:${C.note.left}px;top:${C.note.top}px">${C.note.text}${C.note.flip?arrowSvg.replace('<svg','<svg style="transform:scaleX(-1);margin-left:auto"'):arrowSvg}</div>`;
+h+=`<div class="lock"><div class="ic"><img src="assets/icon.png"></div><span>THE TRAINING<br>NOTEBOOK <b>ONE</b></span></div><div class="arrow">→</div>`;
+document.getElementById('root').innerHTML=`<div class="tile ${bgc}${C.light?' light':''}">${h}</div>`;
+const out={};
+document.fonts.ready.then(async()=>{
+ await Promise.all([...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=r;i.onerror=r})));
+ const hd=document.querySelector('.hd');
+ if(hd){
+  let f=C.max||112;hd.style.fontSize=f+'px';
+  while(hd.scrollWidth>780&&f>40){f--;hd.style.fontSize=f+'px'}
+  out.fs=f;
+  if(C.kind==='white'){ // centre the headline between label and lockup
+    const H=hd.getBoundingClientRect().height; hd.style.top=Math.round(222+(1090-222-H)/2)+'px';
+  } else hd.style.top=(C.hdtop||222)+'px';
+ }
+ const ph=document.querySelector('.phone');
+ if(ph){ // whole phone visible, above the lockup line (y 1085) and below the headline
+  const top=Math.round(hd.getBoundingClientRect().bottom+(C.gap||44)); const bottom=C.pbottom||1085;
+  const H=bottom-top-30; const img=ph.querySelector('img'); const r=img.naturalWidth/img.naturalHeight;
+  img.style.height=H+'px'; img.style.width=Math.round(H*r)+'px'; ph.style.top=top+'px';
+  if(C.px) {ph.style.left=C.px+'px';ph.style.transform='none'}
+  out.phone=[top,bottom,Math.round(H*r)+30];
+ }
+ document.body.dataset.info=JSON.stringify(out);document.body.dataset.done=1;
+});
+</script></body></html>

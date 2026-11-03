@@ -1,0 +1,41 @@
+{
+ "cover_html": "cover_v4.html",
+ "cover": {
+  "kind": "photo",
+  "light": true,
+  "hd": "THE FIRST<br>30 DAYS DECIDE<br><em>IF THEY STAY.</em>",
+  "photo": {
+   "src": "assets/w47/photo_hector_phone_boxes_tall.jpg",
+   "w": 1080,
+   "x": 0,
+   "y": 0
+  }
+ },
+ "slides": [
+  {
+   "type": "text",
+   "bg": "paper",
+   "hd": "Day one:<br><em>learn their why.</em>",
+   "hand": "Ask before you load the bar."
+  },
+  {
+   "type": "text",
+   "bg": "navy",
+   "hd": "Weeks one to four:<br><em>a plan they can see.</em>",
+   "hand": "No guessing what's next."
+  },
+  {
+   "type": "text",
+   "bg": "paper",
+   "hd": "Check in early.<br><em>Show them the change.</em>",
+   "hand": "Weight, photos, the lifts going up."
+  },
+  {
+   "type": "cta_phone",
+   "bg": "navy",
+   "hd": "Put them on a program<br><em>from day one.</em>",
+   "hand": "They see the plan too.",
+   "img": "assets/w47/sofia_program_light.jpg"
+  }
+ ]
+}

@@ -28,14 +28,38 @@ html,body{margin:0}
 .paper .lock{background:var(--paper)}.navy .lock{background:var(--navy)}
 .lock .ic{width:84px;height:84px;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:0 0 0 2px rgba(0,0,0,.08)}
 .lock .ic img{width:66px}.lock span{font:800 27px/1.12 M;letter-spacing:.02em}.lock b{color:var(--orange)}
+/* added 2026-11-03: full phone (never cropped), laptop frame, CTA with phone */
+.ph.full{padding:15px;border-radius:58px;width:auto}.ph.full img{border-radius:44px;width:auto}
+.lap{position:absolute;left:150px;width:748px;background:#1d1f24;border-radius:22px;padding:16px 16px 0;box-shadow:0 40px 90px rgba(0,0,0,.4),0 0 0 3px #3a3f4a}
+.lap .bar{display:flex;gap:9px;padding:0 0 12px 4px}.lap .bar i{width:14px;height:14px;border-radius:50%;background:#555b66}
+.lap img{width:100%;display:block;border-radius:6px 6px 0 0}
+.lapbase{position:absolute;left:150px;width:780px;height:20px;background:#3a3f4a;border-radius:0 0 26px 26px}
+.lapnote{position:absolute;font:700 60px/1 K;color:var(--teal);transform:rotate(-3deg)}.navy .lapnote{color:var(--yellow)}
+.cp{position:absolute;left:150px;width:400px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;gap:30px}
+.cp .hd{font-size:58px}.cp .hand{font-size:50px}.cp .cta{font-size:34px;line-height:1.2}
+.ph.side{left:auto;right:150px;transform:none}
 </style></head><body><div id="root"></div>
 <script>
 const C=JSON.parse(decodeURIComponent(new URLSearchParams(location.search).get('c')));
 let inner='';
-if(C.type==='quote') inner=`<div class="box"><div class="stars">★★★★★</div><div class="quote">${C.quote}</div><div class="by">${C.by}</div></div>`;
-if(C.type==='text') inner=`<div class="box"><div class="hd">${C.hd}</div>${C.hand?`<div class="hand">${C.hand}</div>`:''}${C.sub?`<div class="sub">${C.sub}</div>`:''}</div>`;
-if(C.type==='phone') inner=`<div class="box top"><div class="hd" style="font-size:68px">${C.hd}</div>${C.sub?`<div class="sub">${C.sub}</div>`:''}</div><div class="ph"><img src="${C.img}"></div>`;
-if(C.type==='cta') inner=`<div class="box"><div class="hd">${C.hd}</div>${C.hand?`<div class="hand">${C.hand}</div>`:''}<div class="cta">TRY THE 7 DAY FREE TRIAL</div></div><div class="lock"><div class="ic"><img src="assets/icon.png"></div><span>THE TRAINING<br>NOTEBOOK <b>ONE</b></span></div><div class="handle">@thetrainingnotebookapp</div>`;
-document.getElementById('root').innerHTML=`<div class="s ${C.bg}">${inner}${C.type!=='cta'?'<div class="arrow">→</div>':''}</div>`;
-document.fonts.ready.then(()=>{const img=document.querySelector('img');const done=()=>document.body.dataset.done=1;if(img&&!img.complete){img.onload=done;img.onerror=done}else done()});
+if(C.type==='quote') inner=`<div class="box"><div class="stars">★★★★★</div><div class="quote"${C.qfs?` style="font-size:${C.qfs}px"`:''}>${C.quote}</div><div class="by">${C.by}</div></div>`;
+if(C.type==='laptop') inner=`<div class="box top"><div class="hd" style="font-size:68px">${C.hd}</div>${C.sub?`<div class="sub">${C.sub}</div>`:''}</div><div class="lap"><div class="bar"><i></i><i></i><i></i></div><img src="${C.img}"></div><div class="lapbase"></div>${C.hand?`<div class="lapnote">${C.hand}</div>`:''}`;
+if(C.type==='cta_phone') inner=`<div class="cp"><div class="hd">${C.hd}</div>${C.hand?`<div class="hand">${C.hand}</div>`:''}<div class="cta">TRY THE 7 DAY<br>FREE TRIAL</div></div><div class="ph full side"><img src="${C.img}"></div><div class="lock"><div class="ic"><img src="assets/icon.png"></div><span>THE TRAINING<br>NOTEBOOK <b>ONE</b></span></div><div class="handle">@thetrainingnotebookapp</div>`;
+const HS=C.hfs?` style="font-size:${C.hfs}px"`:'';
+if(C.type==='text') inner=`<div class="box"><div class="hd"${HS}>${C.hd}</div>${C.hand?`<div class="hand">${C.hand}</div>`:''}${C.sub?`<div class="sub">${C.sub}</div>`:''}</div>`;
+if(C.type==='phone') inner=`<div class="box top"><div class="hd" style="font-size:68px">${C.hd}</div>${C.sub?`<div class="sub">${C.sub}</div>`:''}</div><div class="ph${C.full?' full':''}"><img src="${C.img}"></div>`;
+if(C.type==='cta') inner=`<div class="box"><div class="hd"${HS}>${C.hd}</div>${C.hand?`<div class="hand">${C.hand}</div>`:''}<div class="cta">TRY THE 7 DAY FREE TRIAL</div></div><div class="lock"><div class="ic"><img src="assets/icon.png"></div><span>THE TRAINING<br>NOTEBOOK <b>ONE</b></span></div><div class="handle">@thetrainingnotebookapp</div>`;
+document.getElementById('root').innerHTML=`<div class="s ${C.bg}">${inner}${!['cta','cta_phone'].includes(C.type)?'<div class="arrow">→</div>':''}</div>`;
+document.fonts.ready.then(async()=>{
+ await Promise.all([...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=r;i.onerror=r})));
+ // full phone and laptop sit under the text block and end by y 1200 (buffered zone); old specs are unchanged
+ const box=document.querySelector('.box.top');const tb=box?[...box.children].reduce((m,e)=>Math.max(m,e.getBoundingClientRect().bottom),0):0;
+ const ph=document.querySelector('.ph.full:not(.side)');
+ if(ph){const img=ph.querySelector('img');const top=Math.round(tb+44);const H=Math.min(1200-top-30,C.pmax||900);img.style.height=H+'px';img.style.width=Math.round(H*img.naturalWidth/img.naturalHeight)+'px';ph.style.top=top+'px'}
+ const sp=document.querySelector('.ph.side');
+ if(sp){const img=sp.querySelector('img');const H=C.pmax||720;img.style.height=H+'px';img.style.width=Math.round(H*img.naturalWidth/img.naturalHeight)+'px';sp.style.top=Math.round((1350-H-30)/2-30)+'px'}
+ const lap=document.querySelector('.lap');
+ if(lap){lap.style.top=Math.round(tb+70)+'px';const b=lap.getBoundingClientRect().bottom;document.querySelector('.lapbase').style.top=b+'px';
+  const n=document.querySelector('.lapnote');if(n){n.style.left='160px';n.style.top=Math.round(b+60)+'px'}}
+ document.body.dataset.done=1});
 </script></body></html>
