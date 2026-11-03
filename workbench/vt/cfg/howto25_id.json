@@ -1,0 +1,125 @@
+{
+ "name": "howto25_id",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/BookaSessionfromtheCalendar.mp4",
+ "segs": [
+  [
+   6.0,
+   8.5,
+   1.2
+  ],
+  [
+   8.5,
+   11.5,
+   1.2
+  ],
+  [
+   12.0,
+   21.5,
+   4.5
+  ],
+  [
+   22.0,
+   26.5,
+   2.0
+  ],
+  [
+   27.0,
+   30.0,
+   1.2
+  ],
+  [
+   32.5,
+   34.0,
+   1.0
+  ],
+  [
+   40.5,
+   51.5,
+   3.5
+  ],
+  [
+   52.0,
+   56.0,
+   1.5
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto25_id.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 25",
+ "title": "JADWALKAN SESI",
+ "voice": "Laomedeia",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, jadwalkan sesi langsung dari kalender."
+  ],
+  [
+   3.8,
+   "Ketuk harinya dan pilih klien."
+  ],
+  [
+   6.3,
+   "Beri nama latihannya."
+  ],
+  [
+   8.4,
+   "Atur jamnya."
+  ],
+  [
+   10.7,
+   "Sudah ada di kalender."
+  ],
+  [
+   13.2,
+   "Buka dan tambahkan gerakannya."
+  ],
+  [
+   17.8,
+   "Terjadwal dan siap."
+  ]
+ ],
+ "notes": [
+  [
+   3.9,
+   5.4,
+   "pilih",
+   0,
+   860,
+   "left"
+  ]
+ ],
+ "sfx": [
+  [
+   3.7,
+   "tap"
+  ],
+  [
+   8.3,
+   "tap"
+  ],
+  [
+   10.6,
+   "tap"
+  ],
+  [
+   13.1,
+   "tap"
+  ],
+  [
+   17.7,
+   "tap"
+  ],
+  [
+   19.0,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "out": "/home/claude/loc/out/howto25_id.mp4",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/BookaSessionfromtheCalendar.mp4",
+ "rate": 1.0
+}
