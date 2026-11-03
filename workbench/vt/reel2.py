@@ -24,11 +24,12 @@ def lufs(path, secs=None):
         _L[k] = float(re.findall(r"I:\s+(-?[\d.]+) LUFS", out)[-1])
     return _L[k]
 
-def tts(text, voice, rate=1.0):
+def tts(text, voice, rate=1.0, lang="en-US"):
     os.makedirs(f"{V}/tts", exist_ok=True)
-    h = hashlib.md5(f"{voice}|{rate}|{text}".encode()).hexdigest()[:12]; p = f"{V}/tts/{h}.wav"
+    key = f"{voice}|{rate}|{text}" if lang == "en-US" else f"{lang}|{voice}|{rate}|{text}"
+    h = hashlib.md5(key.encode()).hexdigest()[:12]; p = f"{V}/tts/{h}.wav"
     if not os.path.exists(p):
-        body = json.dumps({"input": {"text": text}, "voice": {"languageCode": "en-US", "name": f"en-US-Chirp3-HD-{voice}"},
+        body = json.dumps({"input": {"text": text}, "voice": {"languageCode": lang, "name": f"{lang}-Chirp3-HD-{voice}"},
                            "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": 24000, "speakingRate": rate}}).encode()
         req = urllib.request.Request(f"https://texttospeech.googleapis.com/v1/text:synthesize?key={KEY}", body, {"Content-Type": "application/json"})
         open(p, "wb").write(base64.b64decode(json.load(urllib.request.urlopen(req))["audioContent"]))
@@ -77,7 +78,10 @@ def note_png(path, text, kind, side):
     d.line([(hx + s * 40, hy - 4), (hx, hy), (hx + s * 8, hy - 40)], fill=col, width=9, joint="curve")
     im = im.rotate(6 if side == "left" else -6, resample=Image.BICUBIC, expand=True); im.save(path)
 
-SMALL = {"a","an","the","to","of","and","in","on","it","your","is","for","at","with","that's","this","where"}
+SMALL = {"a","an","the","to","of","and","in","on","it","your","is","for","at","with","that's","this","where",
+         "o","os","as","um","uma","de","do","da","dos","das","e","em","no","na","seu","sua","com","para","por","que",
+         "el","la","los","las","un","una","del","y","en","su","sus","con","al","lo","se",
+         "di","ke","dan","yang","untuk","ini","itu","dengan","dari","atau"}
 def chunks(text, maxc=16):
     out = []
     for sent in re.findall(r"[^.?!,]+[.?!,]?", text):
@@ -102,17 +106,18 @@ def build(cfg):
     # assets
     bg_png(f"{wd}/bg.png", kind); sh_h = phone_pngs(wd)
     bw = bar_png(f"{wd}/bar.png", C["series"], C["title"]) if C.get("series") else 0
-    proxy = f"{wd}/proxy.mp4"
+    proxy = C.get("proxy") or f"{wd}/proxy.mp4"
     if not os.path.exists(proxy):
         run("ffmpeg", "-v", "error", "-y", "-i", C["src"], "-vf", f"fps=30,scale={SW}:{sh_h}:flags=lanczos", "-an", "-c:v", "libx264", "-crf", "14", "-preset", "fast", proxy)
     # voice
     vo = []
     for t, text in C["vo"]:
-        p, d = tts(text, C["voice"], C.get("rate", 1.0))
+        p, d = tts(text, C["voice"], C.get("rate", 1.0), C.get("lang", "en-US"))
         if vo: t = max(t, vo[-1][0] + vo[-1][3] + 0.2)  # never let two lines overlap
         if t + d > H + M + 0.1: print(f"WARNING: line runs past the footage: {text!r} ends {t + d:.2f} > {H + M:.2f}")
         vo.append((t, text, p, d))
-    ep, ed = tts(C.get("end_vo", "Try The Training Notebook One free for 7 days."), C["voice"], C.get("rate", 1.0))
+    ep, ed = tts(C.get("end_vo", "Try The Training Notebook One free for 7 days."), C["voice"], C.get("rate", 1.0), C.get("lang", "en-US"))
+    E = max(E, 0.35 + ed + 0.6); T = H + M + E  # never cut the end line
     vo_end_at = H + M + 0.35
     # caption chunks timed to voice
     caps = []

@@ -1,0 +1,48 @@
+{
+ "name": "pn04",
+ "cover": "",
+ "voice": "Aoede",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n04a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n04b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/00 App screens/2026-10-22/workout_dark.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainers, client's here and there's no plan yet?",
+   1100
+  ],
+  [
+   1,
+   0.4,
+   "Build a 6-exercise workout in under 15 seconds."
+  ],
+  [
+   1,
+   4.0,
+   "Start on time and look prepared."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/en/pn04.mp4",
+ "end_vo": "The Training Notebook One. Personal training software, built for trainers. Try it free for 7 days.",
+ "end_secs": 5.6,
+ "_note": "Recovered 2026-11-04 from the 'Old Publer Posting' chat (English original as booked 2026-11-01). Cover: see posts/*/cover.png."
+}

@@ -1,0 +1,85 @@
+{
+ "name": "howto02_pt",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/ResendAnInvite.mp4",
+ "segs": [
+  [
+   0.3,
+   1.5,
+   1.0
+  ],
+  [
+   4.0,
+   7.0,
+   1.5
+  ],
+  [
+   7.0,
+   10.5,
+   1.0
+  ],
+  [
+   10.5,
+   16.5,
+   2.0
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto02_pt.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 02",
+ "title": "REENVIAR CONVITE",
+ "voice": "Algenib",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, o aluno perdeu o convite?"
+  ],
+  [
+   3.0,
+   "Abra o perfil dele."
+  ],
+  [
+   4.9,
+   "Toque no menu e depois em Send invite."
+  ],
+  [
+   8.5,
+   "Pronto. Já está a caminho."
+  ]
+ ],
+ "notes": [
+  [
+   4.9,
+   6.3,
+   "toque",
+   630,
+   640,
+   "right"
+  ]
+ ],
+ "sfx": [
+  [
+   2.6,
+   "tap"
+  ],
+  [
+   5.2,
+   "tap"
+  ],
+  [
+   7.6,
+   "tap"
+  ],
+  [
+   8.4,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out/howto02_pt.mp4",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/ResendAnInvite.mp4",
+ "rate": 1.0
+}

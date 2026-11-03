@@ -1,0 +1,56 @@
+{
+ "name": "pv13",
+ "cover": "",
+ "voice": "Algenib",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/s13a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/s13b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.78,
+  "screens": [
+   [
+    5.78,
+    "/mnt/user-data/uploads/TTN Reels/00 App screens/2026-10-22/program_templates_dark.png"
+   ],
+   [
+    7.78,
+    "/mnt/user-data/uploads/TTN Reels/00 App screens/2026-10-22/workout_dark.png"
+   ],
+   [
+    9.38,
+    "/mnt/user-data/uploads/TTN Reels/00 App screens/2026-10-22/assessments_dark.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.2,
+   "Personal trainers, this app was built by a trainer since 2006.",
+   900
+  ],
+  [
+   1,
+   2.2,
+   "Workouts, programs and progress for every client."
+  ],
+  [
+   1,
+   5.8,
+   "Made for how you actually coach."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/en/pv13.mp4",
+ "end_vo": "The Training Notebook One. Personal training software, built for trainers. Try it free for 7 days.",
+ "end_secs": 5.6,
+ "_note": "Recovered 2026-11-04 from the 'Old Publer Posting' chat (English original as booked 2026-11-01). Cover: see posts/*/cover.png."
+}

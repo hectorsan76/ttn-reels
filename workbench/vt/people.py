@@ -14,10 +14,14 @@ import soundfile as sf
 def run(*a): subprocess.run(list(a), check=True)
 def dur(p): return float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p], capture_output=True, text=True).stdout)
 
+CALLOUT = "Personal trainers, "  # set per cfg ("callout"), e.g. "Personal trainer, " or "Entrenadores personales, "
+
+def is_callout(text): return text.lower().startswith(CALLOUT.lower())
+
 def cap_png(path, text):
     label = None
-    if text.lower().startswith("personal trainers, "):
-        label = "PERSONAL TRAINERS,"; text = text[len("personal trainers, "):]; text = text[0].upper() + text[1:]
+    if is_callout(text):
+        label = CALLOUT.strip().upper(); text = text[len(CALLOUT):]; text = text[0].upper() + text[1:]
     if label:
         tmp = path + ".main.png"; cap_png(tmp, text); main = Image.open(tmp)
         fs = ImageFont.truetype(FS, 44); dd = ImageDraw.Draw(Image.new("RGB", (1, 1))); w = int(dd.textlength(label, font=fs)) + 48
@@ -47,7 +51,9 @@ def cap_png(path, text):
 BW = ",hue=s=0.12,eq=contrast=1.12:brightness=-0.01"
 
 def build(cfg):
+    global CALLOUT
     C = json.load(open(cfg)); wd = f"{V}/work/{C['name']}"; os.makedirs(wd, exist_ok=True)
+    CALLOUT = C.get("callout", "Personal trainers,").strip() + " "; LANG = C.get("lang", "en-US")
     H = C.get("hook_secs", 1.6); E = C.get("end_secs", 3.6); X = 0.22
     shots = [(p, s, dur(p) / s) for p, s in C["shots"]]
     starts = []; t = H
@@ -58,11 +64,11 @@ def build(cfg):
     vo = []; cys = []
     for item in C["vo"]:
         si, off, text = item[:3]; cy = item[3] if len(item) > 3 else None
-        p, d = tts(text, C["voice"], C.get("rate", 1.0)); tt = starts[si] + off
+        p, d = tts(text, C["voice"], C.get("rate", 1.0), LANG); tt = starts[si] + off
         if vo: tt = max(tt, vo[-1][0] + vo[-1][3] + 0.15)
         if tt + d > H + M + 0.05: print(f"WARNING past footage: {text!r} ends {tt + d:.2f} > {H + M:.2f}")
         vo.append((tt, text, p, d)); cys.append(cy)
-    ep, ed = tts(C.get("end_vo", "Try The Training Notebook One free for 7 days."), C["voice"], C.get("rate", 1.0))
+    ep, ed = tts(C.get("end_vo", "Try The Training Notebook One free for 7 days."), C["voice"], C.get("rate", 1.0), LANG)
     E = max(E, 0.35 + ed + 0.6); T = H + M + E  # never cut the end line
     vo_end_at = H + M + 0.35
     caps = []
@@ -103,7 +109,7 @@ def build(cfg):
             g.append(f"[b{k}][{nin}:v]overlay=x={PX + PADX}:y='{yexp}':enable='between(t,{max(ts, t0):.2f},{te:.2f})'[b{k + 1}]"); nin += 1; k += 1
     for i, (c, s0, e, cy) in enumerate(caps):
         pth = f"{wd}/c{i}.png"; cap_png(pth, c); inp += ["-loop", "1", "-i", pth]
-        g.append(f"[b{k}][{nin}:v]overlay=0:{cy if cy is not None else (300 if c.lower().startswith('personal trainers, ') else 345)}:enable='between(t,{s0:.2f},{e:.2f})'[b{k + 1}]"); nin += 1; k += 1
+        g.append(f"[b{k}][{nin}:v]overlay=0:{cy if cy is not None else (300 if is_callout(c) else 345)}:enable='between(t,{s0:.2f},{e:.2f})'[b{k + 1}]"); nin += 1; k += 1
     g.append(f"[{cvi}:v]scale=1080:1920,zoompan=z='1+0.0006*on':d=1:s=1080x1920:fps=30,trim=0:{H},setpts=PTS-STARTPTS[hk]")
     g.append(f"[b{k}][hk]overlay=0:0:enable='lt(t,{H})'[b{k + 1}]"); k += 1
     inp += ["-loop", "1", "-i", C.get("end_card", f"{V}/endcard.png")]

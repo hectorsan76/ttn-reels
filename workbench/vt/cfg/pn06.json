@@ -1,0 +1,48 @@
+{
+ "name": "pn06",
+ "cover": "",
+ "voice": "Orus",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n06a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n06b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/root/ttn-reels/workbench/templates/assets/intake_nb.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainers, new client this week?",
+   1100
+  ],
+  [
+   1,
+   0.4,
+   "They fill out your intake form online before session one."
+  ],
+  [
+   1,
+   4.4,
+   "Walk in knowing their goals and injuries."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/en/pn06.mp4",
+ "end_vo": "The Training Notebook One. Personal training software, built for trainers. Try it free for 7 days.",
+ "end_secs": 5.6,
+ "_note": "Recovered 2026-11-04 from the 'Old Publer Posting' chat (English original as booked 2026-11-01). Cover: see posts/*/cover.png."
+}

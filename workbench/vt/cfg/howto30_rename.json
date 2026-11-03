@@ -1,0 +1,71 @@
+{
+ "name": "howto30_rename",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/RenameaWorkout.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   0.5,
+   3.0,
+   1.0
+  ],
+  [
+   3.0,
+   9.0,
+   2.0
+  ],
+  [
+   9.0,
+   10.6,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto30.png",
+ "hook_secs": 1.6,
+ "series": "HOW TO 30",
+ "title": "RENAME A WORKOUT",
+ "voice": "Sadachbia",
+ "vo": [
+  [
+   1.7,
+   "Personal trainers, workout name not right?"
+  ],
+  [
+   3.9,
+   "Tap the title and type the new name."
+  ],
+  [
+   6.9,
+   "Save. Done."
+  ]
+ ],
+ "notes": [
+  [
+   2.2,
+   3.6,
+   "tap",
+   630,
+   700,
+   "right"
+  ]
+ ],
+ "sfx": [
+  [
+   2.9,
+   "tap"
+  ],
+  [
+   6.9,
+   "tap"
+  ],
+  [
+   8.0,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "end_vo": "The Training Notebook One. Personal training software, built for trainers. Try it free for 7 days.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/en/howto30_rename.mp4",
+ "_note": "Recovered 2026-11-04 from the 'Old Publer Posting' chat. src is a 600x1304 30 fps proxy of 01 Raw clips/How-to (made in _work/howto_p6)."
+}

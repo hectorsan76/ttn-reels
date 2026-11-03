@@ -1,0 +1,71 @@
+{
+ "name": "howto26_pdf",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/ExportaWorkoutasPDF.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   0.5,
+   1.6,
+   1.0
+  ],
+  [
+   2.6,
+   4.8,
+   1.0
+  ],
+  [
+   14.0,
+   20.5,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto26.png",
+ "hook_secs": 1.6,
+ "series": "HOW TO 26",
+ "title": "EXPORT A PDF",
+ "voice": "Aoede",
+ "vo": [
+  [
+   1.7,
+   "Personal trainers, client training on their own this week?"
+  ],
+  [
+   4.6,
+   "Open the workout, tap the menu, then Export PDF."
+  ],
+  [
+   8.0,
+   "Send it or print it, so they're never guessing."
+  ]
+ ],
+ "notes": [
+  [
+   3.2,
+   4.8,
+   "tap",
+   630,
+   640,
+   "right"
+  ]
+ ],
+ "sfx": [
+  [
+   3.1,
+   "tap"
+  ],
+  [
+   4.7,
+   "tap"
+  ],
+  [
+   6.0,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "end_vo": "The Training Notebook One. Personal training software, built for trainers. Try it free for 7 days.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/en/howto26_pdf.mp4",
+ "_note": "Recovered 2026-11-04 from the 'Old Publer Posting' chat. src is a 600x1304 30 fps proxy of 01 Raw clips/How-to (made in _work/howto_p6)."
+}

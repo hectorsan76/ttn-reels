@@ -1,0 +1,85 @@
+{
+ "name": "howto02_es",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/ResendAnInvite.mp4",
+ "segs": [
+  [
+   0.3,
+   1.5,
+   1.0
+  ],
+  [
+   4.0,
+   7.0,
+   1.5
+  ],
+  [
+   7.0,
+   10.5,
+   1.0
+  ],
+  [
+   10.5,
+   16.5,
+   2.0
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto02_es.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 02",
+ "title": "REENVIAR INVITACIÓN",
+ "voice": "Algenib",
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿su cliente perdió su invitación?"
+  ],
+  [
+   3.0,
+   "Abran su perfil."
+  ],
+  [
+   4.9,
+   "Toquen el menú y luego Send invite."
+  ],
+  [
+   8.5,
+   "Listo. Ya va en camino."
+  ]
+ ],
+ "notes": [
+  [
+   4.9,
+   6.3,
+   "toquen",
+   630,
+   640,
+   "right"
+  ]
+ ],
+ "sfx": [
+  [
+   2.6,
+   "tap"
+  ],
+  [
+   5.2,
+   "tap"
+  ],
+  [
+   7.6,
+   "tap"
+  ],
+  [
+   8.4,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out/howto02_es.mp4",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/ResendAnInvite.mp4",
+ "rate": 1.05
+}

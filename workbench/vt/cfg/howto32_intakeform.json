@@ -1,0 +1,102 @@
+{
+ "name": "howto32_intakeform",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/IntakeFormYourClientFillsIn.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   0.5,
+   5.5,
+   2.0
+  ],
+  [
+   10.5,
+   12.5,
+   1.0
+  ],
+  [
+   12.5,
+   22.0,
+   4.0
+  ],
+  [
+   23.0,
+   31.0,
+   2.0
+  ],
+  [
+   31.0,
+   39.5,
+   3.0
+  ],
+  [
+   40.0,
+   43.0,
+   1.0
+  ]
+ ],
+ "bg": "paper",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto32.png",
+ "hook_secs": 1.6,
+ "series": "HOW TO 32",
+ "title": "THE INTAKE FORM",
+ "voice": "Aoede",
+ "vo": [
+  [
+   1.7,
+   "Personal trainers, here's what your new client sees."
+  ],
+  [
+   4.3,
+   "They open your invite and start the intake form."
+  ],
+  [
+   7.0,
+   "Name, birthday, goals and experience."
+  ],
+  [
+   10.6,
+   "A few health questions, then Submit."
+  ],
+  [
+   15.0,
+   "It's on their profile before session one."
+  ]
+ ],
+ "notes": [
+  [
+   2.6,
+   4.0,
+   "tap",
+   630,
+   1250,
+   "right"
+  ]
+ ],
+ "sfx": [
+  [
+   3.9,
+   "tap"
+  ],
+  [
+   6.4,
+   "tap"
+  ],
+  [
+   9.0,
+   "tap"
+  ],
+  [
+   14.9,
+   "tap"
+  ],
+  [
+   15.6,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "end_vo": "The Training Notebook One. Personal training software, built for trainers. Try it free for 7 days.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/en/howto32_intakeform.mp4",
+ "_note": "Recovered 2026-11-04 from the 'Old Publer Posting' chat. src is a 600x1304 30 fps proxy of 01 Raw clips/How-to (made in _work/howto_p6)."
+}

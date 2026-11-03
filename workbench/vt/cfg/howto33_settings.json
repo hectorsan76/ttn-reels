@@ -1,0 +1,61 @@
+{
+ "name": "howto33_settings",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/AccountTour.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   53.3,
+   59.8,
+   0.72
+  ]
+ ],
+ "bg": "paper",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto33.png",
+ "hook_secs": 1.6,
+ "series": "HOW TO 33",
+ "title": "YOUR SETTINGS",
+ "voice": "Orus",
+ "vo": [
+  [
+   1.7,
+   "Personal trainers, open the menu, then Settings."
+  ],
+  [
+   4.0,
+   "Set your language and units."
+  ],
+  [
+   5.9,
+   "Light, Dark or Notebook look."
+  ],
+  [
+   7.9,
+   "And pick which pings you get."
+  ]
+ ],
+ "notes": [
+  [
+   2.0,
+   3.4,
+   "tap",
+   0,
+   640,
+   "left"
+  ]
+ ],
+ "sfx": [
+  [
+   2.6,
+   "tap"
+  ],
+  [
+   10.0,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "end_vo": "The Training Notebook One. Personal training software, built for trainers. Try it free for 7 days.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/en/howto33_settings.mp4",
+ "_note": "Recovered 2026-11-04 from the 'Old Publer Posting' chat. src is a 600x1304 30 fps proxy of 01 Raw clips/How-to (made in _work/howto_p6)."
+}

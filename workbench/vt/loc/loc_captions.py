@@ -1,0 +1,48 @@
+# Post captions for the native language reels. BR/MX for 4 to 22 Nov come from /home/claude/up/gen.py and /home/claude/w47/gen47.py;
+# this file adds BR/MX for the 3 Nov how-to and all Indonesian captions (translated from the approved English, 2026-11-04).
+EXTRA_BRMX = {
+ (3, "howto"): ("Personal trainer, o aluno perdeu o convite?\n\nAbra o perfil dele, toque no menu e em Send invite. Já está a caminho.",
+                "Entrenadores personales, ¿su cliente perdió su invitación?\n\nAbran su perfil, toquen el menú y luego Send invite. Ya va en camino."),
+}
+ID = {
+ (4, "video"): "Personal trainer, klien sudah datang tapi programnya belum ada?\n\nSusun latihan 6 gerakan dalam kurang dari 15 detik.\n\nMulai tepat waktu dan terlihat siap.",
+ (4, "howto"): "Personal trainer, jadwalkan sesi langsung dari kalender kamu.\n\nKetuk harinya, pilih klien, beri nama latihannya dan atur jamnya. Sudah ada di kalender. Buka dan tambahkan gerakannya.",
+ (5, "video"): "Personal trainer, ingat apa yang klien ceritakan minggu lalu?\n\nTambahkan catatan di latihan mana pun, tepat di tempat kamu akan melihatnya.\n\nKlien merasa didengar, dan kamu terlihat siap.",
+ (5, "howto"): "Personal trainer, susun program sekali dan pakai untuk setiap klien.\n\nBuka Program templates, ketuk tombol plus, beri nama dan pilih hari latihannya. Atur tujuan dan levelnya, tambahkan latihan dan gerakannya. Lalu berikan ke klien mana pun.",
+ (6, "video"): "Personal trainer, ada klien baru minggu ini?\n\nKlien mengisi formulir awal kamu secara online sebelum sesi pertama.\n\nDatang dengan sudah tahu tujuan dan cederanya.",
+ (6, "howto"): "Personal trainer, ada kardio di program?\n\nTambahkan rowing dan atur menitnya, tanpa repetisi. Sprint pakai detik per set. Lari pakai jarak. Waktu dan jarak, langsung di latihan.",
+ (7, "video"): "Personal trainer, klien sudah di depan pintu.\n\nLatihannya sudah siap dan menunggu di ponsel kamu.\n\nJadi kamu terlihat siap bahkan sebelum dia menyapa.",
+ (7, "howto"): "Personal trainer, mau klien melihat catatan setiap kali membuka aplikasinya?\n\nBuka profilnya, ketuk Add di samping Note to client, tulis catatannya lalu ketuk Save. Catatan muncul di aplikasinya.",
+ (8, "video"): "Personal trainer, klien sedang istirahat antar set.\n\nCatat setiap set langsung di aplikasi.\n\nTidak ada yang perlu ditulis ulang setelah sesi.",
+ (8, "howto"): "Personal trainer, klien latihan sendiri minggu ini?\n\nBuka latihannya, ketuk menu, lalu Export PDF. Kirim atau cetak, supaya dia tidak perlu menebak.",
+ (9, "video"): "Personal trainer, klien berikutnya baru saja datang.\n\nMulai latihan bersama klien dengan 2 ketukan.\n\nLebih sedikit waktu di ponsel, lebih banyak waktu melatih.",
+ (9, "howto"): "Personal trainer, sedang menyusun latihan hari ini?\n\nKetuk Add workout, lalu Build from scratch. Beri nama, atur jamnya, cari gerakannya dan isi set, repetisi, dan beban lewat papan angka. Siap sebelum klien datang.",
+ (10, "video"): "Personal trainer, ada kardio di program hari ini?\n\nCatat waktunya bersama latihan bebannya: rowing dalam menit, sprint dalam detik.\n\nSeluruh sesi di satu tempat, jadi kamu tetap teratur.",
+ (10, "howto"): "Personal trainer, klien sudah selesai berlatih denganmu?\n\nBuka profilnya, ketuk menu, lalu Deactivate. Dia langsung tidak dihitung lagi di paket kamu dan pindah ke tab Deactivated.",
+ (11, "video"): "Personal trainer, apakah klien bisa melihat progresnya?\n\nTunjukkan grafik progres dan foto perbandingan berdampingan di ponsel kamu.\n\nKlien yang melihat progres akan terus datang.",
+ (11, "howto"): "Personal trainer, latihan belum ada tanggalnya?\n\nKetuk Add date dan pilih harinya. Lalu Add time dan atur jamnya. Sekarang sudah terjadwal.",
+ (12, "video"): "Personal trainer, masih mencatat latihan di kertas?\n\nLatihan setiap klien dalam satu aplikasi.\n\nTemukan apa pun dengan cepat dan terlihat rapi.",
+ (12, "howto"): "Personal trainer, nama latihannya kurang pas?\n\nKetuk judulnya, ketik nama baru, simpan. Selesai.",
+ (13, "video"): "Personal trainer, aplikasi ini dibuat oleh personal trainer yang melatih sejak 2006.\n\nLatihan, program, dan progres untuk setiap klien.\n\nDibuat untuk cara kamu melatih yang sebenarnya.",
+ (13, "howto"): "Personal trainer, klien tidak menerima undangannya?\n\nBuka profilnya, ketuk Edit details dan cek emailnya. Lalu ketuk menu dan Resend invite.",
+ (14, "video"): "Personal trainer, siapa yang datang besok?\n\nSesi setiap klien ada dalam satu kalender. Ketuk satu hari dan lihat siapa yang datang.",
+ (14, "howto"): "Personal trainer, ini yang dilihat klien baru kamu.\n\nDia membuka undanganmu dan mengisi formulir awal secara online. Nama, tanggal lahir, tujuan, pengalaman, dan beberapa pertanyaan kesehatan. Sudah ada di profilnya sebelum sesi pertama.",
+ (15, "video"): "Personal trainer, apakah klien tahu latihan berikutnya?\n\nMereka buka aplikasinya dan latihan hari ini langsung ada, dengan catatan kamu di paling atas.",
+ (15, "howto"): "Personal trainer, atur aplikasi sesuai gayamu.\n\nBuka menu, lalu Settings. Atur bahasa dan satuan, pilih Light, Dark, atau Notebook, dan pilih notifikasi yang kamu terima.",
+ (16, "video"): "Personal trainer, siapa yang melewatkan latihan kemarin?\n\nFollow up di Home menampilkan setiap klien yang melewatkannya, dengan tombol Message.\n\nIngatkan mereka sebelum satu hari bolos jadi seminggu.",
+ (17, "video"): "Personal trainer, apa yang terjadi di antara sesi?\n\nBeri setiap klien beberapa kebiasaan dan lihat minggunya sebagai deretan titik.\n\nKarena apa yang klien lakukan di antara sesi sama pentingnya dengan sesinya.",
+ (18, "video"): "Personal trainer, pesan klien berserakan di ponsel kamu?\n\nChat dan pesan suara ada tepat di samping latihannya.\n\nJadi kamu menjawab dengan programnya tepat di depan mata.",
+ (19, "video"): "Personal trainer, capek menyusun program di layar kecil?\n\nSusun di laptop. Saat melatih, sudah ada di ponsel kamu.\n\nRencanakan dengan nyaman, lalu tetap fokus pada klien di gym.",
+ (20, "video"): "Personal trainer, klien baru saja memecahkan rekor pribadi?\n\nRekornya muncul di layar, langsung saat sesi.\n\nRayakan bersama, dan dia terus datang.",
+ (21, "video"): "Personal trainer, klien sering bingung dengan superset mereka?\n\nBeri gerakan yang dipasangkan warna garis yang sama di latihan.\n\nMereka langsung tahu mana yang satu paket, dan kamu tidak perlu banyak menjelaskan.",
+ (22, "video"): "Personal trainer, masih atur jadwal sesi berikutnya lewat pesan?\n\nSepakati waktunya di chat dan langsung masuk ke kalender kalian berdua.\n\nKalian berdua tahu kapan latihan berikutnya, tanpa perlu tanya jawab berulang.",
+ (16, "howto"): "Personal trainer, mau menulis latihan minggu depan? Lebih cepat di laptop.\n\nBuka Calendar, klik satu hari, tambahkan latihan dan ketik setnya. Latihan terakhir klien ada tepat di sampingnya. Ambil ponsel kamu dan semuanya sudah ada di sana.",
+ (17, "howto"): "Personal trainer, mau bukti klien kamu makin kuat?\n\nBuka History klien. Sebuah trofi menandai setiap rekor pribadi baru. Ketuk Details pada satu gerakan untuk melihat angkatan terberatnya dan grafik dari setiap sesi.",
+ (18, "howto"): "Personal trainer, ada gerakan yang belum ada di library?\n\nTambahkan sendiri: beri nama, pilih cara mencatatnya, lalu tambahkan klip kamu sendiri atau tempel link YouTube. Pakai di latihan mana pun.",
+ (19, "howto"): "Personal trainer, apa yang klien lakukan di antara sesi sama pentingnya dengan sesinya.\n\nBeri setiap klien beberapa kebiasaan, pilih harinya dan pengingatnya, lalu lihat minggunya sebagai deretan titik.",
+ (20, "howto"): "Personal trainer, Home menampilkan seluruh hari melatihmu begitu kamu membuka aplikasi.\n\nToday berisi setiap sesi di jadwal kamu. Follow up menampilkan siapa pun yang melewatkan latihan, jadi tidak ada klien yang terlewat.",
+ (21, "howto"): "Personal trainer, begini cara menyusun latihan untuk klien.\n\nPilih hari dan jamnya, ketuk gerakan yang paling sering dipakai atau cari di library, lalu ketik beban dan repetisinya. Kamu bisa melihat angkatan terakhirnya, dan Clone last menyalin satu set dengan satu ketukan.",
+ (22, "howto"): "Personal trainer, mau klien sudah pegang latihannya sebelum datang?\n\nBuka latihannya, ketuk menu, lalu Email to client. Latihan masuk ke email klien dengan PDF terlampir, lengkap dengan warna supersetnya.",
+}
+ID_END = "Coba gratis 7 hari. Link di bio."
+ID_TAGS = "#personaltrainer #pelatihpribadi #fitnessindonesia #personaltrainerjakarta #pelatihfitness"
