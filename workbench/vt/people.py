@@ -25,10 +25,10 @@ def cap_png(path, text):
     if label:
         tmp = path + ".main.png"; cap_png(tmp, text); main = Image.open(tmp)
         fs = ImageFont.truetype(FS, 44); dd = ImageDraw.Draw(Image.new("RGB", (1, 1))); w = int(dd.textlength(label, font=fs)) + 48
-        bb = main.getbbox() or (0, 0, 1080, 240); top = bb[1]
-        out = Image.new("RGBA", (1080, 330), (0, 0, 0, 0)); pill = Image.new("RGBA", (w, 76), (14, 122, 111, 255))
+        bb = main.getbbox() or (0, 0, 1080, 240); top = bb[1]; mh = main.height
+        out = Image.new("RGBA", (1080, 330 + mh - 240), (0, 0, 0, 0)); pill = Image.new("RGBA", (w, 76), (14, 122, 111, 255))
         ImageDraw.Draw(pill).text((24, 38), label, font=fs, fill=(248, 243, 232), anchor="lm")
-        out.alpha_composite(pill, ((1080 - w) // 2, 0)); out.alpha_composite(main.crop((0, top, 1080, 240)), (0, 92)); out.save(path); return
+        out.alpha_composite(pill, ((1080 - w) // 2, 0)); out.alpha_composite(main.crop((0, top, 1080, mh)), (0, 92)); out.save(path); return 0
     text = text.upper().rstrip("."); size = 92; dd = ImageDraw.Draw(Image.new("RGB", (1, 1)))
     while True:
         f = ImageFont.truetype(F900, size); ws = text.split(); lines = [""]
@@ -40,13 +40,13 @@ def cap_png(path, text):
         size -= 4
     if len(lines) == 2 and len(lines[1].split()) == 1 and len(lines[0].split()) > 2:  # no single orphan word
         a = lines[0].split(); lines = [" ".join(a[:-1]), a[-1] + " " + lines[1]]
-    lh = int(size * 1.05); h = lh * len(lines) + 40
-    im = Image.new("RGBA", (1080, 240), (0, 0, 0, 0)); d = ImageDraw.Draw(im); y0 = (240 - lh * len(lines)) // 2 + lh // 2
+    lh = int(size * 1.05); HC = max(240, lh * len(lines) + 40)  # taller canvas for 4 line captions, kept centred
+    im = Image.new("RGBA", (1080, HC), (0, 0, 0, 0)); d = ImageDraw.Draw(im); y0 = (HC - lh * len(lines)) // 2 + lh // 2
     for i, l in enumerate(lines): d.text((540, y0 + i * lh), l, font=f, fill=(0, 0, 0, 210), anchor="mm")
     sh = im.filter(ImageFilter.GaussianBlur(10)); sh2 = im.filter(ImageFilter.GaussianBlur(3))
     out = Image.new("RGBA", im.size, (0, 0, 0, 0)); out.alpha_composite(sh); out.alpha_composite(sh); out.alpha_composite(sh2); d = ImageDraw.Draw(out)
     for i, l in enumerate(lines): d.text((540, y0 + i * lh), l, font=f, fill=(255, 255, 255, 255), anchor="mm")
-    out.save(path)
+    out.save(path); return (HC - 240) // 2
 
 BW = ",hue=s=0.12,eq=contrast=1.12:brightness=-0.01"
 
@@ -108,8 +108,8 @@ def build(cfg):
             inp += ["-loop", "1", "-i", f"{wd}/scr{i}.png"]
             g.append(f"[b{k}][{nin}:v]overlay=x={PX + PADX}:y='{yexp}':enable='between(t,{max(ts, t0):.2f},{te:.2f})'[b{k + 1}]"); nin += 1; k += 1
     for i, (c, s0, e, cy) in enumerate(caps):
-        pth = f"{wd}/c{i}.png"; cap_png(pth, c); inp += ["-loop", "1", "-i", pth]
-        g.append(f"[b{k}][{nin}:v]overlay=0:{cy if cy is not None else (300 if is_callout(c) else 345)}:enable='between(t,{s0:.2f},{e:.2f})'[b{k + 1}]"); nin += 1; k += 1
+        pth = f"{wd}/c{i}.png"; off = cap_png(pth, c) or 0; inp += ["-loop", "1", "-i", pth]
+        g.append(f"[b{k}][{nin}:v]overlay=0:{(cy if cy is not None else (300 if is_callout(c) else 345)) - off}:enable='between(t,{s0:.2f},{e:.2f})'[b{k + 1}]"); nin += 1; k += 1
     g.append(f"[{cvi}:v]scale=1080:1920,zoompan=z='1+0.0006*on':d=1:s=1080x1920:fps=30,trim=0:{H},setpts=PTS-STARTPTS[hk]")
     g.append(f"[b{k}][hk]overlay=0:0:enable='lt(t,{H})'[b{k + 1}]"); k += 1
     inp += ["-loop", "1", "-i", C.get("end_card", f"{V}/endcard.png")]

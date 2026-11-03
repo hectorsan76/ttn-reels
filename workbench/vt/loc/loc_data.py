@@ -218,7 +218,7 @@ ITEMS = {
 "howto30": dict(kind="howto", day=12, slug="rename", n="30", src=C + "howto30_rename.json", en_cover=P + "2026-11-12-howto30-rename/cover.png",
   pt=dict(vo=["Personal trainer, o nome do treino não ficou bom?", "Toque no título e digite o nome novo.", "Salve. Pronto."],
           title="RENOMEAR TREINO", notes=["toque"], cover=("Renomeie um treino", "em segundos.", "digite")),
-  es=dict(vo=["Entrenadores personales, ¿el nombre de la rutina no quedó bien?", "Toquen el título y escriban el nombre nuevo.", "Guarden. Listo."],
+  es=dict(vo=["Entrenadores personales, ¿el nombre no quedó bien?", "Toquen el título y escriban el nombre nuevo.", "Guarden. Listo."],
           title="RENOMBRAR RUTINA", notes=["toquen"], cover=("Renombren una rutina", "en segundos.", "escriban")),
   id=dict(vo=["Personal trainer, nama latihannya kurang pas?", "Ketuk judulnya dan ketik nama baru.", "Simpan. Selesai."],
           title="GANTI NAMA LATIHAN", notes=["ketuk"], cover=("Ganti nama latihan", "dalam hitungan detik.", "ketik"))),

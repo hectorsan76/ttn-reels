@@ -1,0 +1,105 @@
+{
+ "name": "howto32_pt",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/IntakeFormYourClientFillsIn.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   0.5,
+   5.5,
+   2.0
+  ],
+  [
+   10.5,
+   12.5,
+   1.0
+  ],
+  [
+   12.5,
+   22.0,
+   4.0
+  ],
+  [
+   23.0,
+   31.0,
+   2.0
+  ],
+  [
+   31.0,
+   39.5,
+   3.0
+  ],
+  [
+   40.0,
+   43.0,
+   1.0
+  ]
+ ],
+ "bg": "paper",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto32_pt.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 32",
+ "title": "FICHA DE ANAMNESE",
+ "voice": "Aoede",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, veja o que o seu aluno novo vê."
+  ],
+  [
+   4.3,
+   "Ele abre o seu convite e começa a ficha de anamnese."
+  ],
+  [
+   7.0,
+   "Nome, aniversário, objetivos e experiência."
+  ],
+  [
+   10.6,
+   "Algumas perguntas de saúde, depois Submit."
+  ],
+  [
+   15.0,
+   "Fica no perfil dele antes da primeira sessão."
+  ]
+ ],
+ "notes": [
+  [
+   2.6,
+   4.0,
+   "toque",
+   630,
+   1250,
+   "right"
+  ]
+ ],
+ "sfx": [
+  [
+   3.9,
+   "tap"
+  ],
+  [
+   6.4,
+   "tap"
+  ],
+  [
+   9.0,
+   "tap"
+  ],
+  [
+   14.9,
+   "tap"
+  ],
+  [
+   15.6,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/out/howto32_pt.mp4",
+ "lang": "pt-BR",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/IntakeFormYourClientFillsIn.mp4",
+ "rate": 1.0
+}

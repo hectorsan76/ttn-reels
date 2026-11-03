@@ -1,0 +1,91 @@
+{
+ "name": "howto31_id",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/InviteClient1.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   2.5,
+   6.0,
+   1.5
+  ],
+  [
+   6.5,
+   12.0,
+   1.5
+  ],
+  [
+   12.0,
+   15.0,
+   1.0
+  ],
+  [
+   19.5,
+   22.8,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto31_id.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 31",
+ "title": "CEK EMAIL",
+ "voice": "Aoede",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, klien tidak menerima undangannya?"
+  ],
+  [
+   4.4,
+   "Buka profilnya, ketuk Edit details, cek emailnya."
+  ],
+  [
+   8.0,
+   "Lalu ketuk menu dan Resend invite."
+  ],
+  [
+   10.6,
+   "Undangan baru sedang dikirim."
+  ]
+ ],
+ "notes": [
+  [
+   4.6,
+   6.0,
+   "cek",
+   0,
+   860,
+   "left"
+  ]
+ ],
+ "sfx": [
+  [
+   2.4,
+   "tap"
+  ],
+  [
+   4.5,
+   "tap"
+  ],
+  [
+   7.7,
+   "tap"
+  ],
+  [
+   8.6,
+   "tap"
+  ],
+  [
+   10.4,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/out/howto31_id.mp4",
+ "lang": "id-ID",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/InviteClient1.mp4",
+ "rate": 1.0
+}

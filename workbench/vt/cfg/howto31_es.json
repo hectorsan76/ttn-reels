@@ -1,0 +1,91 @@
+{
+ "name": "howto31_es",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/InviteClient1.mp4",
+ "proxy_src": true,
+ "segs": [
+  [
+   2.5,
+   6.0,
+   1.5
+  ],
+  [
+   6.5,
+   12.0,
+   1.5
+  ],
+  [
+   12.0,
+   15.0,
+   1.0
+  ],
+  [
+   19.5,
+   22.8,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto31_es.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 31",
+ "title": "REVISEN EL CORREO",
+ "voice": "Aoede",
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿a su cliente nunca le llegó la invitación?"
+  ],
+  [
+   4.4,
+   "Abran su perfil, toquen Edit details y revisen el correo."
+  ],
+  [
+   8.0,
+   "Luego toquen el menú y Resend invite."
+  ],
+  [
+   10.6,
+   "Una invitación nueva va en camino."
+  ]
+ ],
+ "notes": [
+  [
+   4.6,
+   6.0,
+   "revisen",
+   0,
+   860,
+   "left"
+  ]
+ ],
+ "sfx": [
+  [
+   2.4,
+   "tap"
+  ],
+  [
+   4.5,
+   "tap"
+  ],
+  [
+   7.7,
+   "tap"
+  ],
+  [
+   8.6,
+   "tap"
+  ],
+  [
+   10.4,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_secs": 5.6,
+ "out": "/home/claude/loc/out/howto31_es.mp4",
+ "lang": "es-US",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/InviteClient1.mp4",
+ "rate": 1.1
+}

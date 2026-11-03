@@ -1,0 +1,59 @@
+{
+ "name": "pv13_es",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv13_es.png",
+ "voice": "Algenib",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/s13a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/s13b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.78,
+  "screens": [
+   [
+    5.78,
+    "/mnt/user-data/uploads/TTN Reels/00 App screens/2026-10-22/program_templates_dark.png"
+   ],
+   [
+    7.78,
+    "/mnt/user-data/uploads/TTN Reels/00 App screens/2026-10-22/workout_dark.png"
+   ],
+   [
+    9.38,
+    "/mnt/user-data/uploads/TTN Reels/00 App screens/2026-10-22/assessments_dark.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.2,
+   "Entrenadores personales, esta app la creó un entrenador personal que trabaja desde 2006.",
+   900
+  ],
+  [
+   1,
+   2.2,
+   "Rutinas, programas y progreso de cada cliente."
+  ],
+  [
+   1,
+   5.8,
+   "Hecha para como ustedes entrenan de verdad."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out/pv13_es.mp4",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_secs": 5.6,
+ "lang": "es-US",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "callout": "Entrenadores personales,",
+ "rate": 1.05
+}
