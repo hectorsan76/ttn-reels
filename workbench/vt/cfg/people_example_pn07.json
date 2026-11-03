@@ -1,0 +1,47 @@
+{
+ "name": "pn07",
+ "cover": "/root/vt/cfg/cover_pv14.png",
+ "voice": "Algenib",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n07a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n07b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/root/ttn_templates/assets/cal_nb.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainers, who's coming in tomorrow?",
+   1100
+  ],
+  [
+   1,
+   0.4,
+   "Every client's session, on one calendar."
+  ],
+  [
+   1,
+   4.4,
+   "Tap a day and see who's coming."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "out": "/root/vt/out/TTN_pn07_calendar.mp4",
+ "end_vo": "The Training Notebook One. Personal training software, built for trainers. Try it free for 7 days.",
+ "end_secs": 5.6
+}
