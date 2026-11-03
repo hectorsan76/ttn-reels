@@ -1,0 +1,51 @@
+{
+ "name": "pv_w47_sun_pt",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_sun_pt.png",
+ "voice": "Orus",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_sun_a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_sun_b.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/root/ttn-reels/workbench/vt/cfg/scr_w47_sun_session_jessica.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainer, ainda marca a próxima sessão por mensagem?",
+   1250
+  ],
+  [
+   1,
+   0.4,
+   "Combinem o horário no chat, e ele vai para a agenda dos dois."
+  ],
+  [
+   1,
+   4.8,
+   "Assim os dois sabem quando é o próximo treino, sem vai e vem."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out/pv_w47_sun_pt.mp4",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_secs": 5.6,
+ "lang": "pt-BR",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "callout": "Personal trainer,",
+ "rate": 1.0
+}

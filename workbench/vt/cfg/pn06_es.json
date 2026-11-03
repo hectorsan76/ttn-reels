@@ -1,0 +1,51 @@
+{
+ "name": "pn06_es",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pn06_es.png",
+ "voice": "Orus",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n06a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n06b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/root/ttn-reels/workbench/templates/assets/intake_nb.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Entrenadores personales, ¿cliente nuevo esta semana?",
+   1100
+  ],
+  [
+   1,
+   0.4,
+   "Llena su formulario de ingreso en línea antes de la primera sesión."
+  ],
+  [
+   1,
+   4.4,
+   "Lleguen sabiendo sus objetivos y lesiones."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out/pn06_es.mp4",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_secs": 5.6,
+ "lang": "es-US",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "callout": "Entrenadores personales,",
+ "rate": 1.0
+}
