@@ -1,0 +1,125 @@
+{
+ "name": "howto25_pt",
+ "src": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/BookaSessionfromtheCalendar.mp4",
+ "segs": [
+  [
+   6.0,
+   8.5,
+   1.2
+  ],
+  [
+   8.5,
+   11.5,
+   1.2
+  ],
+  [
+   12.0,
+   21.5,
+   4.5
+  ],
+  [
+   22.0,
+   26.5,
+   2.0
+  ],
+  [
+   27.0,
+   30.0,
+   1.2
+  ],
+  [
+   32.5,
+   34.0,
+   1.0
+  ],
+  [
+   40.5,
+   51.5,
+   3.5
+  ],
+  [
+   52.0,
+   56.0,
+   1.5
+  ]
+ ],
+ "bg": "navy",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto25_pt.png",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 25",
+ "title": "AGENDAR SESSÃO",
+ "voice": "Laomedeia",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, agende uma sessão direto do calendário."
+  ],
+  [
+   3.8,
+   "Toque no dia e escolha o aluno."
+  ],
+  [
+   6.3,
+   "Dê um nome ao treino."
+  ],
+  [
+   8.4,
+   "Defina o horário."
+  ],
+  [
+   10.7,
+   "Está no calendário."
+  ],
+  [
+   13.2,
+   "Abra e adicione os exercícios."
+  ],
+  [
+   17.8,
+   "Agendado e montado."
+  ]
+ ],
+ "notes": [
+  [
+   3.9,
+   5.4,
+   "escolha",
+   0,
+   860,
+   "left"
+  ]
+ ],
+ "sfx": [
+  [
+   3.7,
+   "tap"
+  ],
+  [
+   8.3,
+   "tap"
+  ],
+  [
+   10.6,
+   "tap"
+  ],
+  [
+   13.1,
+   "tap"
+  ],
+  [
+   17.7,
+   "tap"
+  ],
+  [
+   19.0,
+   "chime"
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "out": "/home/claude/loc/out/howto25_pt.mp4",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/_work/howto_p6/BookaSessionfromtheCalendar.mp4",
+ "rate": 1.0
+}

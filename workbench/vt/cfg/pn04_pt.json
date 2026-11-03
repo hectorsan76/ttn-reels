@@ -1,0 +1,51 @@
+{
+ "name": "pn04_pt",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pn04_pt.png",
+ "voice": "Aoede",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n04a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n04b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/00 App screens/2026-10-22/workout_dark.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainer, o aluno chegou e o treino ainda não está pronto?",
+   1100
+  ],
+  [
+   1,
+   0.4,
+   "Monte um treino de 6 exercícios em menos de 15 segundos."
+  ],
+  [
+   1,
+   4.0,
+   "Comece na hora e mostre que está preparado."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out/pn04_pt.mp4",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_secs": 5.6,
+ "lang": "pt-BR",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "callout": "Personal trainer,",
+ "rate": 1.0
+}
