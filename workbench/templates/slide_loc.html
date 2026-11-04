@@ -1,0 +1,65 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:M;font-weight:800;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:M;font-weight:900;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-900-normal.woff2)}
+@font-face{font-family:M;font-weight:600;src:url(node_modules/@fontsource/montserrat/files/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:K;font-weight:700;src:url(node_modules/@fontsource/kalam/files/kalam-latin-700-normal.woff2)}
+@font-face{font-family:S;font-weight:700;src:url(node_modules/@fontsource/space-mono/files/space-mono-latin-700-normal.woff2)}
+:root{--ink:#1A1A1A;--teal:#0E7A6F;--lteal:#3BC3B3;--orange:#EE7868;--coral:#B94D3F;--navy:#0B0F19;--cream:#F8F3E8;--paper:#F6F1E4;--yellow:#F5C84C}
+html,body{margin:0}
+.s{position:relative;width:1080px;height:1350px;overflow:hidden;font-family:M}
+.paper{background:linear-gradient(90deg,transparent 96px,rgba(214,96,96,.6) 96px,rgba(214,96,96,.6) 101px,transparent 101px),repeating-linear-gradient(180deg,transparent 0 66px,rgba(96,140,184,.34) 66px 69px),var(--paper);color:var(--ink)}
+.navy{background:var(--navy);color:#fff}
+.box{position:absolute;left:150px;right:150px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:34px}
+.box.top{justify-content:flex-start;padding-top:170px}
+.hd{font-weight:900;font-size:76px;line-height:1.05;text-wrap:balance}
+.hd em{font-style:normal;color:var(--orange)}.paper .hd em{color:var(--coral)}
+.sub{font:600 40px/1.35 M;opacity:.85}
+.hand{font:700 64px/1.1 K;color:var(--teal);transform:rotate(-3deg)}.navy .hand{color:var(--yellow)}
+.stars{font-size:70px;letter-spacing:8px;color:var(--orange)}.paper .stars{color:var(--coral)}
+.quote{font:700 80px/1.12 K}
+.by{font:700 36px S;color:var(--teal);letter-spacing:.05em}.navy .by{color:var(--lteal)}
+.cta{font:900 44px M;color:var(--orange);letter-spacing:.02em}.paper .cta{color:var(--coral)}
+.ph{position:absolute;left:50%;transform:translateX(-50%);top:560px;width:430px;background:#0a0a0b;border-radius:64px;padding:16px;box-shadow:0 40px 90px rgba(0,0,0,.35),0 0 0 5px #2b2b2f}
+.ph img{width:100%;display:block;border-radius:50px}
+.arrow{position:absolute;right:150px;bottom:150px;width:74px;height:74px;border-radius:50%;border:5px solid currentColor;display:grid;place-items:center;font:900 38px M;box-sizing:border-box;z-index:3}
+.paper .arrow{background:var(--paper)}.navy .arrow{background:var(--navy)}
+.handle{position:absolute;right:150px;bottom:150px;font:700 30px S;opacity:.6}
+.lock{position:absolute;left:130px;bottom:150px;display:flex;align-items:center;gap:16px;padding:12px 26px 12px 12px;border-radius:60px;z-index:3}
+.paper .lock{background:var(--paper)}.navy .lock{background:var(--navy)}
+.lock .ic{width:84px;height:84px;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:0 0 0 2px rgba(0,0,0,.08)}
+.lock .ic img{width:66px}.lock span{font:800 27px/1.12 M;letter-spacing:.02em}.lock b{color:var(--orange)}
+/* added 2026-11-03: full phone (never cropped), laptop frame, CTA with phone */
+.ph.full{padding:15px;border-radius:58px;width:auto}.ph.full img{border-radius:44px;width:auto}
+.lap{position:absolute;left:150px;width:748px;background:#1d1f24;border-radius:22px;padding:16px 16px 0;box-shadow:0 40px 90px rgba(0,0,0,.4),0 0 0 3px #3a3f4a}
+.lap .bar{display:flex;gap:9px;padding:0 0 12px 4px}.lap .bar i{width:14px;height:14px;border-radius:50%;background:#555b66}
+.lap img{width:100%;display:block;border-radius:6px 6px 0 0}
+.lapbase{position:absolute;left:150px;width:780px;height:20px;background:#3a3f4a;border-radius:0 0 26px 26px}
+.lapnote{position:absolute;font:700 60px/1 K;color:var(--teal);transform:rotate(-3deg)}.navy .lapnote{color:var(--yellow)}
+.cp{position:absolute;left:150px;width:400px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;gap:30px}
+.cp .hd{font-size:58px}.cp .hand{font-size:50px}.cp .cta{font-size:34px;line-height:1.2}
+.ph.side{left:auto;right:150px;transform:none}
+</style></head><body><div id="root"></div>
+<script>
+const C=JSON.parse(decodeURIComponent(new URLSearchParams(location.search).get('c')));
+let inner='';
+if(C.type==='quote') inner=`<div class="box"><div class="stars">★★★★★</div><div class="quote"${C.qfs?` style="font-size:${C.qfs}px"`:''}>${C.quote}</div><div class="by">${C.by}</div></div>`;
+if(C.type==='laptop') inner=`<div class="box top"><div class="hd" style="font-size:68px">${C.hd}</div>${C.sub?`<div class="sub">${C.sub}</div>`:''}</div><div class="lap"><div class="bar"><i></i><i></i><i></i></div><img src="${C.img}"></div><div class="lapbase"></div>${C.hand?`<div class="lapnote">${C.hand}</div>`:''}`;
+if(C.type==='cta_phone') inner=`<div class="cp"><div class="hd">${C.hd}</div>${C.hand?`<div class="hand">${C.hand}</div>`:''}<div class="cta">${C.cta2||"TRY THE 7 DAY<br>FREE TRIAL"}</div></div><div class="ph full side"><img src="${C.img}"></div><div class="lock"><div class="ic"><img src="assets/icon.png"></div><span>THE TRAINING<br>NOTEBOOK <b>ONE</b></span></div><div class="handle">@thetrainingnotebookapp</div>`;
+const HS=C.hfs?` style="font-size:${C.hfs}px"`:'';
+if(C.type==='text') inner=`<div class="box"><div class="hd"${HS}>${C.hd}</div>${C.hand?`<div class="hand">${C.hand}</div>`:''}${C.sub?`<div class="sub">${C.sub}</div>`:''}</div>`;
+if(C.type==='phone') inner=`<div class="box top"><div class="hd" style="font-size:68px">${C.hd}</div>${C.sub?`<div class="sub">${C.sub}</div>`:''}</div><div class="ph${C.full?' full':''}"><img src="${C.img}"></div>`;
+if(C.type==='cta') inner=`<div class="box"><div class="hd"${HS}>${C.hd}</div>${C.hand?`<div class="hand">${C.hand}</div>`:''}<div class="cta">${C.cta||"TRY THE 7 DAY FREE TRIAL"}</div></div><div class="lock"><div class="ic"><img src="assets/icon.png"></div><span>THE TRAINING<br>NOTEBOOK <b>ONE</b></span></div><div class="handle">@thetrainingnotebookapp</div>`;
+document.getElementById('root').innerHTML=`<div class="s ${C.bg}">${inner}${!['cta','cta_phone'].includes(C.type)?'<div class="arrow">→</div>':''}</div>`;
+document.fonts.ready.then(async()=>{
+ await Promise.all([...document.images].map(i=>i.complete?1:new Promise(r=>{i.onload=r;i.onerror=r})));
+ // full phone and laptop sit under the text block and end by y 1200 (buffered zone); old specs are unchanged
+ const box=document.querySelector('.box.top');const tb=box?[...box.children].reduce((m,e)=>Math.max(m,e.getBoundingClientRect().bottom),0):0;
+ const ph=document.querySelector('.ph.full:not(.side)');
+ if(ph){const img=ph.querySelector('img');const top=Math.round(tb+44);const H=Math.min(1200-top-30,C.pmax||900);img.style.height=H+'px';img.style.width=Math.round(H*img.naturalWidth/img.naturalHeight)+'px';ph.style.top=top+'px'}
+ const sp=document.querySelector('.ph.side');
+ if(sp){const img=sp.querySelector('img');const H=C.pmax||720;img.style.height=H+'px';img.style.width=Math.round(H*img.naturalWidth/img.naturalHeight)+'px';sp.style.top=Math.round((1350-H-30)/2-30)+'px'}
+ const lap=document.querySelector('.lap');
+ if(lap){lap.style.top=Math.round(tb+70)+'px';const b=lap.getBoundingClientRect().bottom;document.querySelector('.lapbase').style.top=b+'px';
+  const n=document.querySelector('.lapnote');if(n){n.style.left='160px';n.style.top=Math.round(b+60)+'px'}}
+ document.body.dataset.done=1});
+</script></body></html>
