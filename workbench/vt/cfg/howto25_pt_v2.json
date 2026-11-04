@@ -1,0 +1,157 @@
+{
+ "name": "howto25_pt_v2",
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-BOOK/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-BOOK/take_p6.mp4",
+ "segs": [
+  [
+   6.3,
+   9.95,
+   2.0
+  ],
+  [
+   9.95,
+   13.9,
+   1.6
+  ],
+  [
+   13.9,
+   20.3,
+   2.5
+  ],
+  [
+   42.2,
+   44.7,
+   1.5
+  ],
+  [
+   52.3,
+   69.5,
+   5.0
+  ],
+  [
+   74.4,
+   75.3,
+   1.0
+  ],
+  [
+   80.7,
+   85.5,
+   1.4
+  ],
+  [
+   90.5,
+   97.9,
+   3.0
+  ],
+  [
+   97.9,
+   113.0,
+   5.0
+  ],
+  [
+   146.6,
+   150.5,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 25",
+ "title": "AGENDAR SESSÃO",
+ "voice": "Laomedeia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/howto25_pt_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto25_pt_v2.png",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, agende uma sessão direto do calendário."
+  ],
+  [
+   3.35,
+   "Toque no dia e escolha o aluno."
+  ],
+  [
+   6.65,
+   "Dê um nome ao treino."
+  ],
+  [
+   10.14,
+   "Defina o horário."
+  ],
+  [
+   14.67,
+   "Está no calendário."
+  ],
+  [
+   17.99,
+   "Abra e adicione os exercícios."
+  ],
+  [
+   23.48,
+   "Agendado e montado."
+  ]
+ ],
+ "sfx": [
+  [
+   3.47,
+   "tap"
+  ],
+  [
+   5.86,
+   "tap"
+  ],
+  [
+   6.74,
+   "tap"
+  ],
+  [
+   10.17,
+   "tap"
+  ],
+  [
+   14.14,
+   "tap"
+  ],
+  [
+   14.67,
+   "tap"
+  ],
+  [
+   18.08,
+   "tap"
+  ],
+  [
+   20.35,
+   "tap"
+  ],
+  [
+   21.86,
+   "tap"
+  ],
+  [
+   23.33,
+   "tap"
+  ],
+  [
+   23.58,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   4.46,
+   6.01,
+   "escolha",
+   304,
+   1008,
+   "right"
+  ]
+ ],
+ "rate": 1.0
+}

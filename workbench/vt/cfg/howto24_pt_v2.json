@@ -1,0 +1,183 @@
+{
+ "name": "howto24_pt_v2",
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-TEMPLATE/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-TEMPLATE/take_p6.mp4",
+ "segs": [
+  [
+   0.5,
+   6.5,
+   1.5
+  ],
+  [
+   9.0,
+   15.5,
+   2.2
+  ],
+  [
+   24.5,
+   46.5,
+   7.0
+  ],
+  [
+   52.8,
+   66.5,
+   3.5
+  ],
+  [
+   73.5,
+   102.0,
+   6.5
+  ],
+  [
+   103.0,
+   120.5,
+   5.0
+  ],
+  [
+   125.5,
+   160.5,
+   8.0
+  ],
+  [
+   160.5,
+   165.3,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 24",
+ "title": "MODELO DE PROGRAMA",
+ "voice": "Sadachbia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/Beat 4 casey.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/howto24_pt_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto24_pt_v2.png",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, monte um programa uma vez e use com todos os alunos."
+  ],
+  [
+   3.53,
+   "Abra Modelos de programa e toque no mais."
+  ],
+  [
+   8.57,
+   "Dê um nome e escolha os dias de treino."
+  ],
+  [
+   15.66,
+   "Defina o objetivo e o nível."
+  ],
+  [
+   20.08,
+   "Adicione o primeiro treino."
+  ],
+  [
+   23.53,
+   "Depois adicione os exercícios."
+  ],
+  [
+   27.31,
+   "A primeira semana está pronta. Passe a qualquer aluno."
+  ]
+ ],
+ "sfx": [
+  [
+   2.45,
+   "tap"
+  ],
+  [
+   3.67,
+   "tap"
+  ],
+  [
+   7.51,
+   "tap"
+  ],
+  [
+   8.62,
+   "tap"
+  ],
+  [
+   14.49,
+   "tap"
+  ],
+  [
+   15.7,
+   "tap"
+  ],
+  [
+   16.8,
+   "tap"
+  ],
+  [
+   18.04,
+   "tap"
+  ],
+  [
+   18.34,
+   "tap"
+  ],
+  [
+   19.6,
+   "tap"
+  ],
+  [
+   20.11,
+   "tap"
+  ],
+  [
+   21.48,
+   "tap"
+  ],
+  [
+   23.01,
+   "tap"
+  ],
+  [
+   23.56,
+   "tap"
+  ],
+  [
+   24.8,
+   "tap"
+  ],
+  [
+   25.67,
+   "tap"
+  ],
+  [
+   25.98,
+   "tap"
+  ],
+  [
+   26.95,
+   "tap"
+  ],
+  [
+   27.27,
+   "tap"
+  ],
+  [
+   27.68,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   6.11,
+   7.66,
+   "mais",
+   624,
+   705,
+   "right_up"
+  ]
+ ],
+ "rate": 1.0
+}

@@ -1,0 +1,83 @@
+{
+ "name": "howto30_pt_v2",
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-RENAME/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-RENAME/take_p6.mp4",
+ "segs": [
+  [
+   28.5,
+   38.2,
+   3.0
+  ],
+  [
+   38.2,
+   40.6,
+   1.2
+  ],
+  [
+   40.6,
+   52.0,
+   3.0
+  ],
+  [
+   55.8,
+   61.5,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 30",
+ "title": "RENOMEAR TREINO",
+ "voice": "Sadachbia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/howto30_pt_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto30_pt_v2.png",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, o nome do treino não ficou bom?"
+  ],
+  [
+   4.73,
+   "Toque no título e digite o nome novo."
+  ],
+  [
+   11.23,
+   "Salve. Pronto."
+  ]
+ ],
+ "sfx": [
+  [
+   4.81,
+   "tap"
+  ],
+  [
+   9.43,
+   "tap"
+  ],
+  [
+   11.41,
+   "tap"
+  ],
+  [
+   11.63,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   3.41,
+   4.96,
+   "toque",
+   357,
+   689,
+   "right_up"
+  ]
+ ],
+ "rate": 1.0
+}

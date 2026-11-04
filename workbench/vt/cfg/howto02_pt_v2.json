@@ -1,0 +1,105 @@
+{
+ "name": "howto02_pt_v2",
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-INVITE/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-INVITE/take_p6.mp4",
+ "segs": [
+  [
+   1.5,
+   4.9,
+   1.5
+  ],
+  [
+   4.9,
+   9.2,
+   1.5
+  ],
+  [
+   9.2,
+   12.8,
+   1.5
+  ],
+  [
+   32.3,
+   35.0,
+   1.0
+  ],
+  [
+   40.6,
+   42.2,
+   1.0
+  ],
+  [
+   45.2,
+   49.4,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 02",
+ "title": "REENVIAR CONVITE",
+ "voice": "Algenib",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/howto02_pt_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto02_pt_v2.png",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, o aluno perdeu o convite?"
+  ],
+  [
+   5.27,
+   "Abra o perfil dele."
+  ],
+  [
+   9.23,
+   "Toque no menu e depois em Enviar convite."
+  ],
+  [
+   13.53,
+   "Pronto. Já está a caminho."
+  ]
+ ],
+ "sfx": [
+  [
+   3.79,
+   "tap"
+  ],
+  [
+   5.06,
+   "tap"
+  ],
+  [
+   6.56,
+   "tap"
+  ],
+  [
+   9.64,
+   "tap"
+  ],
+  [
+   12.41,
+   "tap"
+  ],
+  [
+   13.73,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   8.24,
+   9.79,
+   "toque",
+   624,
+   705,
+   "right_up"
+  ]
+ ],
+ "rate": 1.0
+}

@@ -1,0 +1,52 @@
+{
+ "name": "pn06_pt_v2",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pn06_pt.png",
+ "voice": "Orus",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n06a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n06b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/stills/intake_nb.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainer, aluno novo essa semana?",
+   1100
+  ],
+  [
+   1,
+   0.4,
+   "Ele preenche sua ficha de anamnese online antes da primeira sessão."
+  ],
+  [
+   1,
+   4.4,
+   "Chegue sabendo os objetivos e as lesões dele."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out_v2/pn06_pt_v2.mp4",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_secs": 5.6,
+ "lang": "pt-BR",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "callout": "Personal trainer,",
+ "rate": 1.0,
+ "cap_gap": 0.07
+}

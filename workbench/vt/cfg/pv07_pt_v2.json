@@ -1,0 +1,55 @@
+{
+ "name": "pv07_pt_v2",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv07_pt.png",
+ "voice": "Aoede",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/p07a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/p07b.mp4",
+   1.25
+  ]
+ ],
+ "phone": {
+  "t0": 5.55,
+  "screens": [
+   [
+    5.55,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/stills/home_dark.png"
+   ],
+   [
+    10.0,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/stills/workout_dark.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.3,
+   "Personal trainer, o aluno está chegando."
+  ],
+  [
+   1,
+   0.45,
+   "O treino dele já está pronto no seu celular."
+  ],
+  [
+   1,
+   4.9,
+   "Assim você parece preparado antes mesmo do oi."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out_v2/pv07_pt_v2.mp4",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_secs": 5.6,
+ "lang": "pt-BR",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "callout": "Personal trainer,",
+ "rate": 1.0,
+ "cap_gap": 0.07
+}

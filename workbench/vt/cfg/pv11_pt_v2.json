@@ -1,0 +1,55 @@
+{
+ "name": "pv11_pt_v2",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv11_pt.png",
+ "voice": "Orus",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/s11a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/s11b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/stills/assessments_dark.png"
+   ],
+   [
+    9.08,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/stills/photo_compare_dark.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.3,
+   "Personal trainer, o aluno vê o próprio progresso?"
+  ],
+  [
+   1,
+   0.4,
+   "Mostre o gráfico de evolução dele no seu celular."
+  ],
+  [
+   1,
+   3.8,
+   "Aluno que vê progresso continua vindo."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out_v2/pv11_pt_v2.mp4",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_secs": 5.6,
+ "lang": "pt-BR",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "callout": "Personal trainer,",
+ "rate": 1.0,
+ "cap_gap": 0.07
+}

@@ -1,0 +1,217 @@
+{
+ "name": "howto18_pt_v2",
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-TIMED/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-TIMED/take_p6.mp4",
+ "segs": [
+  [
+   2.5,
+   5.5,
+   1.5
+  ],
+  [
+   5.5,
+   23.0,
+   6.0
+  ],
+  [
+   23.0,
+   44.5,
+   7.0
+  ],
+  [
+   44.5,
+   47.0,
+   2.0
+  ],
+  [
+   63.3,
+   69.5,
+   2.5
+  ],
+  [
+   72.0,
+   96.0,
+   10.0
+  ],
+  [
+   146.5,
+   152.3,
+   3.0
+  ],
+  [
+   152.3,
+   172.5,
+   7.0
+  ],
+  [
+   172.5,
+   181.2,
+   4.0
+  ],
+  [
+   183.2,
+   196.3,
+   7.0
+  ],
+  [
+   208.0,
+   212.0,
+   3.0
+  ],
+  [
+   212.0,
+   233.0,
+   7.0
+  ],
+  [
+   233.0,
+   239.0,
+   3.0
+  ],
+  [
+   239.0,
+   243.0,
+   1.0
+  ]
+ ],
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 18",
+ "title": "SÉRIES POR TEMPO",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/howto18_pt_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto18_pt_v2.png",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, tem cardio no plano?"
+  ],
+  [
+   4.65,
+   "Busque o remo."
+  ],
+  [
+   7.86,
+   "Defina os minutos. Sem repetições."
+  ],
+  [
+   10.92,
+   "Pronto, está aí."
+  ],
+  [
+   17.55,
+   "Tiros? Segundos por série."
+  ],
+  [
+   25.58,
+   "Corrida? Adicione a distância."
+  ],
+  [
+   29.92,
+   "Tempo e distância, direto no treino."
+  ]
+ ],
+ "sfx": [
+  [
+   3.58,
+   "tap"
+  ],
+  [
+   4.68,
+   "tap"
+  ],
+  [
+   6.48,
+   "tap"
+  ],
+  [
+   7.89,
+   "tap"
+  ],
+  [
+   9.03,
+   "tap"
+  ],
+  [
+   11.05,
+   "tap"
+  ],
+  [
+   13.37,
+   "tap"
+  ],
+  [
+   15.43,
+   "tap"
+  ],
+  [
+   17.53,
+   "tap"
+  ],
+  [
+   18.89,
+   "tap"
+  ],
+  [
+   19.35,
+   "tap"
+  ],
+  [
+   19.77,
+   "tap"
+  ],
+  [
+   20.12,
+   "tap"
+  ],
+  [
+   22.69,
+   "tap"
+  ],
+  [
+   24.52,
+   "tap"
+  ],
+  [
+   25.91,
+   "tap"
+  ],
+  [
+   26.27,
+   "tap"
+  ],
+  [
+   27.25,
+   "tap"
+  ],
+  [
+   27.62,
+   "tap"
+  ],
+  [
+   28.93,
+   "tap"
+  ],
+  [
+   31.92,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   6.49,
+   8.04,
+   "minutos",
+   121,
+   1459,
+   "left"
+  ]
+ ],
+ "rate": 1.0
+}

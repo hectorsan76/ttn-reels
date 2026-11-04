@@ -1,0 +1,191 @@
+{
+ "name": "howto32_pt_v2",
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-THROWAWAY_1/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-THROWAWAY_1/take_p6.mp4",
+ "segs": [
+  [
+   2.95,
+   8.5,
+   2.0
+  ],
+  [
+   16.8,
+   18.5,
+   1.2
+  ],
+  [
+   108.5,
+   115.5,
+   2.5
+  ],
+  [
+   115.5,
+   125.0,
+   5.0
+  ],
+  [
+   143.0,
+   163.0,
+   8.0
+  ],
+  [
+   176.3,
+   218.0,
+   20.0
+  ],
+  [
+   236.0,
+   241.0,
+   4.0
+  ],
+  [
+   262.5,
+   271.0,
+   4.0
+  ],
+  [
+   293.4,
+   328.0,
+   20.0
+  ],
+  [
+   355.5,
+   441.0,
+   20.0
+  ],
+  [
+   470.5,
+   472.5,
+   1.0
+  ],
+  [
+   479.5,
+   485.0,
+   1.0
+  ]
+ ],
+ "bg": "paper",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 32",
+ "title": "FICHA DE ANAMNESE",
+ "voice": "Aoede",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/howto32_pt_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto32_pt_v2.png",
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, veja o que o seu aluno novo vê."
+  ],
+  [
+   2.12,
+   "Ele abre o seu convite e começa a ficha de anamnese."
+  ],
+  [
+   5.83,
+   "Nome, aniversário, objetivos e experiência."
+  ],
+  [
+   17.7,
+   "Algumas perguntas de saúde, depois Enviar."
+  ],
+  [
+   26.96,
+   "Fica no perfil dele antes da primeira sessão."
+  ]
+ ],
+ "sfx": [
+  [
+   4.9,
+   "tap"
+  ],
+  [
+   7.14,
+   "tap"
+  ],
+  [
+   7.75,
+   "tap"
+  ],
+  [
+   8.26,
+   "tap"
+  ],
+  [
+   12.6,
+   "tap"
+  ],
+  [
+   13.01,
+   "tap"
+  ],
+  [
+   15.69,
+   "tap"
+  ],
+  [
+   16.65,
+   "tap"
+  ],
+  [
+   17.02,
+   "tap"
+  ],
+  [
+   18.48,
+   "tap"
+  ],
+  [
+   20.22,
+   "tap"
+  ],
+  [
+   20.7,
+   "tap"
+  ],
+  [
+   21.36,
+   "tap"
+  ],
+  [
+   22.56,
+   "tap"
+  ],
+  [
+   23.4,
+   "tap"
+  ],
+  [
+   23.82,
+   "tap"
+  ],
+  [
+   24.35,
+   "tap"
+  ],
+  [
+   25.29,
+   "tap"
+  ],
+  [
+   27.96,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   23.89,
+   25.44,
+   "toque",
+   320,
+   1475,
+   "left"
+  ]
+ ],
+ "rate": 1.0
+}
