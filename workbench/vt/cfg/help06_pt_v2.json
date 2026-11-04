@@ -1,0 +1,197 @@
+{
+ "name": "help06_pt_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "SEU PRÓPRIO EXERCÍCIO",
+ "voice": "Algenib",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/help06_pt_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/H06/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/H06/take_p6.mp4",
+ "segs": [
+  [
+   2.0,
+   5.8,
+   1.5
+  ],
+  [
+   5.8,
+   11.0,
+   1.5
+  ],
+  [
+   11.0,
+   20.3,
+   2.5
+  ],
+  [
+   20.3,
+   32.5,
+   4.0
+  ],
+  [
+   32.5,
+   48.6,
+   6.0
+  ],
+  [
+   48.6,
+   64.0,
+   4.0
+  ],
+  [
+   64.0,
+   95.5,
+   7.0
+  ],
+  [
+   95.5,
+   103.3,
+   1.8
+  ],
+  [
+   103.3,
+   112.0,
+   2.5
+  ],
+  [
+   112.0,
+   135.0,
+   6.0
+  ],
+  [
+   135.0,
+   149.0,
+   4.0
+  ],
+  [
+   149.0,
+   164.5,
+   4.0
+  ],
+  [
+   164.5,
+   174.0,
+   1.3
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, tem um exercício que não está na biblioteca?"
+  ],
+  [
+   2.6,
+   "Adicione você mesmo, com o seu próprio vídeo."
+  ],
+  [
+   3.6,
+   "Toque em Adicionar exercício, depois em Meus e em Adicionar exercício personalizado."
+  ],
+  [
+   14.32,
+   "Dê um nome e escolha o que você registra."
+  ],
+  [
+   20.9,
+   "Depois a categoria, o músculo e o equipamento."
+  ],
+  [
+   25.4,
+   "Tem um vídeo no YouTube?"
+  ],
+  [
+   27.9,
+   "Cole o link aqui, ou toque em Adicionar um vídeo ou foto e escolha um clipe do celular."
+  ],
+  [
+   39.8,
+   "Toque em Adicionar, e ele já está na sua biblioteca."
+  ],
+  [
+   44.3,
+   "Abra, e lá está o seu vídeo, rodando dentro do app."
+  ]
+ ],
+ "sfx": [
+  [
+   4.05,
+   "tap"
+  ],
+  [
+   7.57,
+   "tap"
+  ],
+  [
+   11.26,
+   "tap"
+  ],
+  [
+   14.33,
+   "tap"
+  ],
+  [
+   18.79,
+   "tap"
+  ],
+  [
+   20.89,
+   "tap"
+  ],
+  [
+   22.25,
+   "tap"
+  ],
+  [
+   23.7,
+   "tap"
+  ],
+  [
+   25.05,
+   "tap"
+  ],
+  [
+   29.67,
+   "tap"
+  ],
+  [
+   33.05,
+   "tap"
+  ],
+  [
+   36.97,
+   "tap"
+  ],
+  [
+   40.53,
+   "tap"
+  ],
+  [
+   44.36,
+   "tap"
+  ],
+  [
+   44.38,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   6.17,
+   7.72,
+   "toque",
+   543,
+   817,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help06_pt_v2.png",
+ "rate": 1.0
+}

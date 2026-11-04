@@ -1,0 +1,165 @@
+{
+ "name": "help05_pt_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "TREINO POR EMAIL",
+ "voice": "Aoede",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/help05_pt_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_v2/proxy/help05_redacted_d2652c9c.mp4",
+ "proxy": "/home/claude/loc/out_v2/proxy/help05_redacted_d2652c9c.mp4",
+ "segs": [
+  [
+   6.0,
+   9.5,
+   1.5
+  ],
+  [
+   9.5,
+   12.0,
+   1.5
+  ],
+  [
+   12.0,
+   36.0,
+   5.0
+  ],
+  [
+   36.0,
+   40.0,
+   1.5
+  ],
+  [
+   61.5,
+   64.0,
+   1.0
+  ],
+  [
+   64.0,
+   71.5,
+   2.2
+  ],
+  [
+   71.5,
+   80.0,
+   3.5
+  ],
+  [
+   80.0,
+   85.0,
+   1.2
+  ],
+  [
+   95.5,
+   103.0,
+   2.2
+  ],
+  [
+   103.0,
+   113.5,
+   4.0
+  ],
+  [
+   113.5,
+   116.5,
+   2.0
+  ],
+  [
+   119.6,
+   129.0,
+   3.5
+  ],
+  [
+   129.0,
+   137.0,
+   3.0
+  ]
+ ],
+ "redact_boxes": 6,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, quer que o aluno receba o treino antes mesmo de chegar?"
+  ],
+  [
+   3.93,
+   "É só mandar por email."
+  ],
+  [
+   8.0,
+   "Vê as cores dos seus bi-sets?"
+  ],
+  [
+   10.4,
+   "Elas vão junto."
+  ],
+  [
+   13.07,
+   "Toque no menu e depois em Enviar ao cliente."
+  ],
+  [
+   20.83,
+   "Toque em Enviar, e chega no email dele com o PDF anexado."
+  ],
+  [
+   25.57,
+   "Quer uma cópia para você?"
+  ],
+  [
+   27.62,
+   "Toque em Exportar PDF, depois em Pré-Visualização, e pronto."
+  ],
+  [
+   35.51,
+   "Com as cores e tudo."
+  ]
+ ],
+ "sfx": [
+  [
+   14.0,
+   "tap"
+  ],
+  [
+   18.69,
+   "tap"
+  ],
+  [
+   22.02,
+   "tap"
+  ],
+  [
+   25.95,
+   "tap"
+  ],
+  [
+   28.73,
+   "tap"
+  ],
+  [
+   31.86,
+   "tap"
+  ],
+  [
+   24.74,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   17.29,
+   18.84,
+   "toque",
+   344,
+   754,
+   "right"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help05_pt_v2.png",
+ "rate": 1.0
+}

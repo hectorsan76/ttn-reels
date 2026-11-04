@@ -1,0 +1,192 @@
+{
+ "name": "help09_pt_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "HÁBITOS DIÁRIOS",
+ "voice": "Laomedeia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/help09_pt_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_v2/proxy/help09_redacted_ac4342e6.mp4",
+ "proxy": "/home/claude/loc/out_v2/proxy/help09_redacted_ac4342e6.mp4",
+ "segs": [
+  [
+   0.5,
+   8.5,
+   0.667
+  ],
+  [
+   199.0,
+   207.5,
+   1.7
+  ],
+  [
+   8.8,
+   17.0,
+   2.1
+  ],
+  [
+   17.0,
+   41.0,
+   5.7
+  ],
+  [
+   41.0,
+   117.2,
+   11.2
+  ],
+  [
+   117.2,
+   138.2,
+   4.0
+  ],
+  [
+   138.2,
+   158.0,
+   4.4
+  ],
+  [
+   158.0,
+   178.5,
+   2.8
+  ]
+ ],
+ "redact_boxes": 3,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, com os hábitos, você ajuda seus alunos a criar bons hábitos e acompanha tudo, todo dia."
+  ],
+  [
+   6.85,
+   "Um hábito é uma pequena meta diária, como beber 8 copos de água ou caminhar."
+  ],
+  [
+   13.59,
+   "O aluno vê os hábitos todo dia no app dele e marca conforme cumpre."
+  ],
+  [
+   18.69,
+   "Para adicionar, abra o aluno e toque em Hábitos."
+  ],
+  [
+   22.53,
+   "Toque em Adicionar e escolha um hábito da lista, ou crie o seu."
+  ],
+  [
+   26.75,
+   "Escolha um ícone e um horário de lembrete, se quiser que o celular dele avise."
+  ],
+  [
+   33.54,
+   "Conforme ele marca, você vê como está a semana dele bem aqui."
+  ],
+  [
+   39.17,
+   "Se ele falhar 3 dias seguidos, aparece em Acompanhar na sua tela inicial."
+  ],
+  [
+   43.98,
+   "Indo bem? Toque em Bom trabalho, porque o que ele faz entre as sessões importa tanto quanto a sessão."
+  ]
+ ],
+ "sfx": [
+  [
+   16.49,
+   "tap"
+  ],
+  [
+   18.78,
+   "tap"
+  ],
+  [
+   19.9,
+   "tap"
+  ],
+  [
+   21.41,
+   "tap"
+  ],
+  [
+   23.74,
+   "tap"
+  ],
+  [
+   26.3,
+   "tap"
+  ],
+  [
+   27.43,
+   "tap"
+  ],
+  [
+   29.35,
+   "tap"
+  ],
+  [
+   29.95,
+   "tap"
+  ],
+  [
+   31.12,
+   "tap"
+  ],
+  [
+   32.07,
+   "tap"
+  ],
+  [
+   32.7,
+   "tap"
+  ],
+  [
+   33.49,
+   "tap"
+  ],
+  [
+   38.74,
+   "tap"
+  ],
+  [
+   39.26,
+   "tap"
+  ],
+  [
+   43.25,
+   "tap"
+  ],
+  [
+   44.09,
+   "tap"
+  ],
+  [
+   45.06,
+   "tap"
+  ],
+  [
+   47.68,
+   "tap"
+  ],
+  [
+   47.76,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   20.01,
+   21.56,
+   "toque",
+   477,
+   794,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help09_pt_v2.png",
+ "rate": 1.05
+}

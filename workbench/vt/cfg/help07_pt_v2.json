@@ -1,0 +1,168 @@
+{
+ "name": "help07_pt_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "PROGRESSO DO ALUNO",
+ "voice": "Aoede",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/help07_pt_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/H07/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/H07/take_p6.mp4",
+ "segs": [
+  [
+   2.0,
+   6.6,
+   1.5
+  ],
+  [
+   6.6,
+   12.2,
+   1.8
+  ],
+  [
+   12.2,
+   19.4,
+   2.2
+  ],
+  [
+   19.4,
+   42.5,
+   4.5
+  ],
+  [
+   42.5,
+   46.0,
+   1.0
+  ],
+  [
+   46.0,
+   56.2,
+   2.5
+  ],
+  [
+   56.2,
+   65.4,
+   2.2
+  ],
+  [
+   65.4,
+   72.5,
+   1.6
+  ],
+  [
+   72.5,
+   78.0,
+   1.6
+  ],
+  [
+   78.0,
+   84.3,
+   1.8
+  ],
+  [
+   84.3,
+   90.0,
+   1.5
+  ],
+  [
+   96.5,
+   99.5,
+   1.0
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, quer a prova de que o aluno está ficando mais forte?"
+  ],
+  [
+   2.93,
+   "Está tudo no histórico dele."
+  ],
+  [
+   4.67,
+   "Abra o aluno e toque em Histórico para ver os treinos anteriores."
+  ],
+  [
+   15.63,
+   "Vê o troféu?"
+  ],
+  [
+   16.28,
+   "É um novo máximo."
+  ],
+  [
+   19.68,
+   "Abra o treino, toque no menu de um exercício e depois em Detalhes."
+  ],
+  [
+   28.32,
+   "Máximo atual é a maior carga que ele já levantou, e Tendência mostra a mudança desde a última vez."
+  ],
+  [
+   32.7,
+   "O gráfico mostra cada sessão, para você ver a carga subir."
+  ],
+  [
+   36.1,
+   "Role para ver cada vez que ele fez, e toque em uma para ver as séries."
+  ]
+ ],
+ "sfx": [
+  [
+   4.65,
+   "tap"
+  ],
+  [
+   7.76,
+   "tap"
+  ],
+  [
+   10.99,
+   "tap"
+  ],
+  [
+   19.53,
+   "tap"
+  ],
+  [
+   23.72,
+   "tap"
+  ],
+  [
+   27.91,
+   "tap"
+  ],
+  [
+   39.26,
+   "tap"
+  ],
+  [
+   43.83,
+   "tap"
+  ],
+  [
+   43.82,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   9.59,
+   11.14,
+   "toque",
+   357,
+   893,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help07_pt_v2.png",
+ "rate": 1.0
+}

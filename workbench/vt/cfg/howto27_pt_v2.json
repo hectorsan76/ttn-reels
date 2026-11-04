@@ -1,0 +1,160 @@
+{
+ "name": "howto27_pt_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 27",
+ "title": "MONTAR UM TREINO",
+ "voice": "Algenib",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/howto27_pt_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/H03/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/H03/take_p6.mp4",
+ "segs": [
+  [
+   8.4,
+   14.2,
+   2.5
+  ],
+  [
+   14.2,
+   28.0,
+   4.0
+  ],
+  [
+   52.0,
+   61.0,
+   3.0
+  ],
+  [
+   86.5,
+   92.0,
+   1.5
+  ],
+  [
+   100.5,
+   130.0,
+   8.0
+  ],
+  [
+   201.5,
+   226.0,
+   6.0
+  ],
+  [
+   226.0,
+   256.0,
+   7.0
+  ],
+  [
+   299.0,
+   305.5,
+   2.0
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, montando o treino de hoje?"
+  ],
+  [
+   3.44,
+   "Toque em Adicionar treino e depois em Montar treino do zero."
+  ],
+  [
+   7.37,
+   "Defina o horário e dê um nome."
+  ],
+  [
+   17.74,
+   "Busque o exercício e adicione."
+  ],
+  [
+   23.24,
+   "Séries, repetições e carga no teclado numérico."
+  ],
+  [
+   26.34,
+   "Pronto antes do aluno chegar."
+  ]
+ ],
+ "sfx": [
+  [
+   3.87,
+   "tap"
+  ],
+  [
+   7.27,
+   "tap"
+  ],
+  [
+   8.48,
+   "tap"
+  ],
+  [
+   10.23,
+   "tap"
+  ],
+  [
+   12.76,
+   "tap"
+  ],
+  [
+   17.68,
+   "tap"
+  ],
+  [
+   19.23,
+   "tap"
+  ],
+  [
+   21.74,
+   "tap"
+  ],
+  [
+   23.33,
+   "tap"
+  ],
+  [
+   23.66,
+   "tap"
+  ],
+  [
+   24.02,
+   "tap"
+  ],
+  [
+   24.47,
+   "tap"
+  ],
+  [
+   25.94,
+   "tap"
+  ],
+  [
+   29.16,
+   "tap"
+  ],
+  [
+   29.19,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   5.87,
+   7.42,
+   "toque",
+   304,
+   1323,
+   "right"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto27_pt_v2.png",
+ "rate": 1.05
+}

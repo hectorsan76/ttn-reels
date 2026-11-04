@@ -169,7 +169,7 @@ def timing(C, kind, rate):
 def fits(lines, fe): return all(e <= fe - 0.1 for _, e, _ in lines) and lines[-1][1] <= fe - 0.6
 
 # ---------------------------------------------------------------- PART B (2026-11-04 evening): help videos, redaction
-import pt2_ocr
+import pt2_ocr, re
 HOWTO.update({
  "howto26": dict(take="H05", title="EXPORTAR PDF", cover="H05/stills/pdf_menu.png",
    segs=[[3.5, 9.0, 1.5], [95.5, 103.0, 1.3], [103.0, 113.5, 2.5], [113.5, 116.5, 1.5], [119.6, 134.0, 3.5]],
@@ -195,7 +195,7 @@ HOWTO.update({
 HELP = {
  "help01": dict(day=20, take="H01", title="SUA TELA INICIAL", voice="Sadachbia", music="prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
    cover_txt=("Todo o seu dia", "numa tela só.", "hoje"),
-   segs=[[1.0, 5.0, 1.0], [5.0, 16.5, 3.0], [16.5, 24.6, 2.2], [24.6, 29.0, 1.4], [38.5, 47.6, 2.2], [47.6, 57.0, 2.2], [57.0, 63.5, 1.5]],
+   segs=[[1.0, 16.5, 1.38], [16.5, 29.0, 3.0], [38.5, 47.6, 2.07], [47.6, 57.0, 2.6], [57.0, 63.5, 1.5]],
    vo=[(("o", 1.7), "Personal trainer, a tela inicial mostra todo o seu dia de treinos assim que você abre o app."),
        (3.0, "Quando um aluno te manda mensagem, aparece bem no topo, para você nunca deixar ninguém esperando."),
        (16.6, "Hoje tem cada sessão da sua agenda, e os seus lembretes estão a um toque."),
@@ -204,10 +204,8 @@ HELP = {
    note=("Lembretes de hoje", "toque"), chime=57.2),
  "help03": dict(day=21, take="H03", title="MONTAR UM TREINO", voice="Orus", music="soundsurfer-hip-hop-beats-592991.mp3",
    cover_txt=("Monte um treino", "para qualquer aluno.", "monte"),
-   segs=[[3.0, 5.6, 1.0], [5.6, 8.4, 1.0], [8.4, 14.2, 2.0], [14.2, 28.0, 3.5], [28.0, 41.2, 4.0], [41.2, 52.0, 3.0], [52.0, 61.0, 3.0],
-         [86.5, 92.0, 1.5], [92.0, 100.5, 3.0], [100.5, 130.0, 7.0], [130.0, 142.0, 2.0], [142.0, 154.0, 3.0], [154.0, 175.0, 4.0],
-         [175.0, 184.0, 1.5], [184.0, 191.0, 2.0], [191.0, 201.5, 2.5], [201.5, 226.0, 6.0], [226.0, 256.0, 8.0], [256.0, 277.0, 7.0],
-         [277.0, 299.0, 7.0], [299.0, 305.5, 2.0], [305.5, 312.0, 1.0]],
+   segs=[[3.0, 8.4, 1.6], [8.4, 28.0, 3.6], [28.0, 61.0, 5.0], [86.5, 130.0, 10.0], [130.0, 154.0, 5.0], [154.0, 176.0, 4.0],
+         [176.0, 201.5, 6.0], [201.5, 299.0, 16.0], [299.0, 305.5, 2.0], [305.5, 310.0, 1.0]],
    vo=[(("o", 1.7), "Personal trainer, veja como montar um treino para o aluno."),
        (6.0, "Abra o aluno, toque em Adicionar treino e depois em Montar treino do zero."),
        (40.0, "Escolha o dia e o horário, dê um título e toque em Adicionar."),
@@ -251,24 +249,22 @@ HELP = {
    music="prettyjohn1-hip-hop-hip-hop-beat-525029.mp3", cover="H09_T/stills/cover.png",
    cover_txt=("Hábitos diários", "para os alunos.", "hábitos"),
    ocr_extra=[("H09_T", r"23h|cama|até", 24.0, 39.5)],
-   segs=[[0.5, 8.5, 2.0], [199.0, 207.5, 1.4], [8.8, 24.2, 3.0], [24.2, 38.8, 3.0], [38.8, 70.7, 10.0], [70.7, 90.5, 4.0], [108.3, 117.2, 2.0],
-         [117.2, 138.2, 5.0], [138.2, 158.0, 5.0], [158.0, 170.5, 2.5], [170.5, 178.5, 1.5]],
+   segs=[[0.5, 8.5, 0.667], [199.0, 207.5, 1.7], [8.8, 17.0, 2.1], [17.0, 41.0, 5.7], [41.0, 117.2, 11.2], [117.2, 138.2, 4.0],
+         [138.2, 158.0, 4.4], [158.0, 178.5, 2.8]],
    vo=[(("o", 1.7), "Personal trainer, com os hábitos, você ajuda seus alunos a criar bons hábitos e acompanha tudo, todo dia."),
        (4.0, "Um hábito é uma pequena meta diária, como beber 8 copos de água ou caminhar."),
        (199.0, "O aluno vê os hábitos todo dia no app dele e marca conforme cumpre."),
        (9.0, "Para adicionar, abra o aluno e toque em Hábitos."),
-       (24.0, "Toque em Adicionar e escolha um hábito da lista, ou crie o seu."),
-       (70.5, "Escolha um ícone e um horário de lembrete, se quiser que o celular dele avise."),
+       (17.2, "Toque em Adicionar e escolha um hábito da lista, ou crie o seu."),
+       (41.5, "Escolha um ícone e um horário de lembrete, se quiser que o celular dele avise."),
        (117.3, "Conforme ele marca, você vê como está a semana dele bem aqui."),
        (140.0, "Se ele falhar 3 dias seguidos, aparece em Acompanhar na sua tela inicial."),
        (160.0, "Indo bem? Toque em Bom trabalho, porque o que ele faz entre as sessões importa tanto quanto a sessão.")],
    note=("Hábitos", "toque"), chime=170.6),
  "help08": dict(day=16, take="H08/phone", title="PLANEJE NO NOTEBOOK", voice="Orus", music="soundsurfer-hip-hop-beats-592991.mp3",
    cover_txt=("Planeje no", "seu notebook.", "mais rápido"),
-   web_segs=[[0.5, 4.5, 1.5], [4.5, 12.0, 2.5], [12.0, 17.5, 1.5], [17.5, 34.0, 5.0], [34.0, 40.0, 1.5], [40.0, 56.0, 3.5], [56.0, 62.0, 1.5],
-             [62.0, 77.0, 4.0], [77.0, 86.5, 2.5], [86.5, 95.0, 2.0], [95.0, 116.0, 5.0], [116.0, 127.0, 2.5], [127.0, 137.0, 2.0],
-             [137.0, 196.0, 9.0], [196.0, 212.5, 4.0]],
-   phone_segs=[[3.0, 16.0, 3.0], [16.0, 40.5, 6.0], [40.5, 47.0, 1.3]],
+   web_segs=[[0.5, 4.5, 2.4], [4.5, 12.0, 4.0], [12.0, 17.5, 2.4], [17.5, 34.0, 8.0], [34.0, 40.0, 2.4], [40.0, 56.0, 5.6], [56.0, 62.0, 2.4], [62.0, 77.0, 6.4], [77.0, 86.5, 4.0], [86.5, 95.0, 3.2], [95.0, 116.0, 8.0], [116.0, 127.0, 4.0], [127.0, 137.0, 3.2], [137.0, 196.0, 14.4], [196.0, 212.5, 6.4]],
+   phone_segs=[[3.0, 16.0, 4.0], [16.0, 40.5, 8.0], [40.5, 44.5, 1.0]],
    vo=[(("o", 1.7), "Personal trainer, vai escrever os treinos da próxima semana? É mais rápido no notebook."),
        (("w", 4.5), "Abra a Agenda, clique num dia e depois em Adicionar treino."),
        (("w", 40.0), "Escolha o aluno, dê um título, e já está na agenda dele."),
@@ -316,13 +312,16 @@ def redact_boxes(hits, W, H_, pad=0.5, gap=16.0, hmul=2.6):
 
 def apply_redact(src, boxes, out):
     if not boxes: return src
+    import hashlib
+    out = out.replace(".mp4", "_" + hashlib.md5((src + json.dumps(boxes)).encode()).hexdigest()[:8] + ".mp4")
+    if os.path.exists(out): return out
     n = len(boxes); g = [f"[0:v]split={n + 1}[base]" + "".join(f"[c{i}]" for i in range(n))]
     cur = "base"
     for i, (t0, t1, x, y, w, h) in enumerate(boxes):
         g.append(f"[c{i}]crop={w}:{h}:{x}:{y},gblur=sigma=14:steps=3[k{i}]")
         g.append(f"[{cur}][k{i}]overlay={x}:{y}:enable='between(t,{t0},{t1})'[o{i}]"); cur = f"o{i}"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", src, "-filter_complex", ";".join(g), "-map", f"[{cur}]", "-an",
-                    "-c:v", "libx264", "-crf", "14", "-preset", "fast", "-r", "30", out], check=True)
+                    "-c:v", "libx264", "-crf", "14", "-preset", "veryfast", "-r", "30", out], check=True)
     return out
 
 def take_proxy(item, it):
@@ -342,7 +341,8 @@ def take_proxy(item, it):
         hits += [[h[0] + off] + h[1:] for h in json.load(open(f))]
     for t, pat, t0, t1 in it.get("ocr_extra", []):
         off = dict(tk)[t]
-        hits += [[h[0] + off] + h[1:] for h in pt2_ocr.scan(NT + t + "/take_p6.mp4", 4, pat, t0, t1, 2, f"{t.replace('/', '_')}_extra_{t0}")]
+        hits += [[h[0] + off] + h[1:] + ["extra"] for h in pt2_ocr.scan(NT + t + "/take_p6.mp4", 4, pat, t0, t1, 2, f"{t.replace('/', '_')}_extra_{t0}")]
+    hits = [h for h in hits if re.search(r"@|\+|support", h[5], re.I) or len(h) > 6]
     boxes = redact_boxes(hits, 600, 1304)
     json.dump(boxes, open(f"{OUT}/proxy/{item}_boxes.json", "w"))
     return apply_redact(src, boxes, f"{OUT}/proxy/{item}_redacted.mp4"), boxes
@@ -403,7 +403,7 @@ def compose_help08(it):
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", web, "-vf", "fps=30,scale=1000:624:flags=lanczos", "-an", "-c:v", "libx264", "-crf", "14", "-preset", "fast", webp], check=True)
     # blur anything the OCR finds on the web take (addresses, the untranslated "Copy of" recent title chip)
     hits = pt2_ocr.scan(web, 1, pt2_ocr.EMAIL + r"|Copy|of Treino", 0, 234, 1, "H08_web_full")
-    sc = 1000 / 2880; hits = [[h[0], h[1] * sc, h[2] * sc, h[3] * sc, h[4] * sc, h[5]] for h in hits]
+    sc = 1000 / 2880; hits = [[h[0], h[1] * sc, h[2] * sc, (max(h[3], 330) if "Copy" in h[5] else h[3]) * sc, h[4] * sc, h[5]] for h in hits]  # widen "Copy" to the whole "Copy of Treino Completo" chip
     boxes = redact_boxes(hits, 1000, 624, pad=1.0, hmul=1.6); webr = apply_redact(webp, boxes, f"{wd}/web_red.mp4")
     phone, pboxes = take_proxy("help08", it)
     lap = laptop_png(f"{wd}/laptop.png"); reel2.PW, reel2.SW = 640, 600; sh_h = reel2.phone_pngs(wd)
@@ -418,7 +418,8 @@ def compose_help08(it):
         else:
             ins += ["-loop", "1", "-i", f"{wd}/bezel.png", "-loop", "1", "-i", f"{wd}/mask.png"]
             g.append(f"[c]scale=600:{sh_h},format=yuva420p[ca];[{n + 2}:v]format=gray[m];[ca][m]alphamerge[cm];[{n}:v][{n + 1}:v]overlay=190:590[bg];[bg][cm]overlay=240:610:shortest=1[v]")
-        subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(g), "-map", "[v]", "-c:v", "libx264", "-crf", "15", "-preset", "fast", "-pix_fmt", "yuv420p", out], check=True)
+        D = sum((b - a) / s for a, b, s in segs)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(g), "-map", "[v]", "-t", f"{D:.3f}", "-c:v", "libx264", "-crf", "15", "-preset", "fast", "-pix_fmt", "yuv420p", out], check=True)
         return out
     a = piece(webr, it["web_segs"], "web", f"{wd}/part_web.mp4"); b = piece(phone, it["phone_segs"], "phone", f"{wd}/part_phone.mp4")
     full = f"{wd}/full.mp4"

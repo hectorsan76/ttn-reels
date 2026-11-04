@@ -1,0 +1,117 @@
+{
+ "name": "help08_pt_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "PLANEJE NO NOTEBOOK",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/help08_pt_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_v2/proxy/help08/full.mp4",
+ "proxy": "/home/claude/loc/out_v2/proxy/help08/full.mp4",
+ "segs": [
+  [
+   0.0,
+   48.6,
+   1.0
+  ]
+ ],
+ "full": true,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, vai escrever os treinos da próxima semana? É mais rápido no notebook."
+  ],
+  [
+   3.27,
+   "Abra a Agenda, clique num dia e depois em Adicionar treino."
+  ],
+  [
+   12.0,
+   "Escolha o aluno, dê um título, e já está na agenda dele."
+  ],
+  [
+   22.07,
+   "Abra, digite um exercício e aperte Enter."
+  ],
+  [
+   27.29,
+   "Digite a carga e as repetições, e Copiar última preenche as próximas séries."
+  ],
+  [
+   29.85,
+   "Aperte Enter para salvar, e você já passa para o próximo exercício."
+  ],
+  [
+   34.83,
+   "O último treino do aluno fica bem ao lado, para você saber onde ele parou."
+  ],
+  [
+   39.9,
+   "E quando você pega o celular, já está lá."
+  ]
+ ],
+ "sfx": [
+  [
+   3.73,
+   "tap"
+  ],
+  [
+   6.14,
+   "tap"
+  ],
+  [
+   9.17,
+   "tap"
+  ],
+  [
+   10.65,
+   "tap"
+  ],
+  [
+   12.96,
+   "tap"
+  ],
+  [
+   14.42,
+   "tap"
+  ],
+  [
+   17.58,
+   "tap"
+  ],
+  [
+   22.02,
+   "tap"
+  ],
+  [
+   24.87,
+   "tap"
+  ],
+  [
+   40.06,
+   "tap"
+  ],
+  [
+   41.63,
+   "tap"
+  ],
+  [
+   46.21,
+   "tap"
+  ],
+  [
+   49.51,
+   "chime"
+  ]
+ ],
+ "notes": [],
+ "redact_boxes": 2,
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help08_pt_v2.png",
+ "rate": 1.0
+}

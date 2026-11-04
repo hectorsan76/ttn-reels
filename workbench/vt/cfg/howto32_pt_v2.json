@@ -1,7 +1,19 @@
 {
  "name": "howto32_pt_v2",
- "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-THROWAWAY_1/take_p6.mp4",
- "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/R-THROWAWAY_1/take_p6.mp4",
+ "bg": "paper",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 32",
+ "title": "FICHA DE ANAMNESE",
+ "voice": "Aoede",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/howto32_pt_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_v2/proxy/howto32_redacted_1aa98dcb.mp4",
+ "proxy": "/home/claude/loc/out_v2/proxy/howto32_redacted_1aa98dcb.mp4",
  "segs": [
   [
    2.95,
@@ -64,19 +76,7 @@
    1.0
   ]
  ],
- "bg": "paper",
- "hook_secs": 1.6,
- "series": "TUTORIAL 32",
- "title": "FICHA DE ANAMNESE",
- "voice": "Aoede",
- "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
- "lang": "pt-BR",
- "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
- "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
- "out": "/home/claude/loc/out_v2/howto32_pt_v2.mp4",
- "end_secs": 5.6,
- "cap_gap": 0.07,
- "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto32_pt_v2.png",
+ "redact_boxes": 27,
  "vo": [
   [
    1.7,
@@ -187,5 +187,6 @@
    "left"
   ]
  ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto32_pt_v2.png",
  "rate": 1.0
 }

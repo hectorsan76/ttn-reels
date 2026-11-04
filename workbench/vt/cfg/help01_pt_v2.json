@@ -1,0 +1,109 @@
+{
+ "name": "help01_pt_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "SUA TELA INICIAL",
+ "voice": "Sadachbia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/help01_pt_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/H01/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/H01/take_p6.mp4",
+ "segs": [
+  [
+   1.0,
+   16.5,
+   1.38
+  ],
+  [
+   16.5,
+   29.0,
+   3.0
+  ],
+  [
+   38.5,
+   47.6,
+   2.07
+  ],
+  [
+   47.6,
+   57.0,
+   2.6
+  ],
+  [
+   57.0,
+   63.5,
+   1.5
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, a tela inicial mostra todo o seu dia de treinos assim que você abre o app."
+  ],
+  [
+   3.05,
+   "Quando um aluno te manda mensagem, aparece bem no topo, para você nunca deixar ninguém esperando."
+  ],
+  [
+   12.87,
+   "Hoje tem cada sessão da sua agenda, e os seus lembretes estão a um toque."
+  ],
+  [
+   17.72,
+   "Acompanhar mostra quem faltou a um treino, para ninguém ficar para trás."
+  ],
+  [
+   21.35,
+   "E a Atividade recente mostra o que os seus alunos andam fazendo."
+  ]
+ ],
+ "sfx": [
+  [
+   13.68,
+   "tap"
+  ],
+  [
+   14.76,
+   "tap"
+  ],
+  [
+   15.68,
+   "tap"
+  ],
+  [
+   16.85,
+   "tap"
+  ],
+  [
+   21.34,
+   "tap"
+  ],
+  [
+   24.83,
+   "tap"
+  ],
+  [
+   25.14,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   14.28,
+   15.83,
+   "toque",
+   304,
+   907,
+   "right"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help01_pt_v2.png",
+ "rate": 1.0
+}
