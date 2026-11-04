@@ -1,0 +1,110 @@
+{
+ "name": "howto31_es_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 31",
+ "title": "REVISEN EL CORREO",
+ "voice": "Aoede",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "out": "/home/claude/loc/out_es_v2/howto31_es_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_es_v2/proxy/howto31_redacted_bc18346f.mp4",
+ "proxy": "/home/claude/loc/out_es_v2/proxy/howto31_redacted_bc18346f.mp4",
+ "segs": [
+  [
+   5.4,
+   9.2,
+   1.5
+  ],
+  [
+   9.2,
+   12.8,
+   1.5
+  ],
+  [
+   20.4,
+   24.5,
+   1.2
+  ],
+  [
+   25.0,
+   29.5,
+   1.2
+  ],
+  [
+   37.8,
+   39.4,
+   1.0
+  ],
+  [
+   41.6,
+   45.8,
+   1.0
+  ]
+ ],
+ "redact_boxes": 7,
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿a su cliente nunca le llegó la invitación?"
+  ],
+  [
+   4.27,
+   "Abran su perfil, toquen Editar datos y revisen el correo."
+  ],
+  [
+   10.37,
+   "Luego toquen el menú y Enviar invitación."
+  ],
+  [
+   15.4,
+   "Una invitación nueva va en camino."
+  ]
+ ],
+ "sfx": [
+  [
+   2.45,
+   "tap"
+  ],
+  [
+   3.96,
+   "tap"
+  ],
+  [
+   7.01,
+   "tap"
+  ],
+  [
+   10.31,
+   "tap"
+  ],
+  [
+   11.84,
+   "tap"
+  ],
+  [
+   14.24,
+   "tap"
+  ],
+  [
+   15.6,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   5.61,
+   7.16,
+   "revisen",
+   304,
+   931,
+   "right"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto31_es_v2.png",
+ "rate": 1.0
+}

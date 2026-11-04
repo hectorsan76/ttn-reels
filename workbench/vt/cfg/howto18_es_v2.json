@@ -1,0 +1,254 @@
+{
+ "name": "howto18_es_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 18",
+ "title": "SERIES POR TIEMPO",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "out": "/home/claude/loc/out_es_v2/howto18_es_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/R-TIMED/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/R-TIMED/take_p6.mp4",
+ "segs": [
+  [
+   2.0,
+   7.0,
+   1.5
+  ],
+  [
+   7.0,
+   19.0,
+   4.0
+  ],
+  [
+   19.0,
+   55.5,
+   8.0
+  ],
+  [
+   55.5,
+   60.3,
+   2.0
+  ],
+  [
+   60.3,
+   64.5,
+   1.5
+  ],
+  [
+   64.5,
+   73.2,
+   3.0
+  ],
+  [
+   73.2,
+   76.5,
+   1.5
+  ],
+  [
+   76.5,
+   143.5,
+   10.0
+  ],
+  [
+   143.5,
+   154.8,
+   3.0
+  ],
+  [
+   154.8,
+   158.5,
+   1.5
+  ],
+  [
+   158.5,
+   178.4,
+   4.0
+  ],
+  [
+   178.4,
+   201.9,
+   6.0
+  ],
+  [
+   201.9,
+   218.4,
+   4.0
+  ],
+  [
+   218.4,
+   233.0,
+   2.7577522430347856
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿hay cardio en el plan?"
+  ],
+  [
+   5.93,
+   "Busquen el remo."
+  ],
+  [
+   14.9,
+   "Pongan los minutos. Sin repeticiones."
+  ],
+  [
+   20.53,
+   "Ahí está."
+  ],
+  [
+   29.48,
+   "¿Sprints? Segundos por serie."
+  ],
+  [
+   46.52,
+   "¿Correr? Agreguen la distancia."
+  ],
+  [
+   51.28,
+   "Tiempo y distancia, ahí mismo en la rutina."
+  ]
+ ],
+ "sfx": [
+  [
+   4.96,
+   "tap"
+  ],
+  [
+   5.96,
+   "tap"
+  ],
+  [
+   12.65,
+   "tap"
+  ],
+  [
+   14.92,
+   "tap"
+  ],
+  [
+   15.8,
+   "tap"
+  ],
+  [
+   16.28,
+   "tap"
+  ],
+  [
+   17.23,
+   "tap"
+  ],
+  [
+   20.5,
+   "tap"
+  ],
+  [
+   22.47,
+   "tap"
+  ],
+  [
+   25.03,
+   "tap"
+  ],
+  [
+   29.48,
+   "tap"
+  ],
+  [
+   33.3,
+   "tap"
+  ],
+  [
+   34.22,
+   "tap"
+  ],
+  [
+   34.64,
+   "tap"
+  ],
+  [
+   35.52,
+   "tap"
+  ],
+  [
+   36.25,
+   "tap"
+  ],
+  [
+   36.7,
+   "tap"
+  ],
+  [
+   37.17,
+   "tap"
+  ],
+  [
+   37.65,
+   "tap"
+  ],
+  [
+   37.98,
+   "tap"
+  ],
+  [
+   40.64,
+   "tap"
+  ],
+  [
+   41.08,
+   "tap"
+  ],
+  [
+   42.21,
+   "tap"
+  ],
+  [
+   44.19,
+   "tap"
+  ],
+  [
+   44.59,
+   "tap"
+  ],
+  [
+   46.54,
+   "tap"
+  ],
+  [
+   48.04,
+   "tap"
+  ],
+  [
+   48.39,
+   "tap"
+  ],
+  [
+   51.07,
+   "tap"
+  ],
+  [
+   52.61,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   13.52,
+   15.07,
+   "minutos",
+   122,
+   1459,
+   "left"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto18_es_v2.png",
+ "rate": 1.15
+}

@@ -1,0 +1,133 @@
+{
+ "name": "help08_es_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "PLANEEN EN LA LAPTOP",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "out": "/home/claude/loc/out_es_v2/help08_es_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_es_v2/proxy/help08/full.mp4",
+ "proxy": "/home/claude/loc/out_es_v2/proxy/help08/full.mp4",
+ "segs": [
+  [
+   0.0,
+   55.633,
+   1.0
+  ]
+ ],
+ "full": true,
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿van a escribir las rutinas de la próxima semana? Es más rápido en la laptop."
+  ],
+  [
+   1.63,
+   "Abran el Calendario, den clic en un día y luego en Agregar rutina."
+  ],
+  [
+   9.87,
+   "Elijan al cliente, pónganle un título, y ya está en su calendario."
+  ],
+  [
+   20.12,
+   "Ábranla, escriban un ejercicio y presionen Enter."
+  ],
+  [
+   25.78,
+   "Escriban el peso y las repeticiones, y Copiar la última llena las siguientes series."
+  ],
+  [
+   32.16,
+   "Den clic en Guardar, y pasan al siguiente ejercicio."
+  ],
+  [
+   33.6,
+   "La última rutina de su cliente queda justo al lado, para que sepan dónde se quedó."
+  ],
+  [
+   46.53,
+   "Y cuando toman el celular, ya está ahí."
+  ]
+ ],
+ "sfx": [
+  [
+   4.19,
+   "tap"
+  ],
+  [
+   6.43,
+   "tap"
+  ],
+  [
+   8.5,
+   "tap"
+  ],
+  [
+   9.85,
+   "tap"
+  ],
+  [
+   11.67,
+   "tap"
+  ],
+  [
+   14.63,
+   "tap"
+  ],
+  [
+   20.14,
+   "tap"
+  ],
+  [
+   22.24,
+   "tap"
+  ],
+  [
+   32.2,
+   "tap"
+  ],
+  [
+   34.14,
+   "tap"
+  ],
+  [
+   36.48,
+   "tap"
+  ],
+  [
+   39.06,
+   "tap"
+  ],
+  [
+   43.14,
+   "tap"
+  ],
+  [
+   46.6,
+   "tap"
+  ],
+  [
+   48.19,
+   "tap"
+  ],
+  [
+   53.03,
+   "tap"
+  ],
+  [
+   56.33,
+   "chime"
+  ]
+ ],
+ "notes": [],
+ "redact_boxes": 0,
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help08_es_v2.png",
+ "rate": 1.0
+}

@@ -1,0 +1,106 @@
+{
+ "name": "howto02_es_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 02",
+ "title": "REENVIAR INVITACIÓN",
+ "voice": "Algenib",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "out": "/home/claude/loc/out_es_v2/howto02_es_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_es_v2/proxy/howto02_redacted_bc18346f.mp4",
+ "proxy": "/home/claude/loc/out_es_v2/proxy/howto02_redacted_bc18346f.mp4",
+ "segs": [
+  [
+   1.5,
+   4.9,
+   1.5
+  ],
+  [
+   4.9,
+   9.2,
+   1.5
+  ],
+  [
+   9.2,
+   12.8,
+   1.5
+  ],
+  [
+   26.8,
+   29.5,
+   1.0
+  ],
+  [
+   37.8,
+   39.4,
+   1.0
+  ],
+  [
+   41.6,
+   45.8,
+   1.0
+  ]
+ ],
+ "redact_boxes": 7,
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿su cliente perdió su invitación?"
+  ],
+  [
+   5.27,
+   "Abran su perfil."
+  ],
+  [
+   9.23,
+   "Toquen el menú y luego Enviar invitación."
+  ],
+  [
+   13.53,
+   "Listo. Ya va en camino."
+  ]
+ ],
+ "sfx": [
+  [
+   3.88,
+   "tap"
+  ],
+  [
+   5.05,
+   "tap"
+  ],
+  [
+   6.56,
+   "tap"
+  ],
+  [
+   9.61,
+   "tap"
+  ],
+  [
+   12.37,
+   "tap"
+  ],
+  [
+   13.73,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   8.21,
+   9.76,
+   "toquen",
+   624,
+   705,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto02_es_v2.png",
+ "rate": 1.0
+}

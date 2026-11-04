@@ -1,0 +1,251 @@
+{
+ "name": "help03_es_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "ARMAR UNA RUTINA",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "out": "/home/claude/loc/out_es_v2/help03_es_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/H03/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/H03/take_p6.mp4",
+ "segs": [
+  [
+   3.0,
+   7.3,
+   1.6
+  ],
+  [
+   7.3,
+   20.8,
+   3.6
+  ],
+  [
+   20.8,
+   46.3,
+   5.0
+  ],
+  [
+   89.8,
+   122.5,
+   8.0
+  ],
+  [
+   122.5,
+   135.5,
+   2.5
+  ],
+  [
+   176.5,
+   206.0,
+   5.0
+  ],
+  [
+   206.0,
+   249.0,
+   4.0
+  ],
+  [
+   249.0,
+   272.0,
+   5.0
+  ],
+  [
+   272.0,
+   396.0,
+   16.0
+  ],
+  [
+   396.0,
+   409.6,
+   3.0
+  ],
+  [
+   409.6,
+   414.0,
+   1.0
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, así se arma una rutina para su cliente."
+  ],
+  [
+   3.48,
+   "Abran al cliente, toquen Agregar rutina y luego Armar rutina desde cero."
+  ],
+  [
+   9.88,
+   "Elijan el día y la hora, pónganle un título y toquen Agregar."
+  ],
+  [
+   17.27,
+   "Toquen un ejercicio de los más usados, o busquen en toda la biblioteca."
+  ],
+  [
+   28.33,
+   "Escriban el peso y las repeticiones, y ven lo que levantó la última vez."
+  ],
+  [
+   39.18,
+   "Copiar la última copia la serie en un toque."
+  ],
+  [
+   43.71,
+   "Agreguen el resto igual, toquen atrás y ya está en su agenda."
+  ]
+ ],
+ "sfx": [
+  [
+   2.83,
+   "tap"
+  ],
+  [
+   4.22,
+   "tap"
+  ],
+  [
+   5.6,
+   "tap"
+  ],
+  [
+   6.94,
+   "tap"
+  ],
+  [
+   9.91,
+   "tap"
+  ],
+  [
+   10.23,
+   "tap"
+  ],
+  [
+   12.87,
+   "tap"
+  ],
+  [
+   13.56,
+   "tap"
+  ],
+  [
+   17.13,
+   "tap"
+  ],
+  [
+   22.48,
+   "tap"
+  ],
+  [
+   23.01,
+   "tap"
+  ],
+  [
+   27.95,
+   "tap"
+  ],
+  [
+   31.16,
+   "tap"
+  ],
+  [
+   34.79,
+   "tap"
+  ],
+  [
+   35.17,
+   "tap"
+  ],
+  [
+   35.52,
+   "tap"
+  ],
+  [
+   38.81,
+   "tap"
+  ],
+  [
+   39.25,
+   "tap"
+  ],
+  [
+   41.04,
+   "tap"
+  ],
+  [
+   43.65,
+   "tap"
+  ],
+  [
+   43.98,
+   "tap"
+  ],
+  [
+   45.78,
+   "tap"
+  ],
+  [
+   46.08,
+   "tap"
+  ],
+  [
+   46.69,
+   "tap"
+  ],
+  [
+   47.01,
+   "tap"
+  ],
+  [
+   47.71,
+   "tap"
+  ],
+  [
+   48.26,
+   "tap"
+  ],
+  [
+   49.78,
+   "tap"
+  ],
+  [
+   50.08,
+   "tap"
+  ],
+  [
+   50.41,
+   "tap"
+  ],
+  [
+   51.03,
+   "tap"
+  ],
+  [
+   56.25,
+   "tap"
+  ],
+  [
+   56.36,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   5.54,
+   7.09,
+   "toquen",
+   304,
+   1477,
+   "right"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help03_es_v2.png",
+ "rate": 1.0
+}

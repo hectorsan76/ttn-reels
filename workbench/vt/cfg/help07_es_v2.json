@@ -1,0 +1,168 @@
+{
+ "name": "help07_es_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "PROGRESO DEL CLIENTE",
+ "voice": "Aoede",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "out": "/home/claude/loc/out_es_v2/help07_es_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/H07/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/H07/take_p6.mp4",
+ "segs": [
+  [
+   2.0,
+   7.0,
+   1.5
+  ],
+  [
+   7.0,
+   16.6,
+   2.5
+  ],
+  [
+   16.6,
+   23.0,
+   2.2
+  ],
+  [
+   23.0,
+   53.0,
+   5.0
+  ],
+  [
+   53.0,
+   57.0,
+   1.0
+  ],
+  [
+   57.0,
+   69.0,
+   2.5
+  ],
+  [
+   69.0,
+   78.4,
+   2.2
+  ],
+  [
+   78.4,
+   85.4,
+   1.6
+  ],
+  [
+   85.4,
+   91.0,
+   1.6
+  ],
+  [
+   91.0,
+   101.6,
+   2.0
+  ],
+  [
+   101.6,
+   107.0,
+   1.5
+  ],
+  [
+   114.5,
+   117.5,
+   1.0
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿quieren la prueba de que su cliente se está haciendo más fuerte?"
+  ],
+  [
+   2.93,
+   "Todo está en su historial."
+  ],
+  [
+   4.93,
+   "Abran al cliente y toquen Historial para ver sus rutinas anteriores."
+  ],
+  [
+   17.08,
+   "¿Ven el trofeo?"
+  ],
+  [
+   17.78,
+   "Es un nuevo récord personal."
+  ],
+  [
+   21.68,
+   "Abran la rutina, toquen el menú de un ejercicio y luego Detalles."
+  ],
+  [
+   31.13,
+   "Máximo actual es el peso más alto que ha levantado, y Tendencia muestra el cambio desde la última vez."
+  ],
+  [
+   35.51,
+   "La gráfica muestra cada sesión, para que vean cómo sube el peso."
+  ],
+  [
+   38.63,
+   "Bajen para ver cada vez que lo hizo, y toquen una para ver las series."
+  ]
+ ],
+ "sfx": [
+  [
+   4.76,
+   "tap"
+  ],
+  [
+   8.71,
+   "tap"
+  ],
+  [
+   11.57,
+   "tap"
+  ],
+  [
+   21.6,
+   "tap"
+  ],
+  [
+   26.45,
+   "tap"
+  ],
+  [
+   30.69,
+   "tap"
+  ],
+  [
+   43.87,
+   "tap"
+  ],
+  [
+   47.94,
+   "tap"
+  ],
+  [
+   48.03,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   10.17,
+   11.72,
+   "toquen",
+   357,
+   893,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help07_es_v2.png",
+ "rate": 1.0
+}

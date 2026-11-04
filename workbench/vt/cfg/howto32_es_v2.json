@@ -1,0 +1,178 @@
+{
+ "name": "howto32_es_v2",
+ "bg": "paper",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 32",
+ "title": "FORMULARIO DE INGRESO",
+ "voice": "Aoede",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "out": "/home/claude/loc/out_es_v2/howto32_es_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_es_v2/proxy/howto32_redacted_4438c299.mp4",
+ "proxy": "/home/claude/loc/out_es_v2/proxy/howto32_redacted_4438c299.mp4",
+ "segs": [
+  [
+   0.5,
+   5.3,
+   2.0
+  ],
+  [
+   5.3,
+   30.5,
+   8.0
+  ],
+  [
+   30.5,
+   38.5,
+   3.0
+  ],
+  [
+   38.5,
+   73.0,
+   12.0
+  ],
+  [
+   73.0,
+   78.5,
+   2.0
+  ],
+  [
+   78.5,
+   102.0,
+   10.0
+  ],
+  [
+   102.0,
+   110.8,
+   3.0
+  ],
+  [
+   110.8,
+   119.5,
+   4.0
+  ],
+  [
+   119.5,
+   129.3,
+   4.0
+  ],
+  [
+   129.3,
+   136.4,
+   1.0
+  ]
+ ],
+ "redact_boxes": 10,
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, esto es lo que ve su cliente nuevo."
+  ],
+  [
+   1.85,
+   "Abre su invitación y empieza el formulario de ingreso."
+  ],
+  [
+   4.01,
+   "Nombre, cumpleaños, objetivos y experiencia."
+  ],
+  [
+   20.75,
+   "Unas preguntas de salud, luego Enviar."
+  ],
+  [
+   26.05,
+   "Queda en su perfil antes de la primera sesión."
+  ]
+ ],
+ "sfx": [
+  [
+   4.01,
+   "tap"
+  ],
+  [
+   6.81,
+   "tap"
+  ],
+  [
+   7.12,
+   "tap"
+  ],
+  [
+   9.64,
+   "tap"
+  ],
+  [
+   12.64,
+   "tap"
+  ],
+  [
+   13.24,
+   "tap"
+  ],
+  [
+   13.91,
+   "tap"
+  ],
+  [
+   14.71,
+   "tap"
+  ],
+  [
+   17.74,
+   "tap"
+  ],
+  [
+   20.76,
+   "tap"
+  ],
+  [
+   21.09,
+   "tap"
+  ],
+  [
+   21.44,
+   "tap"
+  ],
+  [
+   21.77,
+   "tap"
+  ],
+  [
+   22.11,
+   "tap"
+  ],
+  [
+   22.45,
+   "tap"
+  ],
+  [
+   22.78,
+   "tap"
+  ],
+  [
+   25.28,
+   "tap"
+  ],
+  [
+   25.35,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   23.88,
+   25.43,
+   "toca",
+   319,
+   1374,
+   "left"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto32_es_v2.png",
+ "rate": 1.0
+}

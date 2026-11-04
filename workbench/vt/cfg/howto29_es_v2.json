@@ -1,0 +1,84 @@
+{
+ "name": "howto29_es_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 29",
+ "title": "AGREGAR FECHA",
+ "voice": "Laomedeia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "out": "/home/claude/loc/out_es_v2/howto29_es_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_es_v2/proxy/howto29_redacted_587fa0a4.mp4",
+ "proxy": "/home/claude/loc/out_es_v2/proxy/howto29_redacted_587fa0a4.mp4",
+ "segs": [
+  [
+   58.8,
+   67.3,
+   2.0
+  ],
+  [
+   67.3,
+   92.8,
+   5.0
+  ],
+  [
+   92.8,
+   99.6,
+   2.0
+  ],
+  [
+   134.6,
+   141.0,
+   1.0
+  ]
+ ],
+ "redact_boxes": 1,
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿rutina sin fecha todavía?"
+  ],
+  [
+   5.75,
+   "Toquen Agregar fecha y elijan el día."
+  ],
+  [
+   11.05,
+   "Luego Agregar hora y elijan la hora."
+  ],
+  [
+   14.45,
+   "Listo, agendada con fecha y hora."
+  ]
+ ],
+ "sfx": [
+  [
+   5.76,
+   "tap"
+  ],
+  [
+   10.9,
+   "tap"
+  ],
+  [
+   14.45,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   4.36,
+   5.91,
+   "toquen",
+   115,
+   780,
+   "left_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto29_es_v2.png",
+ "rate": 1.0
+}

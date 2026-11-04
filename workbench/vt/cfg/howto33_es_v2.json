@@ -1,0 +1,89 @@
+{
+ "name": "howto33_es_v2",
+ "bg": "paper",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 33",
+ "title": "SUS AJUSTES",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "out": "/home/claude/loc/out_es_v2/howto33_es_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_es_v2/proxy/howto33_redacted_783c6b7c.mp4",
+ "proxy": "/home/claude/loc/out_es_v2/proxy/howto33_redacted_783c6b7c.mp4",
+ "segs": [
+  [
+   0.8,
+   1.9,
+   1.0
+  ],
+  [
+   1.9,
+   7.5,
+   2.5
+  ],
+  [
+   7.5,
+   13.5,
+   1.5
+  ],
+  [
+   13.5,
+   19.7,
+   1.5
+  ],
+  [
+   19.7,
+   24.8,
+   1.2
+  ]
+ ],
+ "redact_boxes": 21,
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, abran el menú y luego Ajustes."
+  ],
+  [
+   5.27,
+   "Elijan su idioma y sus unidades."
+  ],
+  [
+   6.94,
+   "Apariencia Claro, Oscuro o Libreta."
+  ],
+  [
+   12.61,
+   "Y qué avisos reciben."
+  ]
+ ],
+ "sfx": [
+  [
+   2.72,
+   "tap"
+  ],
+  [
+   4.94,
+   "tap"
+  ],
+  [
+   14.57,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   1.8,
+   2.87,
+   "toquen",
+   44,
+   716,
+   "left_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto33_es_v2.png",
+ "rate": 1.0
+}

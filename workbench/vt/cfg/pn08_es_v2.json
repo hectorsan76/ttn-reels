@@ -1,0 +1,52 @@
+{
+ "name": "pn08_es_v2",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pn08_es.png",
+ "voice": "Laomedeia",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n08a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n08b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/stills/client_nb.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Entrenadores personales, ¿sus clientes saben qué sigue?",
+   1100
+  ],
+  [
+   1,
+   0.4,
+   "Abren su app y la rutina del día está ahí."
+  ],
+  [
+   1,
+   4.6,
+   "Su nota aparece hasta arriba."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out_es_v2/pn08_es_v2.mp4",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_secs": 5.6,
+ "lang": "es-US",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "callout": "Entrenadores personales,",
+ "rate": 1.0,
+ "cap_gap": 0.07
+}

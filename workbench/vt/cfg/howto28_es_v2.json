@@ -1,0 +1,124 @@
+{
+ "name": "howto28_es_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 28",
+ "title": "DESACTIVAR CLIENTE",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "out": "/home/claude/loc/out_es_v2/howto28_es_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_es_v2/proxy/howto28_redacted_d4b69387.mp4",
+ "proxy": "/home/claude/loc/out_es_v2/proxy/howto28_redacted_d4b69387.mp4",
+ "segs": [
+  [
+   0.8,
+   2.6,
+   1.5
+  ],
+  [
+   2.6,
+   10.8,
+   2.0
+  ],
+  [
+   23.0,
+   25.0,
+   1.0
+  ],
+  [
+   25.0,
+   35.4,
+   2.5
+  ],
+  [
+   35.4,
+   40.0,
+   1.6
+  ],
+  [
+   45.5,
+   48.0,
+   1.2
+  ],
+  [
+   48.0,
+   54.5,
+   3.0
+  ],
+  [
+   54.5,
+   59.5,
+   1.0
+  ]
+ ],
+ "redact_boxes": 3,
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿su cliente terminó con ustedes?"
+  ],
+  [
+   3.0,
+   "Abran su perfil, toquen el menú y luego Desactivar cliente."
+  ],
+  [
+   16.35,
+   "Deja de contar en su plan de inmediato."
+  ],
+  [
+   20.15,
+   "Y pasa a la pestaña Desactivados."
+  ]
+ ],
+ "sfx": [
+  [
+   2.74,
+   "tap"
+  ],
+  [
+   5.2,
+   "tap"
+  ],
+  [
+   6.81,
+   "tap"
+  ],
+  [
+   7.66,
+   "tap"
+  ],
+  [
+   12.97,
+   "tap"
+  ],
+  [
+   16.32,
+   "tap"
+  ],
+  [
+   20.13,
+   "tap"
+  ],
+  [
+   20.48,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   6.26,
+   7.81,
+   "toquen",
+   624,
+   705,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto28_es_v2.png",
+ "rate": 1.0
+}

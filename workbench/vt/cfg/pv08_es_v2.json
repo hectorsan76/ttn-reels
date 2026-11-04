@@ -1,0 +1,51 @@
+{
+ "name": "pv08_es_v2",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv08_es.png",
+ "voice": "Algenib",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/s08a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/s08b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/stills/workout_dark.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.3,
+   "Entrenadores personales, su cliente está descansando entre series."
+  ],
+  [
+   1,
+   0.4,
+   "Registren cada serie ahí mismo en la app."
+  ],
+  [
+   1,
+   3.6,
+   "Nada que pasar en limpio después de la sesión."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out_es_v2/pv08_es_v2.mp4",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_secs": 5.6,
+ "lang": "es-US",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "callout": "Entrenadores personales,",
+ "rate": 1.0,
+ "cap_gap": 0.07
+}

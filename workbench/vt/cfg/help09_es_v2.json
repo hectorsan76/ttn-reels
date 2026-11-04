@@ -1,0 +1,185 @@
+{
+ "name": "help09_es_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "HÁBITOS DIARIOS",
+ "voice": "Laomedeia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "out": "/home/claude/loc/out_es_v2/help09_es_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_es_v2/proxy/help09_redacted_6a37642e.mp4",
+ "proxy": "/home/claude/loc/out_es_v2/proxy/help09_redacted_6a37642e.mp4",
+ "segs": [
+  [
+   0.5,
+   8.5,
+   0.667
+  ],
+  [
+   189.9,
+   198.4,
+   1.7
+  ],
+  [
+   8.8,
+   17.0,
+   2.1
+  ],
+  [
+   17.0,
+   52.8,
+   5.7
+  ],
+  [
+   52.8,
+   96.0,
+   8.0
+  ],
+  [
+   96.0,
+   120.0,
+   4.0
+  ],
+  [
+   120.0,
+   142.0,
+   4.4
+  ],
+  [
+   142.0,
+   163.0,
+   4.4
+  ],
+  [
+   163.0,
+   180.0,
+   2.8
+  ]
+ ],
+ "redact_boxes": 2,
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, con los hábitos ayudan a sus clientes a crear buenos hábitos y siguen todo, todos los días."
+  ],
+  [
+   6.85,
+   "Un hábito es una pequeña meta diaria, como tomar 8 vasos de agua o caminar."
+  ],
+  [
+   13.65,
+   "Su cliente ve sus hábitos todos los días en su app y los marca cuando los cumple."
+  ],
+  [
+   18.69,
+   "Para agregar uno, abran al cliente y toquen Hábitos."
+  ],
+  [
+   22.53,
+   "Toquen Agregar y elijan un hábito de la lista, o creen el suyo."
+  ],
+  [
+   29.12,
+   "Elijan un ícono y un recordatorio, si quieren que su celular le avise."
+  ],
+  [
+   34.25,
+   "Conforme lo marca, ven cómo va su semana justo aquí."
+  ],
+  [
+   40.41,
+   "Si falla 3 días seguidos, aparece en Seguimiento en su pantalla de inicio."
+  ],
+  [
+   45.29,
+   "¿Va bien? Toquen Buen trabajo, porque lo que hace entre sesiones importa tanto como la sesión."
+  ]
+ ],
+ "sfx": [
+  [
+   16.51,
+   "tap"
+  ],
+  [
+   18.72,
+   "tap"
+  ],
+  [
+   19.83,
+   "tap"
+  ],
+  [
+   21.38,
+   "tap"
+  ],
+  [
+   25.86,
+   "tap"
+  ],
+  [
+   28.77,
+   "tap"
+  ],
+  [
+   30.07,
+   "tap"
+  ],
+  [
+   31.34,
+   "tap"
+  ],
+  [
+   32.39,
+   "tap"
+  ],
+  [
+   33.87,
+   "tap"
+  ],
+  [
+   39.77,
+   "tap"
+  ],
+  [
+   40.33,
+   "tap"
+  ],
+  [
+   45.2,
+   "tap"
+  ],
+  [
+   45.74,
+   "tap"
+  ],
+  [
+   46.37,
+   "tap"
+  ],
+  [
+   51.73,
+   "tap"
+  ],
+  [
+   51.81,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   19.98,
+   21.53,
+   "toquen",
+   477,
+   794,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help09_es_v2.png",
+ "rate": 1.0
+}

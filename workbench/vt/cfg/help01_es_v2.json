@@ -1,0 +1,124 @@
+{
+ "name": "help01_es_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "SU PANTALLA DE INICIO",
+ "voice": "Sadachbia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "out": "/home/claude/loc/out_es_v2/help01_es_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/H01/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/H01/take_p6.mp4",
+ "segs": [
+  [
+   1.0,
+   16.5,
+   1.38
+  ],
+  [
+   16.5,
+   21.0,
+   1.5
+  ],
+  [
+   21.0,
+   35.5,
+   5.0
+  ],
+  [
+   35.5,
+   42.5,
+   2.0
+  ],
+  [
+   42.5,
+   55.0,
+   4.0
+  ],
+  [
+   55.0,
+   73.8,
+   3.0
+  ],
+  [
+   73.8,
+   90.5,
+   2.6
+  ],
+  [
+   90.5,
+   99.0,
+   1.5
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, la pantalla de inicio les muestra todo su día de entrenamientos en cuanto abren la app."
+  ],
+  [
+   3.05,
+   "Cuando un cliente les escribe, aparece hasta arriba, para que nunca dejen a nadie esperando."
+  ],
+  [
+   12.9,
+   "Hoy tiene cada sesión de su agenda, y sus recordatorios están a un toque."
+  ],
+  [
+   26.19,
+   "Seguimiento les muestra quién faltó a una rutina, para que nadie se quede atrás."
+  ],
+  [
+   31.59,
+   "Y Actividad reciente muestra lo que andan haciendo sus clientes."
+  ]
+ ],
+ "sfx": [
+  [
+   14.32,
+   "tap"
+  ],
+  [
+   18.64,
+   "tap"
+  ],
+  [
+   20.44,
+   "tap"
+  ],
+  [
+   24.99,
+   "tap"
+  ],
+  [
+   31.57,
+   "tap"
+  ],
+  [
+   37.95,
+   "tap"
+  ],
+  [
+   39.05,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   19.04,
+   20.59,
+   "toquen",
+   304,
+   878,
+   "right"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help01_es_v2.png",
+ "rate": 1.0
+}

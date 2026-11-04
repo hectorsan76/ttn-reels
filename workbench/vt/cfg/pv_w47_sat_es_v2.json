@@ -1,0 +1,62 @@
+{
+ "name": "pv_w47_sat_es_v2",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_sat_es.png",
+ "voice": "Sadachbia",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_sat_a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_sat_b1.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_sat_b2.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/stills/w47_sat1_colour_pick.png"
+   ],
+   [
+    9.8,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/stills/w47_sat2_colours_set.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Entrenadores personales, ¿sus clientes confunden sus superseries?",
+   160
+  ],
+  [
+   1,
+   0.4,
+   "Den a los ejercicios en pareja la misma franja de color en la rutina.",
+   250
+  ],
+  [
+   2,
+   0.1,
+   "Así ven qué va junto de un vistazo, y ustedes explican menos.",
+   250
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "out": "/home/claude/loc/out_es_v2/pv_w47_sat_es_v2.mp4",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_secs": 5.6,
+ "lang": "es-US",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "callout": "Entrenadores personales,",
+ "rate": 1.0,
+ "cap_gap": 0.07
+}

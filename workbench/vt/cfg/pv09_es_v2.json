@@ -1,0 +1,55 @@
+{
+ "name": "pv09_es_v2",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv09_es.png",
+ "voice": "Laomedeia",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/p09c.mp4",
+   1.0
+  ],
+  [
+   "/root/ttn-reels/workbench/vt/work/p09d_t.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/stills/home_dark.png"
+   ],
+   [
+    7.48,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/stills/workout_dark.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Entrenadores personales, su siguiente cliente acaba de llegar."
+  ],
+  [
+   1,
+   0.4,
+   "Empiecen su rutina en 2 toques."
+  ],
+  [
+   1,
+   3.6,
+   "Menos tiempo en el celular, más tiempo entrenando."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out_es_v2/pv09_es_v2.mp4",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_secs": 5.6,
+ "lang": "es-US",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "callout": "Entrenadores personales,",
+ "rate": 1.0,
+ "cap_gap": 0.07
+}

@@ -1,0 +1,151 @@
+{
+ "name": "howto27_es_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 27",
+ "title": "ARMAR UNA RUTINA",
+ "voice": "Algenib",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "es-US",
+ "end_vo": "The Training Notebook One. Software para entrenadores personales, hecho para entrenadores. Pruébenlo gratis 7 días.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_es.png",
+ "out": "/home/claude/loc/out_es_v2/howto27_es_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/H03/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/es/H03/take_p6.mp4",
+ "segs": [
+  [
+   7.0,
+   16.9,
+   2.5
+  ],
+  [
+   16.9,
+   21.0,
+   1.5
+  ],
+  [
+   89.8,
+   95.0,
+   1.5
+  ],
+  [
+   95.0,
+   122.5,
+   7.0
+  ],
+  [
+   176.5,
+   206.0,
+   6.0
+  ],
+  [
+   206.0,
+   272.0,
+   7.0
+  ],
+  [
+   396.0,
+   402.0,
+   2.0
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Entrenadores personales, ¿armando la rutina de hoy?"
+  ],
+  [
+   3.6,
+   "Toquen Agregar rutina y luego Armar rutina desde cero."
+  ],
+  [
+   8.43,
+   "Pongan la hora y un nombre."
+  ],
+  [
+   15.74,
+   "Busquen el ejercicio y agréguenlo."
+  ],
+  [
+   22.18,
+   "Series, repeticiones y peso en el teclado numérico."
+  ],
+  [
+   30.28,
+   "Lista antes de que llegue su cliente."
+  ]
+ ],
+ "sfx": [
+  [
+   1.68,
+   "tap"
+  ],
+  [
+   3.61,
+   "tap"
+  ],
+  [
+   5.54,
+   "tap"
+  ],
+  [
+   10.52,
+   "tap"
+  ],
+  [
+   15.58,
+   "tap"
+  ],
+  [
+   16.17,
+   "tap"
+  ],
+  [
+   20.29,
+   "tap"
+  ],
+  [
+   22.23,
+   "tap"
+  ],
+  [
+   24.3,
+   "tap"
+  ],
+  [
+   24.61,
+   "tap"
+  ],
+  [
+   26.6,
+   "tap"
+  ],
+  [
+   28.15,
+   "tap"
+  ],
+  [
+   30.01,
+   "tap"
+  ],
+  [
+   32.78,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   4.14,
+   5.69,
+   "toquen",
+   304,
+   1477,
+   "right"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto27_es_v2.png",
+ "rate": 1.0
+}
