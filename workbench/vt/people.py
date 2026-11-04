@@ -74,7 +74,7 @@ def build(cfg):
     caps = []
     for i, (tt, text, p, d) in enumerate(vo):
         e = tt + d + 0.35
-        if i + 1 < len(vo): e = min(e, vo[i + 1][0] - 0.02)
+        if i + 1 < len(vo): e = min(e, vo[i + 1][0] - 0.02 - C.get("cap_gap", 0))  # cap_gap: no frame with two captions
         else: e = H + M - 0.05
         caps.append((text, tt - 0.05, e, cys[i]))
     # footage chain with whip pans

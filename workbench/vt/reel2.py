@@ -140,7 +140,7 @@ def build(cfg):
         inp += ["-loop", "1", "-i", f"{wd}/bar.png"]; g += f";[b{k}][{nin}:v]overlay=x={(1080 - bw) // 2}:y=300:enable='gte(t,{H + 0.2})'[b{k + 1}]"; nin += 1; k += 1
     for i, (c, s, e) in enumerate(caps):
         pth = f"{wd}/c{i}.png"; cap_png(pth, c, kind); inp += ["-loop", "1", "-i", pth]
-        g += f";[b{k}][{nin}:v]overlay=0:{410}:enable='between(t,{s:.2f},{e:.2f})'[b{k + 1}]"; nin += 1; k += 1
+        g += f";[b{k}][{nin}:v]overlay=0:{410}:enable='between(t,{s:.2f},{e - C.get('cap_gap', 0):.2f})'[b{k + 1}]"; nin += 1; k += 1  # cap_gap: end each chunk early so two never share a frame
     for i, (t0, t1, text, x, y, side) in enumerate(C.get("notes", [])):
         pth = f"{wd}/n{i}.png"; note_png(pth, text, kind, side); inp += ["-loop", "1", "-i", pth]
         g += f";[b{k}][{nin}:v]overlay={x}:{y}:enable='between(t,{t0},{t1})'[b{k + 1}]"; nin += 1; k += 1
