@@ -1,0 +1,60 @@
+{
+ "name": "pv13_id_v2",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv13_id.png",
+ "voice": "Algenib",
+ "bw": true,
+ "shots": [
+  [
+   "/home/claude/loc/out_id_v2/s13a_0_1.5.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/s13b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 2.74,
+  "screens": [
+   [
+    2.74,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/stills/program_templates_dark.png"
+   ],
+   [
+    7.78,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/stills/workout_dark.png"
+   ],
+   [
+    9.38,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/stills/assessments_dark.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.2,
+   "Personal trainer, aplikasi ini dibuat oleh personal trainer yang melatih sejak 2006.",
+   250
+  ],
+  [
+   1,
+   2.2,
+   "Latihan, program, dan progres untuk setiap klien."
+  ],
+  [
+   1,
+   5.8,
+   "Dibuat untuk cara kamu melatih yang sebenarnya."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out_id_v2/pv13_id_v2.mp4",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_secs": 5.6,
+ "lang": "id-ID",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "callout": "Personal trainer,",
+ "rate": 1.1,
+ "cap_gap": 0.07
+}

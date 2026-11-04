@@ -1,0 +1,134 @@
+{
+ "name": "howto28_id_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 28",
+ "title": "NONAKTIFKAN KLIEN",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/howto28_id_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_id_v2/proxy/howto28_redacted_e5b1fb8e.mp4",
+ "proxy": "/home/claude/loc/out_id_v2/proxy/howto28_redacted_e5b1fb8e.mp4",
+ "segs": [
+  [
+   1.0,
+   3.4,
+   1.5
+  ],
+  [
+   3.4,
+   12.0,
+   2.0
+  ],
+  [
+   12.0,
+   20.3,
+   4.0
+  ],
+  [
+   20.3,
+   23.0,
+   1.0
+  ],
+  [
+   23.0,
+   31.8,
+   4.5
+  ],
+  [
+   31.8,
+   35.0,
+   1.2
+  ],
+  [
+   35.0,
+   41.7,
+   3.5
+  ],
+  [
+   41.7,
+   46.0,
+   1.2
+  ],
+  [
+   46.0,
+   53.3,
+   3.0
+  ],
+  [
+   53.3,
+   57.5,
+   1.0
+  ]
+ ],
+ "redact_boxes": 1,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, klien sudah selesai berlatih denganmu?"
+  ],
+  [
+   3.25,
+   "Buka profilnya, ketuk menu, lalu Nonaktifkan klien."
+  ],
+  [
+   19.06,
+   "Dia langsung tidak dihitung lagi di paket kamu."
+  ],
+  [
+   24.93,
+   "Dan pindah ke tab Nonaktif."
+  ]
+ ],
+ "sfx": [
+  [
+   3.21,
+   "tap"
+  ],
+  [
+   5.54,
+   "tap"
+  ],
+  [
+   7.37,
+   "tap"
+  ],
+  [
+   9.68,
+   "tap"
+  ],
+  [
+   14.37,
+   "tap"
+  ],
+  [
+   18.91,
+   "tap"
+  ],
+  [
+   24.93,
+   "tap"
+  ],
+  [
+   25.73,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   8.28,
+   9.83,
+   "ketuk",
+   618,
+   703,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto28_id_v2.png",
+ "rate": 1.0
+}

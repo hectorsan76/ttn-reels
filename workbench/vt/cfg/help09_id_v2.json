@@ -1,0 +1,181 @@
+{
+ "name": "help09_id_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "KEBIASAAN HARIAN",
+ "voice": "Laomedeia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/help09_id_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_id_v2/proxy/help09_redacted_50f737b6.mp4",
+ "proxy": "/home/claude/loc/out_id_v2/proxy/help09_redacted_50f737b6.mp4",
+ "segs": [
+  [
+   0.5,
+   8.5,
+   0.667
+  ],
+  [
+   139.93,
+   148.93,
+   1.7
+  ],
+  [
+   9.0,
+   17.4,
+   2.1
+  ],
+  [
+   17.4,
+   42.3,
+   5.0
+  ],
+  [
+   45.0,
+   61.5,
+   4.0
+  ],
+  [
+   61.5,
+   78.0,
+   4.0
+  ],
+  [
+   78.0,
+   97.4,
+   4.4
+  ],
+  [
+   97.4,
+   119.0,
+   4.4
+  ],
+  [
+   119.0,
+   129.0,
+   2.8
+  ]
+ ],
+ "redact_boxes": 1,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, dengan kebiasaan kamu membantu klien membangun kebiasaan baik dan memantau semuanya, setiap hari."
+  ],
+  [
+   6.85,
+   "Kebiasaan adalah target kecil harian, seperti minum 8 gelas air atau jalan kaki."
+  ],
+  [
+   13.64,
+   "Klien melihat kebiasaannya setiap hari di aplikasinya dan mencentangnya saat selesai."
+  ],
+  [
+   18.89,
+   "Untuk menambahkan, buka kliennya dan ketuk Kebiasaan."
+  ],
+  [
+   25.35,
+   "Ketuk Tambah dan pilih kebiasaan dari daftar, atau buat sendiri."
+  ],
+  [
+   27.87,
+   "Pilih ikon dan pengingat, kalau kamu mau ponselnya memberi tahu dia."
+  ],
+  [
+   32.02,
+   "Saat dia mencentang, kamu bisa melihat minggunya langsung di sini."
+  ],
+  [
+   36.69,
+   "Kalau dia melewatkan 3 hari beruntun, dia muncul di Tindak lanjut di Beranda kamu."
+  ],
+  [
+   41.91,
+   "Berjalan baik? Ketuk Kerja bagus, karena apa yang dia lakukan di antara sesi sama pentingnya dengan sesinya."
+  ]
+ ],
+ "sfx": [
+  [
+   16.52,
+   "tap"
+  ],
+  [
+   18.95,
+   "tap"
+  ],
+  [
+   19.99,
+   "tap"
+  ],
+  [
+   21.54,
+   "tap"
+  ],
+  [
+   25.35,
+   "tap"
+  ],
+  [
+   26.83,
+   "tap"
+  ],
+  [
+   27.85,
+   "tap"
+  ],
+  [
+   29.28,
+   "tap"
+  ],
+  [
+   31.28,
+   "tap"
+  ],
+  [
+   36.15,
+   "tap"
+  ],
+  [
+   36.68,
+   "tap"
+  ],
+  [
+   40.56,
+   "tap"
+  ],
+  [
+   41.07,
+   "tap"
+  ],
+  [
+   41.69,
+   "tap"
+  ],
+  [
+   45.49,
+   "tap"
+  ],
+  [
+   46.15,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   20.14,
+   21.69,
+   "ketuk",
+   477,
+   794,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help09_id_v2.png",
+ "rate": 1.1
+}

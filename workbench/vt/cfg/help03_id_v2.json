@@ -1,0 +1,259 @@
+{
+ "name": "help03_id_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "SUSUN LATIHAN",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/help03_id_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_id_v2/proxy/help03_redacted_d5875766.mp4",
+ "proxy": "/home/claude/loc/out_id_v2/proxy/help03_redacted_d5875766.mp4",
+ "segs": [
+  [
+   6.9,
+   7.3,
+   0.4
+  ],
+  [
+   7.3,
+   21.5,
+   3.6
+  ],
+  [
+   21.5,
+   44.7,
+   5.0
+  ],
+  [
+   50.9,
+   96.5,
+   8.0
+  ],
+  [
+   96.5,
+   116.3,
+   3.0
+  ],
+  [
+   116.3,
+   139.5,
+   5.0
+  ],
+  [
+   139.5,
+   162.0,
+   3.0
+  ],
+  [
+   162.0,
+   168.0,
+   2.0
+  ],
+  [
+   168.0,
+   298.5,
+   16.0
+  ],
+  [
+   298.5,
+   302.5,
+   2.0
+  ],
+  [
+   302.5,
+   305.5,
+   1.0
+  ]
+ ],
+ "redact_boxes": 1,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, begini cara menyusun latihan untuk klien."
+  ],
+  [
+   1.6,
+   "Buka kliennya, ketuk Tambah latihan, lalu Susun latihan dari nol."
+  ],
+  [
+   8.24,
+   "Pilih hari dan jamnya, beri judul, lalu ketuk Tambah."
+  ],
+  [
+   22.38,
+   "Ketuk gerakan yang sering dipakai, atau cari di seluruh library."
+  ],
+  [
+   28.79,
+   "Ketik beban dan repetisinya, dan kamu bisa melihat angkatan terakhirnya."
+  ],
+  [
+   36.12,
+   "Salin terakhir menyalin set dengan satu ketukan."
+  ],
+  [
+   39.37,
+   "Tambahkan sisanya dengan cara yang sama, ketuk kembali, dan latihannya sudah ada di jadwal klien."
+  ]
+ ],
+ "sfx": [
+  [
+   1.97,
+   "tap"
+  ],
+  [
+   3.32,
+   "tap"
+  ],
+  [
+   4.82,
+   "tap"
+  ],
+  [
+   6.18,
+   "tap"
+  ],
+  [
+   9.73,
+   "tap"
+  ],
+  [
+   10.04,
+   "tap"
+  ],
+  [
+   10.83,
+   "tap"
+  ],
+  [
+   12.24,
+   "tap"
+  ],
+  [
+   12.91,
+   "tap"
+  ],
+  [
+   13.53,
+   "tap"
+  ],
+  [
+   16.87,
+   "tap"
+  ],
+  [
+   22.37,
+   "tap"
+  ],
+  [
+   23.51,
+   "tap"
+  ],
+  [
+   27.56,
+   "tap"
+  ],
+  [
+   28.85,
+   "tap"
+  ],
+  [
+   30.39,
+   "tap"
+  ],
+  [
+   30.77,
+   "tap"
+  ],
+  [
+   31.19,
+   "tap"
+  ],
+  [
+   35.64,
+   "tap"
+  ],
+  [
+   37.13,
+   "tap"
+  ],
+  [
+   37.82,
+   "tap"
+  ],
+  [
+   39.23,
+   "tap"
+  ],
+  [
+   39.66,
+   "tap"
+  ],
+  [
+   41.37,
+   "tap"
+  ],
+  [
+   41.74,
+   "tap"
+  ],
+  [
+   42.04,
+   "tap"
+  ],
+  [
+   42.41,
+   "tap"
+  ],
+  [
+   43.0,
+   "tap"
+  ],
+  [
+   43.31,
+   "tap"
+  ],
+  [
+   44.74,
+   "tap"
+  ],
+  [
+   45.06,
+   "tap"
+  ],
+  [
+   45.39,
+   "tap"
+  ],
+  [
+   46.08,
+   "tap"
+  ],
+  [
+   46.87,
+   "tap"
+  ],
+  [
+   48.53,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   4.78,
+   6.33,
+   "ketuk",
+   304,
+   1477,
+   "right"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help03_id_v2.png",
+ "rate": 1.0
+}

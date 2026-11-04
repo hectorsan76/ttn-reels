@@ -1,0 +1,209 @@
+{
+ "name": "help06_id_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "GERAKAN KAMU SENDIRI",
+ "voice": "Algenib",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/help06_id_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/H06/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/H06/take_p6.mp4",
+ "segs": [
+  [
+   1.5,
+   5.2,
+   1.5
+  ],
+  [
+   5.2,
+   15.0,
+   2.5
+  ],
+  [
+   15.0,
+   21.0,
+   2.0
+  ],
+  [
+   21.0,
+   32.5,
+   3.0
+  ],
+  [
+   32.5,
+   48.4,
+   4.0
+  ],
+  [
+   48.4,
+   67.5,
+   3.0
+  ],
+  [
+   67.5,
+   74.7,
+   2.0
+  ],
+  [
+   74.7,
+   79.0,
+   1.2
+  ],
+  [
+   79.0,
+   97.5,
+   4.0
+  ],
+  [
+   97.5,
+   105.6,
+   2.5
+  ],
+  [
+   105.6,
+   121.5,
+   4.0
+  ],
+  [
+   121.5,
+   128.0,
+   1.5
+  ],
+  [
+   128.0,
+   140.0,
+   1.3
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, ada gerakan yang belum ada di library?"
+  ],
+  [
+   2.6,
+   "Tambahkan sendiri, dengan video kamu sendiri."
+  ],
+  [
+   4.11,
+   "Ketuk Tambah gerakan, lalu Custom, dan Tambah gerakan custom."
+  ],
+  [
+   10.99,
+   "Beri nama dan pilih cara mencatatnya."
+  ],
+  [
+   19.26,
+   "Lalu kategori, otot utama, dan alatnya."
+  ],
+  [
+   25.21,
+   "Punya video di YouTube?"
+  ],
+  [
+   26.41,
+   "Tempel linknya di sini, atau ketuk Tambah video atau foto dan pilih klip dari ponsel kamu."
+  ],
+  [
+   40.23,
+   "Ketuk Tambah, dan gerakannya sudah ada di library kamu."
+  ],
+  [
+   44.25,
+   "Buka, dan video kamu langsung diputar di dalam aplikasi."
+  ]
+ ],
+ "sfx": [
+  [
+   4.11,
+   "tap"
+  ],
+  [
+   6.16,
+   "tap"
+  ],
+  [
+   8.05,
+   "tap"
+  ],
+  [
+   10.62,
+   "tap"
+  ],
+  [
+   16.43,
+   "tap"
+  ],
+  [
+   18.82,
+   "tap"
+  ],
+  [
+   19.28,
+   "tap"
+  ],
+  [
+   20.6,
+   "tap"
+  ],
+  [
+   21.16,
+   "tap"
+  ],
+  [
+   22.47,
+   "tap"
+  ],
+  [
+   23.03,
+   "tap"
+  ],
+  [
+   24.35,
+   "tap"
+  ],
+  [
+   28.81,
+   "tap"
+  ],
+  [
+   32.29,
+   "tap"
+  ],
+  [
+   35.77,
+   "tap"
+  ],
+  [
+   40.24,
+   "tap"
+  ],
+  [
+   44.29,
+   "tap"
+  ],
+  [
+   44.52,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   4.76,
+   6.31,
+   "ketuk",
+   543,
+   814,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help06_id_v2.png",
+ "rate": 1.0
+}

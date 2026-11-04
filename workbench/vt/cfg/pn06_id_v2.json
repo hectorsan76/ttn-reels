@@ -1,0 +1,52 @@
+{
+ "name": "pn06_id_v2",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pn06_id.png",
+ "voice": "Orus",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n06a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/n06b.mp4",
+   1.2
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/stills/intake_nb.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainer, ada klien baru minggu ini?",
+   1100
+  ],
+  [
+   1,
+   0.4,
+   "Klien mengisi formulir awal kamu secara online sebelum sesi pertama."
+  ],
+  [
+   1,
+   4.4,
+   "Datang dengan sudah tahu tujuan dan cederanya."
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out_id_v2/pn06_id_v2.mp4",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_secs": 5.6,
+ "lang": "id-ID",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "callout": "Personal trainer,",
+ "rate": 1.0,
+ "cap_gap": 0.07
+}

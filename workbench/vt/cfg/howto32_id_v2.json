@@ -1,0 +1,192 @@
+{
+ "name": "howto32_id_v2",
+ "bg": "paper",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 32",
+ "title": "FORMULIR AWAL",
+ "voice": "Aoede",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/howto32_id_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_id_v2/proxy/howto32_redacted_ef74775c.mp4",
+ "proxy": "/home/claude/loc/out_id_v2/proxy/howto32_redacted_ef74775c.mp4",
+ "segs": [
+  [
+   0.5,
+   5.3,
+   2.0
+  ],
+  [
+   5.3,
+   32.0,
+   8.0
+  ],
+  [
+   32.0,
+   55.8,
+   7.0
+  ],
+  [
+   55.8,
+   97.0,
+   12.0
+  ],
+  [
+   97.0,
+   122.4,
+   8.0
+  ],
+  [
+   122.4,
+   156.2,
+   9.0
+  ],
+  [
+   156.2,
+   179.0,
+   8.0
+  ],
+  [
+   179.0,
+   190.0,
+   3.0
+  ],
+  [
+   190.0,
+   231.5,
+   11.0
+  ],
+  [
+   231.5,
+   238.7,
+   3.0
+  ],
+  [
+   238.7,
+   243.5,
+   1.5
+  ],
+  [
+   243.5,
+   248.0,
+   1.0
+  ]
+ ],
+ "redact_boxes": 10,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, ini yang dilihat klien baru kamu."
+  ],
+  [
+   1.85,
+   "Dia membuka undanganmu dan mulai mengisi formulir awal."
+  ],
+  [
+   4.01,
+   "Nama, tanggal lahir, tujuan, dan pengalaman."
+  ],
+  [
+   27.62,
+   "Beberapa pertanyaan kesehatan, lalu Kirim."
+  ],
+  [
+   37.09,
+   "Sudah ada di profilnya sebelum sesi pertama."
+  ]
+ ],
+ "sfx": [
+  [
+   4.02,
+   "tap"
+  ],
+  [
+   6.99,
+   "tap"
+  ],
+  [
+   7.31,
+   "tap"
+  ],
+  [
+   10.75,
+   "tap"
+  ],
+  [
+   12.32,
+   "tap"
+  ],
+  [
+   14.12,
+   "tap"
+  ],
+  [
+   17.37,
+   "tap"
+  ],
+  [
+   19.26,
+   "tap"
+  ],
+  [
+   21.12,
+   "tap"
+  ],
+  [
+   23.85,
+   "tap"
+  ],
+  [
+   27.8,
+   "tap"
+  ],
+  [
+   28.38,
+   "tap"
+  ],
+  [
+   28.94,
+   "tap"
+  ],
+  [
+   29.53,
+   "tap"
+  ],
+  [
+   30.09,
+   "tap"
+  ],
+  [
+   30.6,
+   "tap"
+  ],
+  [
+   31.27,
+   "tap"
+  ],
+  [
+   33.93,
+   "tap"
+  ],
+  [
+   36.66,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   32.53,
+   34.08,
+   "ketuk",
+   304,
+   1376,
+   "right"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto32_id_v2.png",
+ "rate": 1.0
+}

@@ -1,0 +1,94 @@
+{
+ "name": "howto30_id_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 30",
+ "title": "GANTI NAMA LATIHAN",
+ "voice": "Sadachbia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/howto30_id_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/R-RENAME/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/R-RENAME/take_p6.mp4",
+ "segs": [
+  [
+   4.0,
+   8.9,
+   2.5
+  ],
+  [
+   8.9,
+   11.0,
+   1.2
+  ],
+  [
+   11.0,
+   18.8,
+   4.0
+  ],
+  [
+   18.8,
+   27.0,
+   2.5
+  ],
+  [
+   27.0,
+   34.2,
+   4.0
+  ],
+  [
+   34.2,
+   40.0,
+   1.0
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, nama latihannya kurang pas?"
+  ],
+  [
+   3.48,
+   "Ketuk judulnya dan ketik nama baru."
+  ],
+  [
+   12.44,
+   "Simpan. Selesai."
+  ]
+ ],
+ "sfx": [
+  [
+   3.55,
+   "tap"
+  ],
+  [
+   7.31,
+   "tap"
+  ],
+  [
+   12.52,
+   "tap"
+  ],
+  [
+   14.14,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   2.15,
+   3.7,
+   "ketuk",
+   357,
+   689,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto30_id_v2.png",
+ "rate": 1.0
+}

@@ -1,0 +1,173 @@
+{
+ "name": "help07_id_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "PROGRES KLIEN",
+ "voice": "Aoede",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/help07_id_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/H07/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/H07/take_p6.mp4",
+ "segs": [
+  [
+   2.0,
+   6.6,
+   1.5
+  ],
+  [
+   6.6,
+   17.6,
+   2.5
+  ],
+  [
+   17.6,
+   22.3,
+   2.0
+  ],
+  [
+   22.3,
+   30.5,
+   3.0
+  ],
+  [
+   30.5,
+   34.0,
+   1.0
+  ],
+  [
+   34.0,
+   42.5,
+   2.5
+  ],
+  [
+   42.5,
+   49.5,
+   2.5
+  ],
+  [
+   49.5,
+   57.3,
+   1.8
+  ],
+  [
+   57.3,
+   64.8,
+   1.4
+  ],
+  [
+   64.8,
+   76.4,
+   2.5
+  ],
+  [
+   76.4,
+   81.0,
+   1.5
+  ],
+  [
+   81.0,
+   88.6,
+   2.5
+  ],
+  [
+   88.6,
+   92.0,
+   1.0
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, mau bukti klien kamu makin kuat?"
+  ],
+  [
+   2.93,
+   "Semuanya ada di riwayatnya."
+  ],
+  [
+   4.71,
+   "Buka kliennya dan ketuk Riwayat untuk melihat latihan sebelumnya."
+  ],
+  [
+   13.92,
+   "Lihat trofinya?"
+  ],
+  [
+   15.15,
+   "Itu rekor pribadi baru."
+  ],
+  [
+   19.49,
+   "Buka latihannya, ketuk menu sebuah gerakan, lalu Detail."
+  ],
+  [
+   31.4,
+   "Beban tertinggi adalah beban terberat yang pernah dia angkat, dan Tren menunjukkan perubahannya sejak terakhir kali."
+  ],
+  [
+   34.02,
+   "Grafiknya menunjukkan setiap sesi, jadi kamu bisa melihat bebannya naik."
+  ],
+  [
+   35.62,
+   "Scroll untuk melihat setiap kali dia melakukannya, dan ketuk salah satunya untuk melihat setnya."
+  ]
+ ],
+ "sfx": [
+  [
+   4.71,
+   "tap"
+  ],
+  [
+   6.62,
+   "tap"
+  ],
+  [
+   9.13,
+   "tap"
+  ],
+  [
+   19.51,
+   "tap"
+  ],
+  [
+   23.91,
+   "tap"
+  ],
+  [
+   28.2,
+   "tap"
+  ],
+  [
+   38.23,
+   "tap"
+  ],
+  [
+   44.35,
+   "tap"
+  ],
+  [
+   45.19,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   7.73,
+   9.28,
+   "ketuk",
+   357,
+   893,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help07_id_v2.png",
+ "rate": 1.05
+}

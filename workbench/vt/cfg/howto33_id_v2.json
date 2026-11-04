@@ -1,0 +1,89 @@
+{
+ "name": "howto33_id_v2",
+ "bg": "paper",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 33",
+ "title": "PENGATURAN KAMU",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/howto33_id_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_id_v2/proxy/howto33_redacted_8caa47d1.mp4",
+ "proxy": "/home/claude/loc/out_id_v2/proxy/howto33_redacted_8caa47d1.mp4",
+ "segs": [
+  [
+   1.5,
+   3.9,
+   1.0
+  ],
+  [
+   3.9,
+   10.6,
+   2.5
+  ],
+  [
+   10.6,
+   16.5,
+   1.5
+  ],
+  [
+   16.5,
+   22.0,
+   1.5
+  ],
+  [
+   22.0,
+   25.5,
+   1.2
+  ]
+ ],
+ "redact_boxes": 17,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, buka menu, lalu Pengaturan."
+  ],
+  [
+   7.61,
+   "Atur bahasa dan satuannya."
+  ],
+  [
+   9.28,
+   "Tampilan Terang, Gelap, atau Notebook."
+  ],
+  [
+   11.61,
+   "Dan pilih pemberitahuan yang kamu terima."
+  ]
+ ],
+ "sfx": [
+  [
+   4.01,
+   "tap"
+  ],
+  [
+   6.75,
+   "tap"
+  ],
+  [
+   13.95,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   2.61,
+   4.16,
+   "ketuk",
+   44,
+   702,
+   "left_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto33_id_v2.png",
+ "rate": 1.0
+}

@@ -1,0 +1,205 @@
+{
+ "name": "howto24_id_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 24",
+ "title": "TEMPLATE PROGRAM",
+ "voice": "Sadachbia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/Beat 4 casey.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/howto24_id_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/R-TEMPLATE/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/R-TEMPLATE/take_p6.mp4",
+ "segs": [
+  [
+   0.5,
+   6.8,
+   1.5
+  ],
+  [
+   6.8,
+   17.3,
+   2.5
+  ],
+  [
+   17.3,
+   62.8,
+   14.0
+  ],
+  [
+   62.8,
+   76.5,
+   3.0
+  ],
+  [
+   76.5,
+   95.8,
+   6.0
+  ],
+  [
+   116.2,
+   135.0,
+   3.5
+  ],
+  [
+   135.0,
+   168.0,
+   8.0
+  ],
+  [
+   168.0,
+   216.0,
+   8.0
+  ],
+  [
+   216.0,
+   221.0,
+   1.0
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, susun program sekali dan pakai untuk setiap klien."
+  ],
+  [
+   3.47,
+   "Buka Template program dan ketuk tombol plus."
+  ],
+  [
+   10.01,
+   "Beri nama dan pilih hari latihannya."
+  ],
+  [
+   21.06,
+   "Atur tujuan dan levelnya."
+  ],
+  [
+   27.34,
+   "Tambahkan latihan pertama."
+  ],
+  [
+   31.58,
+   "Lalu tambahkan gerakannya."
+  ],
+  [
+   36.15,
+   "Minggu pertama sudah jadi. Berikan ke klien mana pun."
+  ]
+ ],
+ "sfx": [
+  [
+   2.77,
+   "tap"
+  ],
+  [
+   4.22,
+   "tap"
+  ],
+  [
+   7.42,
+   "tap"
+  ],
+  [
+   10.01,
+   "tap"
+  ],
+  [
+   13.49,
+   "tap"
+  ],
+  [
+   13.82,
+   "tap"
+  ],
+  [
+   14.17,
+   "tap"
+  ],
+  [
+   16.56,
+   "tap"
+  ],
+  [
+   19.41,
+   "tap"
+  ],
+  [
+   21.1,
+   "tap"
+  ],
+  [
+   21.58,
+   "tap"
+  ],
+  [
+   23.56,
+   "tap"
+  ],
+  [
+   25.6,
+   "tap"
+  ],
+  [
+   26.18,
+   "tap"
+  ],
+  [
+   27.34,
+   "tap"
+  ],
+  [
+   28.52,
+   "tap"
+  ],
+  [
+   30.14,
+   "tap"
+  ],
+  [
+   31.58,
+   "tap"
+  ],
+  [
+   32.7,
+   "tap"
+  ],
+  [
+   33.72,
+   "tap"
+  ],
+  [
+   34.05,
+   "tap"
+  ],
+  [
+   35.23,
+   "tap"
+  ],
+  [
+   36.34,
+   "tap"
+  ],
+  [
+   36.35,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   6.02,
+   7.57,
+   "plus",
+   624,
+   705,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto24_id_v2.png",
+ "rate": 1.0
+}

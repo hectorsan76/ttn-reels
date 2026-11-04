@@ -1,0 +1,129 @@
+{
+ "name": "help01_id_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "BERANDA KAMU",
+ "voice": "Sadachbia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/help01_id_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/H01/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/H01/take_p6.mp4",
+ "segs": [
+  [
+   1.0,
+   16.3,
+   1.38
+  ],
+  [
+   16.3,
+   20.5,
+   1.5
+  ],
+  [
+   20.5,
+   29.5,
+   4.0
+  ],
+  [
+   29.5,
+   33.4,
+   1.5
+  ],
+  [
+   33.4,
+   37.0,
+   1.2
+  ],
+  [
+   37.0,
+   46.5,
+   4.0
+  ],
+  [
+   46.5,
+   62.4,
+   3.0
+  ],
+  [
+   62.4,
+   78.5,
+   3.0
+  ],
+  [
+   78.5,
+   89.5,
+   2.0
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, Beranda menampilkan seluruh hari melatihmu begitu kamu membuka aplikasi."
+  ],
+  [
+   3.05,
+   "Saat klien mengirim pesan, pesannya muncul paling atas, jadi tidak ada yang kamu biarkan menunggu."
+  ],
+  [
+   12.89,
+   "Hari ini berisi setiap sesi di jadwal kamu, dan pengingatmu tinggal satu ketukan."
+  ],
+  [
+   26.88,
+   "Tindak lanjut menampilkan siapa pun yang melewatkan latihan, jadi tidak ada klien yang tertinggal."
+  ],
+  [
+   31.05,
+   "Dan Aktivitas terbaru menampilkan apa yang sedang dilakukan klien kamu."
+  ]
+ ],
+ "sfx": [
+  [
+   14.39,
+   "tap"
+  ],
+  [
+   17.81,
+   "tap"
+  ],
+  [
+   20.45,
+   "tap"
+  ],
+  [
+   25.57,
+   "tap"
+  ],
+  [
+   31.06,
+   "tap"
+  ],
+  [
+   36.42,
+   "tap"
+  ],
+  [
+   41.13,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   19.05,
+   20.6,
+   "ketuk",
+   304,
+   878,
+   "right"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help01_id_v2.png",
+ "rate": 1.0
+}

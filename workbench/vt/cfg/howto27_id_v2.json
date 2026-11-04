@@ -1,0 +1,181 @@
+{
+ "name": "howto27_id_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 27",
+ "title": "SUSUN LATIHAN",
+ "voice": "Algenib",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/howto27_id_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_id_v2/proxy/howto27_redacted_d5875766.mp4",
+ "proxy": "/home/claude/loc/out_id_v2/proxy/howto27_redacted_d5875766.mp4",
+ "segs": [
+  [
+   7.0,
+   15.2,
+   2.5
+  ],
+  [
+   15.2,
+   21.5,
+   1.5
+  ],
+  [
+   50.9,
+   66.5,
+   4.0
+  ],
+  [
+   66.5,
+   96.5,
+   9.0
+  ],
+  [
+   96.5,
+   112.9,
+   6.0
+  ],
+  [
+   112.9,
+   139.5,
+   6.0
+  ],
+  [
+   139.5,
+   168.0,
+   6.0
+  ],
+  [
+   168.0,
+   181.0,
+   3.0
+  ],
+  [
+   297.5,
+   304.5,
+   2.0
+  ]
+ ],
+ "redact_boxes": 1,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, sedang menyusun latihan hari ini?"
+  ],
+  [
+   3.6,
+   "Ketuk Tambah latihan, lalu Susun latihan dari nol."
+  ],
+  [
+   9.11,
+   "Atur jamnya dan beri nama."
+  ],
+  [
+   19.05,
+   "Cari gerakannya dan tambahkan."
+  ],
+  [
+   23.83,
+   "Set, repetisi, dan beban lewat papan angka."
+  ],
+  [
+   33.16,
+   "Siap sebelum klien datang."
+  ]
+ ],
+ "sfx": [
+  [
+   1.62,
+   "tap"
+  ],
+  [
+   2.76,
+   "tap"
+  ],
+  [
+   4.95,
+   "tap"
+  ],
+  [
+   8.21,
+   "tap"
+  ],
+  [
+   11.2,
+   "tap"
+  ],
+  [
+   12.54,
+   "tap"
+  ],
+  [
+   13.33,
+   "tap"
+  ],
+  [
+   16.3,
+   "tap"
+  ],
+  [
+   19.05,
+   "tap"
+  ],
+  [
+   19.64,
+   "tap"
+  ],
+  [
+   23.01,
+   "tap"
+  ],
+  [
+   23.84,
+   "tap"
+  ],
+  [
+   24.61,
+   "tap"
+  ],
+  [
+   25.01,
+   "tap"
+  ],
+  [
+   27.24,
+   "tap"
+  ],
+  [
+   27.73,
+   "tap"
+  ],
+  [
+   31.47,
+   "tap"
+  ],
+  [
+   33.15,
+   "tap"
+  ],
+  [
+   34.56,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   6.81,
+   8.36,
+   "ketuk",
+   304,
+   1477,
+   "right"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto27_id_v2.png",
+ "rate": 1.0
+}

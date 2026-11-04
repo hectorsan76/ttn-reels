@@ -1,0 +1,190 @@
+{
+ "name": "howto25_id_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 25",
+ "title": "JADWALKAN SESI",
+ "voice": "Laomedeia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/howto25_id_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/R-BOOK/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/R-BOOK/take_p6.mp4",
+ "segs": [
+  [
+   1.2,
+   5.3,
+   1.6
+  ],
+  [
+   16.3,
+   24.6,
+   3.0
+  ],
+  [
+   24.6,
+   29.6,
+   1.6
+  ],
+  [
+   29.6,
+   36.2,
+   3.0
+  ],
+  [
+   36.2,
+   48.8,
+   3.5
+  ],
+  [
+   48.8,
+   63.0,
+   3.5
+  ],
+  [
+   76.6,
+   80.5,
+   1.0
+  ],
+  [
+   80.5,
+   86.5,
+   2.0
+  ],
+  [
+   86.5,
+   143.6,
+   6.5
+  ],
+  [
+   143.6,
+   147.5,
+   1.0
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, jadwalkan sesi langsung dari kalender."
+  ],
+  [
+   6.73,
+   "Ketuk harinya dan pilih klien."
+  ],
+  [
+   12.34,
+   "Beri nama latihannya."
+  ],
+  [
+   16.0,
+   "Atur jamnya."
+  ],
+  [
+   20.51,
+   "Sudah ada di kalender."
+  ],
+  [
+   26.87,
+   "Buka dan tambahkan gerakannya."
+  ],
+  [
+   35.7,
+   "Terjadwal dan siap."
+  ]
+ ],
+ "sfx": [
+  [
+   1.91,
+   "tap"
+  ],
+  [
+   3.05,
+   "tap"
+  ],
+  [
+   7.11,
+   "tap"
+  ],
+  [
+   9.67,
+   "tap"
+  ],
+  [
+   12.33,
+   "tap"
+  ],
+  [
+   16.01,
+   "tap"
+  ],
+  [
+   19.88,
+   "tap"
+  ],
+  [
+   20.43,
+   "tap"
+  ],
+  [
+   26.87,
+   "tap"
+  ],
+  [
+   27.98,
+   "tap"
+  ],
+  [
+   29.18,
+   "tap"
+  ],
+  [
+   30.32,
+   "tap"
+  ],
+  [
+   30.67,
+   "tap"
+  ],
+  [
+   32.18,
+   "tap"
+  ],
+  [
+   33.09,
+   "tap"
+  ],
+  [
+   33.44,
+   "tap"
+  ],
+  [
+   34.46,
+   "tap"
+  ],
+  [
+   35.32,
+   "tap"
+  ],
+  [
+   35.8,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   8.27,
+   9.82,
+   "pilih",
+   304,
+   1313,
+   "right"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto25_id_v2.png",
+ "rate": 1.0
+}

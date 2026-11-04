@@ -1,0 +1,255 @@
+{
+ "name": "howto18_id_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 18",
+ "title": "SET BERWAKTU",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/howto18_id_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/R-TIMED/take_p6.mp4",
+ "proxy": "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/R-TIMED/take_p6.mp4",
+ "segs": [
+  [
+   2.0,
+   8.3,
+   1.5
+  ],
+  [
+   8.3,
+   33.4,
+   8.0
+  ],
+  [
+   33.4,
+   43.6,
+   4.0
+  ],
+  [
+   43.6,
+   48.0,
+   1.5
+  ],
+  [
+   48.0,
+   54.5,
+   3.0
+  ],
+  [
+   54.5,
+   68.7,
+   5.0
+  ],
+  [
+   97.8,
+   117.3,
+   5.0
+  ],
+  [
+   117.3,
+   125.5,
+   4.0
+  ],
+  [
+   125.5,
+   130.0,
+   1.5
+  ],
+  [
+   130.0,
+   139.5,
+   4.0
+  ],
+  [
+   139.5,
+   150.5,
+   4.0
+  ],
+  [
+   150.5,
+   174.3,
+   8.0
+  ],
+  [
+   174.3,
+   193.2,
+   6.0
+  ],
+  [
+   193.2,
+   201.0,
+   2.5
+  ],
+  [
+   201.0,
+   207.0,
+   1.0
+  ]
+ ],
+ "redact_boxes": 0,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, ada kardio di program?"
+  ],
+  [
+   6.14,
+   "Cari mesin rowing."
+  ],
+  [
+   11.46,
+   "Atur menitnya. Tanpa repetisi."
+  ],
+  [
+   16.42,
+   "Itu dia."
+  ],
+  [
+   23.38,
+   "Sprint? Detik per set."
+  ],
+  [
+   36.51,
+   "Lari? Tambahkan jaraknya."
+  ],
+  [
+   42.85,
+   "Waktu dan jarak, langsung di latihan."
+  ]
+ ],
+ "sfx": [
+  [
+   5.81,
+   "tap"
+  ],
+  [
+   6.25,
+   "tap"
+  ],
+  [
+   8.97,
+   "tap"
+  ],
+  [
+   11.57,
+   "tap"
+  ],
+  [
+   12.53,
+   "tap"
+  ],
+  [
+   12.92,
+   "tap"
+  ],
+  [
+   14.0,
+   "tap"
+  ],
+  [
+   16.3,
+   "tap"
+  ],
+  [
+   16.92,
+   "tap"
+  ],
+  [
+   19.42,
+   "tap"
+  ],
+  [
+   23.34,
+   "tap"
+  ],
+  [
+   25.5,
+   "tap"
+  ],
+  [
+   26.34,
+   "tap"
+  ],
+  [
+   26.74,
+   "tap"
+  ],
+  [
+   27.78,
+   "tap"
+  ],
+  [
+   28.68,
+   "tap"
+  ],
+  [
+   29.17,
+   "tap"
+  ],
+  [
+   29.55,
+   "tap"
+  ],
+  [
+   29.94,
+   "tap"
+  ],
+  [
+   30.34,
+   "tap"
+  ],
+  [
+   32.69,
+   "tap"
+  ],
+  [
+   33.49,
+   "tap"
+  ],
+  [
+   35.22,
+   "tap"
+  ],
+  [
+   36.49,
+   "tap"
+  ],
+  [
+   37.73,
+   "tap"
+  ],
+  [
+   38.88,
+   "tap"
+  ],
+  [
+   39.38,
+   "tap"
+  ],
+  [
+   42.27,
+   "tap"
+  ],
+  [
+   42.59,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   10.17,
+   11.72,
+   "menit",
+   122,
+   1459,
+   "left"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto18_id_v2.png",
+ "rate": 1.0
+}

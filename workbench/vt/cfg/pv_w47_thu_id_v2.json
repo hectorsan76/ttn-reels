@@ -1,0 +1,57 @@
+{
+ "name": "pv_w47_thu_id_v2",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_thu_id.png",
+ "voice": "Algenib",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_thu_a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_thu_b.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/stills/w47_thu1_sofia_workouts.png"
+   ],
+   [
+    10.4,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/id/stills/w47_thu2_workout_phone.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainer, capek menyusun program di layar kecil?"
+  ],
+  [
+   1,
+   0.4,
+   "Susun di laptop. Saat melatih, sudah ada di ponsel kamu.",
+   30
+  ],
+  [
+   1,
+   5.0,
+   "Jadi kamu merencanakan dengan nyaman dan tetap fokus pada klien di gym.",
+   30
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "out": "/home/claude/loc/out_id_v2/pv_w47_thu_id_v2.mp4",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_secs": 5.6,
+ "lang": "id-ID",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "callout": "Personal trainer,",
+ "rate": 1.0,
+ "cap_gap": 0.07
+}

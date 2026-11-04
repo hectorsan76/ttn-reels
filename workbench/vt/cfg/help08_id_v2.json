@@ -1,0 +1,153 @@
+{
+ "name": "help08_id_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "RENCANAKAN DI LAPTOP",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/help08_id_v2.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_id_v2/proxy/help08/full.mp4",
+ "proxy": "/home/claude/loc/out_id_v2/proxy/help08/full.mp4",
+ "segs": [
+  [
+   0.0,
+   60.7,
+   1.0
+  ]
+ ],
+ "full": true,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, mau menulis latihan minggu depan? Lebih cepat di laptop."
+  ],
+  [
+   1.63,
+   "Buka Kalender, klik satu hari, lalu Tambah latihan."
+  ],
+  [
+   8.41,
+   "Pilih kliennya, beri judul, dan latihannya sudah ada di kalender."
+  ],
+  [
+   16.85,
+   "Buka latihannya, ketik nama gerakan, lalu tekan Enter."
+  ],
+  [
+   27.54,
+   "Ketik beban dan repetisinya, dan Salin terakhir mengisi set berikutnya."
+  ],
+  [
+   31.64,
+   "Klik Simpan, lalu lanjut ke gerakan berikutnya."
+  ],
+  [
+   38.66,
+   "Latihan terakhir klien ada tepat di sampingnya, jadi kamu tahu di mana dia berhenti."
+  ],
+  [
+   48.93,
+   "Dan saat kamu ambil ponsel, latihannya sudah ada di sana."
+  ]
+ ],
+ "sfx": [
+  [
+   3.1,
+   "tap"
+  ],
+  [
+   4.82,
+   "tap"
+  ],
+  [
+   7.03,
+   "tap"
+  ],
+  [
+   8.41,
+   "tap"
+  ],
+  [
+   9.57,
+   "tap"
+  ],
+  [
+   11.22,
+   "tap"
+  ],
+  [
+   16.82,
+   "tap"
+  ],
+  [
+   20.49,
+   "tap"
+  ],
+  [
+   28.05,
+   "tap"
+  ],
+  [
+   29.75,
+   "tap"
+  ],
+  [
+   31.62,
+   "tap"
+  ],
+  [
+   34.14,
+   "tap"
+  ],
+  [
+   37.18,
+   "tap"
+  ],
+  [
+   38.27,
+   "tap"
+  ],
+  [
+   38.87,
+   "tap"
+  ],
+  [
+   41.49,
+   "tap"
+  ],
+  [
+   42.38,
+   "tap"
+  ],
+  [
+   45.67,
+   "tap"
+  ],
+  [
+   49.21,
+   "tap"
+  ],
+  [
+   50.79,
+   "tap"
+  ],
+  [
+   55.75,
+   "tap"
+  ],
+  [
+   59.3,
+   "chime"
+  ]
+ ],
+ "notes": [],
+ "redact_boxes": 0,
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help08_id_v2.png",
+ "rate": 1.0
+}

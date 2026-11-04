@@ -1,0 +1,88 @@
+{
+ "name": "howto26_id_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 26",
+ "title": "EKSPOR PDF",
+ "voice": "Aoede",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "id-ID",
+ "end_vo": "The Training Notebook One. Software untuk personal trainer, dibuat untuk pelatih. Coba gratis 7 hari.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_id.png",
+ "out": "/home/claude/loc/out_id_v2/howto26_id_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_id_v2/proxy/howto26_redacted_45ec8ab9.mp4",
+ "proxy": "/home/claude/loc/out_id_v2/proxy/howto26_redacted_45ec8ab9.mp4",
+ "segs": [
+  [
+   3.0,
+   9.5,
+   1.5
+  ],
+  [
+   133.3,
+   141.4,
+   1.3
+  ],
+  [
+   141.4,
+   155.0,
+   2.5
+  ],
+  [
+   161.5,
+   185.0,
+   3.5
+  ]
+ ],
+ "redact_boxes": 8,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, klien latihan sendiri minggu ini?"
+  ],
+  [
+   6.01,
+   "Buka latihannya, ketuk menu, lalu Ekspor PDF."
+  ],
+  [
+   17.63,
+   "Kirim atau cetak, supaya dia tidak perlu menebak."
+  ]
+ ],
+ "sfx": [
+  [
+   4.02,
+   "tap"
+  ],
+  [
+   6.08,
+   "tap"
+  ],
+  [
+   13.1,
+   "tap"
+  ],
+  [
+   17.09,
+   "tap"
+  ],
+  [
+   17.63,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   11.7,
+   13.25,
+   "ketuk",
+   290,
+   919,
+   "left_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto26_id_v2.png",
+ "rate": 1.0
+}
