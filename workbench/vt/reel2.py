@@ -132,9 +132,12 @@ def build(cfg):
     for a, b, s in segs: inp += ["-ss", f"{a}", "-t", f"{b - a}", "-i", proxy]
     g = ";".join(f"[{n0 + i}:v]setpts=(PTS-STARTPTS)/{s}[s{i}]" for i, (a, b, s) in enumerate(segs))
     g += ";" + "".join(f"[s{i}]" for i in range(len(segs))) + f"concat=n={len(segs)}:v=1:a=0,tpad=stop_mode=clone:stop_duration={E + 1},setpts=PTS+{H}/TB[rec]"
-    g += ";[3:v]format=gray[m];[rec]format=yuva420p[ra];[ra][m]alphamerge[recm]"
-    yexp = f"{PY}+(1920-{PY})*pow(max(0\\,1-(t-{H})/0.42)\\,3)"
-    g += f";[0:v][2:v]overlay=x={PX - 30}:y='{yexp}-20':enable='gte(t,{H})'[b0];[b0][recm]overlay=x={PX + PADX}:y='{yexp}':enable='gte(t,{H})'[b1]"
+    if C.get("full"):  # footage already composed full frame (1080x1920), e.g. a laptop part then a phone part
+        g += f";[rec]format=yuv420p[recf];[0:v][recf]overlay=0:0:enable='gte(t,{H})'[b1]"
+    else:
+        g += ";[3:v]format=gray[m];[rec]format=yuva420p[ra];[ra][m]alphamerge[recm]"
+        yexp = f"{PY}+(1920-{PY})*pow(max(0\\,1-(t-{H})/0.42)\\,3)"
+        g += f";[0:v][2:v]overlay=x={PX - 30}:y='{yexp}-20':enable='gte(t,{H})'[b0];[b0][recm]overlay=x={PX + PADX}:y='{yexp}':enable='gte(t,{H})'[b1]"
     k = 1; nin = n0 + len(segs)
     if bw:
         inp += ["-loop", "1", "-i", f"{wd}/bar.png"]; g += f";[b{k}][{nin}:v]overlay=x={(1080 - bw) // 2}:y=300:enable='gte(t,{H + 0.2})'[b{k + 1}]"; nin += 1; k += 1

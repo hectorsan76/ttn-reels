@@ -1,6 +1,6 @@
 {
  "name": "pv_w47_wed_pt_v2",
- "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_wed_pt.png",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_wed_pt_v2.png",
  "voice": "Aoede",
  "bw": true,
  "shots": [
@@ -36,7 +36,7 @@
   [
    1,
    0.4,
-   "O chat e os áudios ficam bem ao lado dos treinos dele."
+   "O chat fica bem ao lado dos treinos dele."
   ],
   [
    1,

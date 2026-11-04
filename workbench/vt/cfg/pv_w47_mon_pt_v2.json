@@ -1,0 +1,53 @@
+{
+ "name": "pv_w47_mon_pt_v2",
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_pv_w47_mon_pt_v2.png",
+ "voice": "Sadachbia",
+ "bw": true,
+ "shots": [
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_mon_a.mp4",
+   1.0
+  ],
+  [
+   "/mnt/user-data/uploads/TTN Reels/_work/people/w47_mon_b.mp4",
+   1.0
+  ]
+ ],
+ "phone": {
+  "t0": 5.53,
+  "screens": [
+   [
+    5.53,
+    "/mnt/user-data/uploads/TTN Reels/04 Working files/native_takes/pt/stills/w47_mon1_follow_up.png"
+   ]
+  ]
+ },
+ "vo": [
+  [
+   0,
+   0.25,
+   "Personal trainer, quem faltou ao treino ontem?"
+  ],
+  [
+   1,
+   0.4,
+   "A seção Acompanhar na tela inicial mostra cada aluno que faltou, com um botão de mensagem.",
+   80
+  ],
+  [
+   1,
+   5.2,
+   "Assim você chama antes que um dia perdido vire uma semana perdida.",
+   80
+  ]
+ ],
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "out": "/home/claude/loc/out_v2/pv_w47_mon_pt_v2.mp4",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_secs": 5.6,
+ "lang": "pt-BR",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "callout": "Personal trainer,",
+ "rate": 1.0,
+ "cap_gap": 0.07
+}

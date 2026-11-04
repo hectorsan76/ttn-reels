@@ -1,0 +1,120 @@
+{
+ "name": "howto28_pt_v2",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 28",
+ "title": "DESATIVAR ALUNO",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/prettyjohn1-hip-hop-hip-hop-beat-525029.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_v2/howto28_pt_v2.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_v2/proxy/howto28_redacted.mp4",
+ "proxy": "/home/claude/loc/out_v2/proxy/howto28_redacted.mp4",
+ "segs": [
+  [
+   0.8,
+   3.8,
+   1.5
+  ],
+  [
+   3.8,
+   10.0,
+   2.0
+  ],
+  [
+   40.9,
+   44.3,
+   1.2
+  ],
+  [
+   44.3,
+   50.0,
+   2.5
+  ],
+  [
+   55.6,
+   60.5,
+   1.6
+  ],
+  [
+   69.8,
+   74.5,
+   1.2
+  ],
+  [
+   74.5,
+   83.6,
+   3.0
+  ],
+  [
+   83.6,
+   88.5,
+   1.0
+  ]
+ ],
+ "redact_boxes": 3,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, o aluno encerrou com você?"
+  ],
+  [
+   3.7,
+   "Abra o perfil dele, toque no menu e depois em Desativar aluno."
+  ],
+  [
+   15.54,
+   "Ele para de contar no seu plano na hora."
+  ],
+  [
+   21.93,
+   "E vai para a aba Desativados."
+  ]
+ ],
+ "sfx": [
+  [
+   3.51,
+   "tap"
+  ],
+  [
+   6.65,
+   "tap"
+  ],
+  [
+   9.47,
+   "tap"
+  ],
+  [
+   12.32,
+   "tap"
+  ],
+  [
+   15.52,
+   "tap"
+  ],
+  [
+   21.78,
+   "tap"
+  ],
+  [
+   22.23,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   8.07,
+   9.62,
+   "toque",
+   624,
+   705,
+   "right_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto28_pt_v2.png",
+ "rate": 1.0
+}
