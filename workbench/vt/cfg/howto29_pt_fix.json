@@ -1,0 +1,97 @@
+{
+ "name": "howto29_pt_fix",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL 29",
+ "title": "ADICIONAR DATA",
+ "voice": "Laomedeia",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_pt_fix/howto29_pt_fix.mp4",
+ "end_secs": 5.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_pt_fix/proxy/howto29_redacted_a15df9cf.mp4",
+ "proxy": "/home/claude/loc/out_pt_fix/proxy/howto29_redacted_a15df9cf.mp4",
+ "segs": [
+  [
+   51.8,
+   60.6,
+   3.0
+  ],
+  [
+   60.6,
+   86.4,
+   5.5
+  ],
+  [
+   86.4,
+   89.0,
+   1.5
+  ],
+  [
+   89.0,
+   140.6,
+   11.0
+  ],
+  [
+   140.6,
+   145.4,
+   1.0
+  ]
+ ],
+ "redact_boxes": 1,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, treino ainda sem data?"
+  ],
+  [
+   4.47,
+   "Toque em Adicionar data e escolha o dia."
+  ],
+  [
+   10.36,
+   "Depois em Adicionar horário e escolha a hora."
+  ],
+  [
+   15.65,
+   "Pronto, agendado com data e hora."
+  ]
+ ],
+ "sfx": [
+  [
+   4.59,
+   "tap"
+  ],
+  [
+   9.19,
+   "tap"
+  ],
+  [
+   10.47,
+   "tap"
+  ],
+  [
+   15.64,
+   "tap"
+  ],
+  [
+   15.65,
+   "chime"
+  ]
+ ],
+ "notes": [
+  [
+   3.19,
+   4.74,
+   "toque",
+   117,
+   780,
+   "left_up"
+  ]
+ ],
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_howto29_pt_fix.png",
+ "rate": 1.0
+}

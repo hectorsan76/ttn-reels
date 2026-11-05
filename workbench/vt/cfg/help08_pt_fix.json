@@ -1,0 +1,117 @@
+{
+ "name": "help08_pt_fix",
+ "bg": "navy",
+ "hook_secs": 1.6,
+ "series": "TUTORIAL",
+ "title": "PLANEJE NO NOTEBOOK",
+ "voice": "Orus",
+ "music": "/mnt/user-data/uploads/TTN Reels/03 Music/All platforms/soundsurfer-hip-hop-beats-592991.mp3",
+ "lang": "pt-BR",
+ "end_vo": "The Training Notebook One. Software para personal trainers, feito para treinadores. Teste grátis por 7 dias.",
+ "end_card": "/root/ttn-reels/workbench/vt/endcard_pt.png",
+ "out": "/home/claude/loc/out_pt_fix/help08_pt_fix.mp4",
+ "end_secs": 3.6,
+ "cap_gap": 0.07,
+ "src": "/home/claude/loc/out_pt_fix/proxy/help08/full.mp4",
+ "proxy": "/home/claude/loc/out_pt_fix/proxy/help08/full.mp4",
+ "segs": [
+  [
+   0.0,
+   47.7,
+   1.0
+  ]
+ ],
+ "full": true,
+ "vo": [
+  [
+   1.7,
+   "Personal trainer, vai escrever os treinos da próxima semana? É mais rápido no notebook."
+  ],
+  [
+   3.28,
+   "Abra a Agenda, clique num dia e depois em Adicionar treino."
+  ],
+  [
+   11.96,
+   "Escolha o aluno, dê um título, e já está na agenda dele."
+  ],
+  [
+   21.66,
+   "Abra, digite um exercício e aperte Enter."
+  ],
+  [
+   26.75,
+   "Digite a carga e as repetições, e Copiar última preenche as próximas séries."
+  ],
+  [
+   29.42,
+   "Aperte Enter para salvar, e você já passa para o próximo exercício."
+  ],
+  [
+   34.28,
+   "O último treino do aluno fica bem ao lado, para você saber onde ele parou."
+  ],
+  [
+   39.4,
+   "E quando você pega o celular, já está lá."
+  ]
+ ],
+ "sfx": [
+  [
+   3.74,
+   "tap"
+  ],
+  [
+   6.06,
+   "tap"
+  ],
+  [
+   8.41,
+   "tap"
+  ],
+  [
+   10.27,
+   "tap"
+  ],
+  [
+   13.71,
+   "tap"
+  ],
+  [
+   14.54,
+   "tap"
+  ],
+  [
+   16.94,
+   "tap"
+  ],
+  [
+   21.62,
+   "tap"
+  ],
+  [
+   24.31,
+   "tap"
+  ],
+  [
+   39.55,
+   "tap"
+  ],
+  [
+   40.79,
+   "tap"
+  ],
+  [
+   44.5,
+   "tap"
+  ],
+  [
+   46.6,
+   "chime"
+  ]
+ ],
+ "notes": [],
+ "redact_boxes": 0,
+ "cover": "/root/ttn-reels/workbench/vt/cfg/cover_help08_pt_fix.png",
+ "rate": 1.0
+}
